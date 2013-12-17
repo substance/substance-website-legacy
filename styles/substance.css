@@ -1,0 +1,172 @@
+/*
+Typography / Basics
+---------------------------------------------*/
+
+/* Regular */
+@font-face {
+    font-family: 'League Gothic';
+    src: url('fonts/leaguegothic/leaguegothic-italic-webfont.eot');
+    src: url('fonts/leaguegothic/leaguegothic-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/leaguegothic/leaguegothic-italic-webfont.woff') format('woff'),
+         url('fonts/leaguegothic/leaguegothic-italic-webfont.ttf') format('truetype'),
+         url('fonts/leaguegothic/leaguegothic-italic-webfont.svg#league_gothic_italicregular') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+/* Italic */
+@font-face {
+    font-family: 'League Gothic';
+    src: url('fonts/leaguegothic/leaguegothic-regular-webfont.eot');
+    src: url('fonts/leaguegothic/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/leaguegothic/leaguegothic-regular-webfont.woff') format('woff'),
+         url('fonts/leaguegothic/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('fonts/leaguegothic/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Condensed */
+@font-face {
+    font-family: 'League Gothic Condensed';
+    src: url('fonts/leaguegothic/leaguegothic-condensed-regular-webfont.eot');
+    src: url('fonts/leaguegothic/leaguegothic-condensed-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/leaguegothic/leaguegothic-condensed-regular-webfont.woff') format('woff'),
+         url('fonts/leaguegothic/leaguegothic-condensed-regular-webfont.ttf') format('truetype'),
+         url('fonts/leaguegothic/leaguegothic-condensed-regular-webfont.svg#league_gothic_condensed-Rg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Condensed Italic */
+@font-face {
+    font-family: 'League Gothic Condensed';
+    src: url('fonts/leaguegothic/leaguegothic-condensed-italic-webfont.eot');
+    src: url('fonts/leaguegothic/leaguegothic-condensed-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/leaguegothic/leaguegothic-condensed-italic-webfont.woff') format('woff'),
+         url('fonts/leaguegothic/leaguegothic-condensed-italic-webfont.ttf') format('truetype'),
+         url('fonts/leaguegothic/leaguegothic-condensed-italic-webfont.svg#league_gothic_condensed_itaRg') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+/** {
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #303030;
+}*/
+
+body {
+  background: #303030;
+  color: #fff;
+
+/*  -webkit-text-stroke-color: rgb(255,255,255);
+  -webkit-text-stroke-width: 1px;*/
+  -webkit-font-smoothing: antialiased;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.darker {
+  background: #272828;
+}
+
+a {
+  color: #18cfca;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #28fff7;
+}
+/*
+Header
+---------------------------------------------*/
+
+
+.header .lead {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.header h1 {
+  font-family: 'League Gothic';
+  font-size: 80px;
+}
+
+.header .row p {
+  color: rgba(255,255,255,0.6);
+}
+
+/* Mission */
+
+.row.heading {
+  font-size: 50px;
+  font-family: 'League Gothic';
+}
+
+.mission .row h3 {
+  font-size: 23px;
+}
+
+.row p {
+  font-size: 20px;
+  color: rgba(255,255,255,0.6);
+}
+
+img {
+  width: 100%;
+}
+
+video {
+  width: 100%;
+}
+
+
+/*
+Voices 
+---------------------------------------------*/
+
+.row blockquote {
+  font-family: Georgia;
+  font-size: 25px;
+  font-style: italic;
+  color: rgba(255,255,255,0.8);
+  border: none;
+}
+
+
+/*
+Team 
+---------------------------------------------*/
+
+.section.team .team-member {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px;
+  background: white;
+  color: rgba(0,0,0,0.9);
+}
+
+.section.team .team-member h3 {
+  font-family: 'League Gothic';
+  font-size: 40px;
+  padding: 20px 0;
+}
+
+.section.team .team-member p {
+  color: rgba(0,0,0,0.6);
+}
