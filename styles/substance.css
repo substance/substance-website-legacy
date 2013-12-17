@@ -118,8 +118,9 @@ Header
   font-family: 'League Gothic';
 }
 
-.mission .row h3 {
-  font-size: 23px;
+.row h3 {
+  font-size: 26px;
+  padding-top: 20px;
 }
 
 .row p {
@@ -135,6 +136,12 @@ video {
   width: 100%;
 }
 
+
+.row p.attribution {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
 
 /*
 Voices 
