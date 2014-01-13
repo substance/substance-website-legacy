@@ -265,7 +265,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: 'Source Sans Pro', 'Open Sans';
+  font-family: 'Open Sans', 'Source Sans Pro';
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
@@ -341,7 +341,7 @@ p {
 .lead {
   margin-bottom: 20px;
   font-size: 16px;
-  font-weight: 200;
+  /*font-weight: 200;*/
   line-height: 1.4;
 }
 @media (min-width: 768px) {
@@ -410,8 +410,9 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Source Sans Pro', 'Open Sans';
-  font-weight: 500;
+  font-family: 'Open Sans', 'Source Sans Pro';
+  font-family: 'Source Sans Pro', 'Source Sans Pro';
+  font-weight: 600;
   line-height: 1.1;
   color: inherit;
 }
