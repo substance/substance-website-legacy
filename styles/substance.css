@@ -137,11 +137,22 @@ Team
   padding: 30px;
   background: white;
   color: rgba(0,0,0,0.9);
+  position: relative;
+}
+
+.section.team .team-member .role {
+/*  position: absolute;
+  left: 300px;
+  top: 670px;
+  font-size: 16px;*/
+  color: rgba(0,0,0,0.6);
+  padding-bottom: 20px;
 }
 
 .section.team .team-member h3 {
   font-size: 26px;
   padding: 20px 0;
+  padding-bottom: 0px;
 }
 
 .section.team .team-member p {
