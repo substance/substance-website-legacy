@@ -65,12 +65,13 @@ Header
 
 
 .header .lead {
-  font-size: 30px;
-  font-weight: 100;
+  font-size: 22px;
+  /*font-style: italic;*/
+  /*font-weight: 200;*/
 }
 
 .header h1 {
-  font-family: 'AvenirLTStd-Heavy', 'Arial';
+  /*font-family: 'AvenirLTStd-Heavy', 'Arial';*/
   font-weight: 600;
   font-size: 50px;
 }
@@ -83,19 +84,20 @@ Header
 
 .row.heading {
   padding-bottom: 20px;
-  font-size: 30px;
-  font-family: 'AvenirLTStd-Heavy';
+  font-size: 22px;
   font-weight: 600;
+  /*font-family: 'AvenirLTStd-Heavy';*/
+  /*font-weight: 600;*/
 }
 
 .row h3 {
-  font-size: 22px;
+  font-size: 16px;
   padding-top: 20px;
 }
 
 .row p {
   font-family: 'Source Sans Pro';
-  font-size: 18px;
+  font-size: 16px;
   color: rgba(255,255,255,0.6);
 }
 
@@ -120,7 +122,7 @@ Voices
 
 .row blockquote {
   font-family: Georgia;
-  font-size: 25px;
+  font-size: 20px;
   font-style: italic;
   color: rgba(255,255,255,0.8);
   border: none;
@@ -150,7 +152,7 @@ Team
 }
 
 .section.team .team-member h3 {
-  font-size: 26px;
+  font-size: 20px;
   padding: 20px 0;
   padding-bottom: 0px;
 }
