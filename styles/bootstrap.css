@@ -411,7 +411,7 @@ h6,
 .h5,
 .h6 {
   font-family: 'Open Sans', 'Source Sans Pro';
-  font-family: 'Source Sans Pro', 'Source Sans Pro';
+  /*font-family: 'Source Sans Pro', 'Source Sans Pro';*/
   font-weight: 600;
   line-height: 1.1;
   color: inherit;

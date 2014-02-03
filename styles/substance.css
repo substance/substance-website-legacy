@@ -25,9 +25,9 @@ Typography / Basics
 
 
 /* @import must be at top of file, otherwise CSS will not work */
-@import url("//hello.myfonts.net/count/298ddd");
+/*@import url("//hello.myfonts.net/count/298ddd");*/
   
-@font-face {font-family: 'AvenirLTStd-Heavy';src: url('fonts/avenir/298DDD_0_0.eot');src: url('fonts/avenir/298DDD_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/avenir/298DDD_0_0.woff') format('woff'),url('fonts/avenir/298DDD_0_0.ttf') format('truetype');}
+/*@font-face {font-family: 'AvenirLTStd-Heavy';src: url('fonts/avenir/298DDD_0_0.eot');src: url('fonts/avenir/298DDD_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/avenir/298DDD_0_0.woff') format('woff'),url('fonts/avenir/298DDD_0_0.ttf') format('truetype');}*/
 
 
 /*
@@ -59,6 +59,43 @@ a:hover {
   color: #28fff7;
 }
 
+
+/*
+Teaser
+---------------------------------------------*/
+
+.section.teaser {
+  font-size: 22px;
+  background-image: url(/images/teaser-background.jpeg);
+  background-position: 0px -200px;
+  background-size: 100%;
+
+  background: #125062;
+
+  background-repeat: no-repeat;
+  padding-bottom: 0px
+}
+
+.section.teaser .row {
+  font-size: italic;
+  padding: 10px 0;
+  padding-bottom: 40px;
+}
+
+
+.teaser h1 a {
+  color: white;
+}
+
+.teaser .feature span {
+  /*background: red;*/
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.4);
+}
+
+
+
 /*
 Header
 ---------------------------------------------*/
@@ -66,13 +103,12 @@ Header
 
 .header .lead {
   font-size: 22px;
-  /*font-style: italic;*/
-  /*font-weight: 200;*/
+
 }
 
 .header h1 {
   /*font-family: 'AvenirLTStd-Heavy', 'Arial';*/
-  font-weight: 600;
+  font-weight: 700;
   font-size: 50px;
 }
 
@@ -96,8 +132,8 @@ Header
 }
 
 .row p {
-  font-family: 'Source Sans Pro';
-  font-size: 18px;
+  /*font-family: 'Source Sans Pro';*/
+  font-size: 16px;
   color: rgba(255,255,255,0.6);
 }
 
@@ -112,7 +148,7 @@ video {
 
 .row p.attribution {
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
   margin-bottom: 30px;
 }
 
