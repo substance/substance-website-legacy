@@ -66,11 +66,11 @@ Teaser
 
 .section.teaser {
   font-size: 22px;
-  background-image: url(/images/teaser-background.jpeg);
+  /*background-image: url(/images/teaser-background.jpeg);*/
   background-position: 0px -200px;
   background-size: 100%;
 
-  background: #125062;
+  /*background: #125062;*/
 
   background-repeat: no-repeat;
   padding-bottom: 0px
