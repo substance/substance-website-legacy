@@ -1,0 +1,1207 @@
+/* Fix weird behavior
+-------------------------------------------------------------------------------*/
+
+/*
+When using event delegation if the parent element has a click handler, when
+the user touches anything inside this element, the whole region will gray
+out (on iOS 5.1), or flicker (on iOS 6). */
+
+* {
+  -webkit-tap-highlight-color:transparent;
+}
+
+/* Article
+-------------------------------------------------------------------------------*/
+
+.article {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 85px;
+}
+
+/* Surface specific styles */
+.content-node {
+
+}
+
+
+.hidden {
+  display: none;
+}
+
+.content-node .content {
+  margin: 0px;
+  background: white;
+}
+
+/* Main content panel
+======================================================================= */
+
+.article .document {
+  line-height: 28.5px;
+  font-size: 15px;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  height: 100%;
+  width: 50%;
+  border-right: 1px solid #ddd;
+}
+
+.article .document .surface.content {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  /*overflow: auto;*/
+  -webkit-overflow-scrolling: touch;
+}
+
+.article .document .surface.content .nodes {
+  min-height: 100%;
+  padding-left: 40px;
+  padding-right: 0px;
+  background: #FFFFFF;
+}
+
+
+/* Publish Settings
+======================================================================= */
+
+.publish-panel {
+  display: none;
+  padding: 50px;
+  position: fixed;
+  top: 85px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 5000;
+  background: white;
+  overflow: auto;
+}
+
+.publish-panel .arrow {
+  position: absolute;
+  top: -20px;
+  left: 248px;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid white;
+}
+
+.publish-panel .login-status {
+  margin-bottom: 30px;
+  font-size: 12px;
+}
+
+.publish-panel .status {
+  font-size: 20px;
+  font-style: italic;
+  color: rgba(0,0,0,0.4);
+}
+
+.publish-panel input {
+  font-size: 18px;
+  padding: 5px;
+  width: 300px;
+  border: 1px solid #ccc;
+  /*background: #eee;*/
+}
+
+.publish-panel .document-name {
+  display: none;
+}
+
+.publish-panel .label {
+  margin-top: 20px;
+  font-size: 14px;
+  text-decoration: underline;
+  padding-bottom: 20px;
+  color: rgba(0,0,0,0.5);
+}
+
+.publish-panel .publish-info {
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.publish-panel .info {
+  padding: 20px 0;
+}
+
+.publish-panel .github-repo {
+  padding: 20px 0;
+}
+
+.publish-panel .create-repo {
+  border: 1px solid #1B6685;;
+  padding: 2px 5px;
+}
+
+.publish-panel .create-repo:hover {
+  border-color: rgba(11, 157, 217, 1);
+}
+
+.publish-panel .repo-status {
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.publish-panel .repo-status.success {
+  color: rgba(145, 187, 4, 1);
+}
+
+.publish-panel .repo-status.error {
+  color: rgba(228, 34, 34, 1);
+}
+
+
+.publish-panel .docname-status {
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.publish-panel .docname-status.error {
+  color: rgba(228, 34, 34, 1);
+}
+
+.publish-panel .docname-status.success {
+  color: rgba(145, 187, 4, 1);
+}
+
+
+.publish-panel .actions {
+  overflow: auto;
+  padding: 20px 0;
+}
+
+.publish-panel .actions a {
+  display: block;
+  float: left;
+  margin-right: 20px;
+  line-height: 40px;
+  width: 250px;
+  text-align: center;
+  border: 1px solid #1B6685;
+}
+
+.publish-panel .actions a.disabled {
+  opacity: 0.3;
+}
+
+.publish-panel .actions a:hover {
+  border-color: rgba(11, 157, 217, 1);
+}
+
+.publish-panel .actions a.green {
+  color: rgba(145, 187, 4, 1);
+  border: 1px solid rgba(145, 187, 4, 1);  
+}
+
+.publish-panel .actions a.red {
+  color: rgba(228, 34, 34, 1);
+  border: 1px solid rgba(228, 34, 34, 1);
+}
+
+/* Focus Panel
+======================================================================= */
+
+.article .focus-panel {
+  display: none;
+
+  z-index: 2500;
+  /*opacity: 0.95;*/
+  position: absolute;
+  overflow: auto;
+  top: 0px;
+  bottom: 0px;
+  background: white;
+  width: 50%;
+  right: 0px;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 55px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.article .focus-panel.left {
+  left: 0px;
+  right: auto;
+}
+
+
+
+
+/* Back Navigation
+=======================================================================*/
+
+
+
+/* Context Toggles
+=======================================================================*/
+
+/* Switcher */
+
+.article .medial-strip {
+  width: 40px;
+  position: absolute;
+  left: -18px;
+  top: 0px;
+  bottom: 0px;
+  background: #fff;
+  z-index: 3000;
+}
+
+.article .back-nav {
+  display: block;
+  overflow: hidden;
+  width: 40px;
+  position: absolute;
+  top: 20px;
+  z-index: 5000;
+  font-size: 22px;
+  background: #fff;
+  color: #aaa;
+  padding: 10px 10px;
+}
+
+
+.article .back-nav:hover {
+  color: #333;
+}
+
+
+.article .medial-strip .separator-line {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 20px;
+  width: 1px;
+  background: #ddd;
+  z-index: 4000;
+}
+
+.article .context-toggles {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  right: 0px;
+  z-index: 5000;
+}
+
+.article .context-toggles .context-toggle {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  z-index: 5000;
+  padding: 0 10px;
+  line-height: 40px;
+  font-size: 22px;
+  color: #aaa;
+  background: #fff;
+}
+
+.article .context-toggles .context-toggle.remarks {
+  margin-top: 40px;
+}
+
+
+.article .context-toggles .context-toggle i.left-arrow {
+  position: absolute;
+  left: -5px;
+  top: 12px;
+  font-size: 16px;
+  display: none;
+}
+
+.article .context-toggles .context-toggle i.right-arrow {
+  position: absolute;
+  right: -5px;
+  top: 12px;
+  font-size: 16px;
+  display: none;
+}
+
+/*.article .context-toggles .context-toggle.focus i.left-arrow,
+.article .context-toggles .context-toggle.focus i.right-arrow {
+  color: #555;
+}*/
+
+/* Focus left */
+.article .context-toggles .context-toggle.focus.left i.left-arrow {
+  display: block;
+}
+
+/* Focus right */
+.article .context-toggles .context-toggle.focus.right i.right-arrow {
+  display: block;
+}
+
+
+
+.article .context-toggles .context-toggle span {
+  display: none;
+}
+
+.article .context-toggles .context-toggle:hover {
+  color: #555;
+}
+
+.article.figures .context-toggles .context-toggle.figures {
+  color: #111;
+}
+
+.article.toc .context-toggles .context-toggle.toc {
+  color: #111;
+}
+
+.article.info .context-toggles .context-toggle.info {
+  color: #111;
+}
+
+.article.remarks .context-toggles .context-toggle.remarks {
+  color: #111;
+}
+
+.article.errors .context-toggles .context-toggle.errors {
+  color: #111;
+}
+
+
+/* Resources Panel
+======================================================================= */
+
+.article .resources {
+  background: #fff;
+  float: right;
+  line-height: 20px;
+  width: 50%;
+  font-size: 14px;
+  height: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+}
+
+.article .resources .surface {
+  /*padding-top: 60px;*/
+}
+
+.article .nodes {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.article .resources .nodes {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.article .resources .nodes > .content-node {
+  position: relative;
+  background: #fff;
+  padding: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.article .resources .nodes > .content-node > .content {
+  /*border: 1px solid #ddd;*/
+  border-top: none;
+}
+
+.article .resources .content-node .resource-header:hover {
+  background: rgba(0,0,0,0.15);
+}
+
+/* Clickable header */
+.article .resources .content-node .resource-header {
+  min-height: 80px;
+  position: relative;
+  background: rgba(0,0,0,0.1);
+}
+
+/* Shared styles for selected and mouseover states
+----------------------------------------------------------------------- */
+
+/* Active resource */
+.article .resources .content-node.active .resource-header .name {
+  color: #fff;
+}
+
+/* active figure */
+.article .resources .figures .content-node.active {
+  /*border-color: rgba(145, 187, 4, 1);*/
+}
+
+.article .resources .figures .content-node.active .resource-header {
+  background: rgba(145, 187, 4, 1);
+}
+
+.article .resources .figures .content-node.active .resource-header a {
+  /*color: rgba(145, 187, 4, 1);*/
+}
+
+/* active person */
+.article .resources .info .content-node.active {
+  /*border-color: #5c6570;*/
+}
+
+.article .resources .info .content-node.active .resource-header {
+  border-color: #5c6570;
+}
+
+.article .resources .info .content-node.active .resource-header a {
+  /*color: #5c6570;*/
+}
+
+
+
+/* Figures View
+----------------------------------------------------------------------- */
+
+.article .resources .surface.figures {
+  display: none;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.article.figures .resources .resource-view.figures {
+  display: block;
+}
+
+
+/* TOC View
+----------------------------------------------------------------------- */
+
+.resource-view.toc {
+  display: none;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 50px;
+  right: 50px;
+
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-top: 60px;
+}
+
+.article.toc .resources .resource-view.toc {
+  display: block;
+}
+
+
+/* Info View
+----------------------------------------------------------------------- */
+
+.article .resources .surface.info {
+  display: none;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.article.info .resources .resource-view.info {
+  display: block;
+}
+
+
+
+/* Remarks View
+----------------------------------------------------------------------- */
+
+.article .resources .surface.remarks {
+  display: none;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.article.remarks .resources .resource-view.remarks {
+  display: block;
+}
+
+
+/* Errors View
+----------------------------------------------------------------------- */
+
+.article .resources .surface.errors {
+  display: none;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.article.errors .resources .resource-view.errors {
+  display: block;
+}
+
+
+/* Consistent Resource Header for figures captions and person cards
+----------------------------------------------------------------------- */
+
+.article .resources .resource-header .name {
+  display: block;
+  min-height: 80px;
+
+  color: #444;
+  font-size: 16px;
+  line-height: 21px;
+  padding: 10px 20px;
+}
+
+
+.article .resources .content-node .reference-count {
+  font-size: 13px;
+  position: absolute;
+  right: 20px;
+  top: 40px;
+  text-align: right;
+}
+
+
+/* Resource Fullscreen Mode
+======================================================================= */
+
+/* Styles for fullscreen toggle on resource cards */
+.article .resources .content-node .resource-header .toggle-fullscreen {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-size: 30px;
+  bottom: 0px;
+  text-align: center;
+  line-height: 81px;
+  color: rgba(0,0,0, 0.2);
+  width: 81px;
+}
+
+.article .resources .content-node .resource-header .toggle-fullscreen:hover {
+  color: rgba(0,0,0, 0.5);
+}
+
+/* Active state adjustments */
+.article .resources .content-node.active .resource-header .toggle-fullscreen {
+  color: rgba(255,255,255, 0.5);
+}
+
+.article .resources .content-node.active .resource-header .toggle-fullscreen:hover {
+  color: rgba(255,255,255, 1);
+}
+
+/* Hide resize small icon by default */
+#container .article .content-node .icon-resize-small {
+  display: none;
+}
+
+#container .article .content-node.fullscreen {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100000;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  padding: 0px;
+}
+
+#container .article .content-node.fullscreen .icon-resize-small {
+  display: inline;
+}
+
+#container .article .content-node.fullscreen .icon-resize-full {
+  display: none;
+}
+
+#container .article .content-node.fullscreen > .content {
+  position: absolute;
+  top: 80px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+
+  overflow: auto;
+}
+
+/* Info panel overrides
+----------------------------------------------------------------------- */
+
+#container .article .surface.info .content-node.caption .content {
+  padding: 20px;
+}
+
+
+/* Annotations
+----------------------------------------------------------------------- */
+
+.article span.annotation {
+  -webkit-transition-property: background, color;
+  -moz-transition-property: background, color;
+  transition-property: background, color;
+
+  -webkit-transition-duration: 0.1s;
+  -moz-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+
+span.annotation.formula_reference, span.publication_reference {
+  padding-left: 3px; padding-right: 3px;
+}
+
+
+
+
+/* Inline Code Annotations */
+
+.content-node .code {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  background: #eee;
+  font-size: 13px;
+  padding: 2px 3px;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.content-node .math {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  /*color: #16BB96;*/
+  color: rgba(11, 157, 217, 1);
+  padding: 2px 3px;
+  font-size: 14px;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+
+/* Reader-specific overrides for content nodes
+======================================================================= */
+
+/* For the main content area
+----------------------------------------------------------------------- */
+
+.surface.content .nodes > .content-node {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 50px;
+  word-wrap: break-word;
+}
+
+/* Some extra cover spacing */
+.surface.content .nodes > .content-node.cover {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.substance-article .content-node.cover .content .authors .toggle-author.active {
+  background: rgba(0,0,0,0.7);
+  color: #fff;
+}
+
+
+/* For the resources panel
+----------------------------------------------------------------------- */
+
+/* Wraps all resource details */
+.content-node .resource-body {
+  padding: 20px;
+  overflow: auto;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+
+/* padding for the content */
+.resources .nodes > .content-node > .content {
+  /*padding: 20px;*/
+}
+
+
+/* Contributor View*/
+
+.resources .content-node.contributor .name .content {
+  background: rgba(0,0,0,0.1);
+  padding: 20px;
+  font-weight: 600;
+  /*font-size: 16px;*/
+}
+
+
+/* Active Style */
+
+.resources .content-node.contributor.active .name .content {
+  background: rgba(0,0,0,0.7);
+  color: white;
+}
+
+/* Figure View */
+
+.content-node.figure .label .content {
+  background: rgba(0,0,0,0.1);
+  padding: 20px;
+  font-weight: 600;
+}
+
+.content-node.figure.active .label .content,
+.focus-panel .content-node.figure .label .content {
+  background: rgba(145, 187, 4, 1);
+  color: white;
+}
+
+
+/* For the resources panel */
+.resources .info .nodes > .content-node.paragraph > .content > .content-node {
+  padding: 20px 0;
+}
+
+.article .document .surface.content::-webkit-scrollbar,
+.article .resources .surface::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+.article .document .surface.content::-webkit-scrollbar-thumb,
+.article .resources .surface::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+
+/* Remarks View */
+
+.content-node.remark .title {
+  background: #f5f5f5;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+
+  padding: 20px;
+}
+
+.content-node.remark .title .content {
+  background: transparent;
+  font-weight: 600;
+  font-size: 16px;
+
+}
+
+.content-node.remark.active .title,
+.focus-panel .content-node.remark .title {
+  /*background: rgba(11, 157, 217, 0.3);*/ /* rgba(46,199,161, 1);*/
+
+  /*border: 1px solid #ddd;*/
+  color: rgba(11, 157, 217, 1);
+  border-bottom: 3px solid rgba(11, 157, 217, 1);
+  /*color: white;*/
+}
+
+
+/* Errors View */
+.content-node.error .title {
+  background: #f5f5f5;
+  /*background: transparent;*/
+  border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.content-node.error .title .content {
+  font-weight: 600;
+  font-size: 16px;
+  background: transparent;
+}
+
+.content-node.error.active .title,
+.focus-panel .content-node.error .title {
+  color: rgba(228, 34, 34, 1);
+  border-bottom: 3px solid rgba(228, 34, 34, 1);
+  /*
+  background: rgba(228, 67, 34, 1);
+  color: white;*/
+}
+
+
+/* Resources Outline */
+/* ---------------------------------------*/
+
+.resources .lens-outline {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: auto;
+  bottom: 0px;
+  width: 30px;
+}
+
+.article .issue-view .new-comment textarea {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  color: #505050;
+  height: 100px;
+}
+
+
+/* Toolbar View
+======================================================================= */
+
+.article .toolbar-view {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 85px;
+  background: #F1F1F1;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  color: #fff;
+  z-index: 5000;
+}
+
+.article .toolbar-view .toolbar-inner {
+  overflow: auto;
+  /*max-width: 1400px;*/
+  margin: 0 auto;
+}
+
+.article .toolbar-view .toolbar-inner .groups {
+  overflow: auto;
+}
+
+.article .toolbar-view .toolbar-inner .group {
+  float: left;
+  margin-right: 50px;
+}
+
+.article .toolbar-view .toolbar-inner .group.insert-resources {
+  float: right;
+}
+
+.article .toolbar-view .toolbar-inner .group.insert-resources a {
+  display: none;
+}
+
+.article.figures .toolbar-view .toolbar-inner .group.insert-resources a.insert-figure {
+  display: block;
+}
+
+.article.info .toolbar-view .toolbar-inner .group.insert-resources a.insert-contributor {
+  display: block;
+}
+
+
+.article .toolbar-view .toolbar-inner .message {
+  position: absolute;
+  line-height: 50px;
+  font-size: 20px;
+  right: 20px;
+  left: 50%;
+  padding-left: 50px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.article .toolbar-view .groups a {
+  display: block;
+  line-height: 40px;
+  float: left;
+  font-size: 20px;
+  /*font-weight: bold;*/
+  color: rgba(0,0,0, 0.6);
+  padding: 0 30px;
+  position: relative;
+  border-radius: 4px;
+}
+
+
+.article .toolbar-view a.active,
+.toolbar-view.mode-editlink .toggle-annotation.link {
+  color: #088EFF;
+}
+
+.article .toolbar-view a:hover {
+  color: #088EFF;
+}
+
+.article .toolbar-view .toolbar-inner a.control.disable {
+  opacity: 0.2;
+}
+
+.article .toolbar-view .toolbar-inner a.control.active {
+  /*color: #06FFFE;*/
+  color: white;
+  background: #555;
+}
+
+.article .toolbar-view .toolbar-inner a.control.issue.active {
+  background: #1CA3DB;
+}
+
+.article .toolbar-view .toolbar-inner a.control.remark_reference {
+  /*color: rgba(46,199,161, 1);*/
+  color: rgba(11, 157, 217, 1);
+}
+
+.article .toolbar-view .toolbar-inner a.control.remark_reference.active {
+  /*background: rgba(46,199,161, 1);*/
+  background: rgba(11, 157, 217, 1);
+  color: white;
+}
+
+.article .toolbar-view .toolbar-inner a.control.error_reference {
+  color: rgba(228, 67, 34, 1);
+}
+
+.article .toolbar-view .toolbar-inner a.control.error_reference.active {
+  background: rgba(228, 34, 34, 1);
+  color: white;
+}
+
+/* Issue Types Group */
+
+.article .toolbar-view .toolbar-inner .group a .label {
+  font-weight: 600;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 10px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 10px;
+}
+
+/* Annotation toggles group */
+
+.article .toolbar-view .toolbar-inner .annotation-toggles.group {
+  margin-left: 10px;
+
+}
+
+.article .toolbar-view .toolbar-inner .annotation-toggles.group a {
+  padding: 0 8px;
+  margin: 10px 0;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+/* Context Bar */
+
+.article .toolbar-view .toolbar-inner .context-bar {
+  height: 35px;
+  padding-left: 20px;
+  line-height: 35px;
+  font-size: 14px;
+}
+
+.article .toolbar-view .toolbar-inner .context-bar a {
+  color: rgba(0,0,0, 0.6);
+  margin-right: 10px;
+}
+
+.article .toolbar-view .toolbar-inner .context-bar a:hover {
+  color: rgba(0,0,0, 1);
+}
+
+.article .toolbar-view .toolbar-inner .context-bar .label {
+  display: block;
+  float: left;
+  font-style: italic;
+  color: rgba(0,0,0,0.5);
+  margin-right: 20px;
+}
+
+#link_submission_form {
+  display: block;
+  float: left;
+}
+
+.article .toolbar-view #link_url {
+  border: none;
+  background: #f1f1f1;
+  color: #444;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-size: 14px;
+  height: 32px;
+  outline: none;
+  width: 800px;
+  /*visibility: hidden;*/
+  padding: 0 10px;
+}
+
+
+#image_url_form {
+  display: block;
+  float: left;
+}
+
+.article .toolbar-view #image_url {
+  border: none;
+  background: #252525;
+  color: white;
+  font-size: 14px;
+  height: 35px;
+  outline: none;
+  width: 800px;
+  /*visibility: hidden;*/
+  padding: 0 10px;
+}
+
+.article .toolbar-view .context-bar .error {
+  color: red;
+}
+
+/* Add Reference Workflow */
+
+.article.state-addref .document {
+  opacity: 0.2;
+}
+
+.article.state-addref .medial-strip .back-nav,
+.article.state-addref .medial-strip .context-toggles
+{
+  display:none;
+}
+
+.article.state-addref .resources .content-node.figure {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.article.state-addref .resources .content-node.figure.active,
+.article.state-addref .resources .content-node.figure:hover {
+  opacity: 1.0;
+}
+
+.article.state-addref .resources .content-node.figure:hover .label {
+  background: rgba(145, 187, 4, 1);
+  color: white;
+}
+
+
+.article.state-addref .resources .content-node.figure:hover .label .content:before {
+  content: "Click to use ";
+}
+
+
+/* Mode business */
+
+
+
+
+/* Resources delete buttons */
+
+.content-node .delete-resource {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  display: block;
+  text-transform: uppercase;
+  padding: 2px 5px;
+  background: rgba(0,0,0,0.1);
+  color: rgba(255,255,255,0.7);
+}
+
+.content-node .delete-resource:hover {
+  background: rgba(0,0,0,0.2);
+  color: #fff;
+}
+
+.clipboard {
+  position:absolute;
+  top:-1000px;
+}
+
+
+/* Placeholders */
+
+.content-node.heading .content:empty:before {
+  content: "Edit Heading";
+  font-style:italic;
+  font-weight: normal;
+  color: #aaa;
+}
+
+.content-node.text-node .content:empty:before {
+  content: " ";
+}
+
+.content-node.list .list-item .content:empty:before {
+  content: " ";
+}
+
+.content-node.cover .content:empty:before {
+  content: "Enter Title";
+  font-style:italic;
+  opacity: 0.4;
+}
+
+.collection-view .records .record a.title:empty:before {
+  content: "Untitled";
+}
+
+.content-node.remark .text.title .content:empty:before {
+  content: "Remark";
+}
+
+.content-node.remark .text.description .content:empty:before {
+  content: "Enter remark.";
+  font-style:italic;
+  font-weight: normal;
+  color: #aaa;
+}
+
+.content-node.error .text.title .content:empty:before {
+  content: "Error";
+}
+
+.content-node.error .text.description .content:empty:before {
+  content: "Enter error description.";
+  font-style:italic;
+  font-weight: normal;
+  color: #aaa;
+}
+
+/* Enhancments for Issue titles */
+
+.content-node.issue .title:before {
+  content: "... ";
+}
+
+/* Enhancments for Issue titles */
+.content-node.issue .title:after {
+  content: " ...";
+}
+
+.content-node.issue .title:empty:before {
+  content: "This error is not referenced";
+}

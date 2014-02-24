@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  <head>
+    <title>Substance Composer</title>
+    <link href='styles/font-awesome.css' rel='stylesheet' type='text/css'/>
+    <link href='styles/fonts/open-sans/open-sans.css' rel='stylesheet' type='text/css'/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <link href='substance.css' rel='stylesheet' type='text/css'/>
+
+    <script src="lib/jquery-2.0.3.min.js"></script>
+    <script src="lib/jquery.timeago.js"></script>
+    <!--<script src="lib/diff_match_patch.min.js"></script>-->
+    <script src="lib/base64.js"></script>
+    <script src="lib/github.js"></script>
+    <script src="lib/jszip.js"></script>
+
+    <script src='substance.js'></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-47090679-1', 'substance.io');
+      ga('send', 'pageview');
+
+    </script>
+
+    <script>
+
+      if (window.Substance === undefined) {
+        window.Substance = require("/src/substance.js");
+      }
+
+      // Erase data from old alpha1
+      if (!localStorage.getItem('alpha-2-launched')) {
+        localStorage.clear();
+        localStorage.setItem("alpha-2-launched", "true");
+      }
+
+      // Create a new Substance Writer app instance
+      // --------
+      //
+      // Injects itself into body
+
+      $(function() {
+
+        if (false) {
+        // if (!/WebKit/.test(navigator.userAgent)) {
+          $('body').html('<h1 style="padding: 50px;">We haven\'t had time yet to provide cross-browser support. Thus, the Alpha only works Chrome and Safari.</h1>');
+          return;
+        } else {
+
+        // TODO: initial loading of intro document is a bit of an overhead
+        // Maybe we can solve this asynchronously
+
+          var oReq = new XMLHttpRequest();
+          oReq.open("GET", "data/composer-intro.sdf.zip", true);
+          oReq.responseType = "arraybuffer";
+          oReq.onload = function(e) {
+            var app = new Substance({introDocument: oReq.response});
+            window.app = app;
+
+              // Native App Stuff
+              // -------------
+
+              if (window.brackets) {
+                // Register Menu Items
+                brackets.app.addMenu('File', 'parent', '', '', function(){});
+                brackets.app.addMenuItem('parent', 'New', 'newfile', '', '', '', '', function(){});
+                brackets.app.addMenuItem('parent', 'Open...', 'openfile', '', '', '', '', function(){});
+                brackets.app.addMenuItem('parent', 'Save', 'save', '', '', '', '', function(){});
+                brackets.app.addMenuItem('parent', 'Save As...', 'saveas', '', '', '', '', function(){});
+
+                brackets.app.addMenuItem('parent', 'Restore', 'restore', '', '', '', '', function(){});
+
+                brackets.app.addMenu('Edit', 'edit', '', '', function(){});
+                brackets.app.addMenuItem('edit', 'Copy', 'edit.copy', '', '', '', '', function(){});
+                brackets.app.addMenuItem('edit', 'Paste', 'edit.paste', '', '', '', '', function(){});
+
+                brackets.shellAPI = {};
+                brackets.shellAPI.executeCommand = function(command) {
+                  console.log('le command', command);
+                  if (command == "edit.copy") {
+                    console.log('COPIED?', arguments);
+                  }
+                  if (command == "help.about") {
+                    app.aboutDocument();
+                  }
+                  if(command == 'newFile') {
+                    app.openDocument();
+                  }
+                  if(command == 'openfile') {
+                    app.openFile();
+                  }
+                  if(command == 'save') {
+                    app.save();
+                  }
+                  if(command == 'saveas') {
+                    app.saveDocumentAs();
+                  }
+                  if(command == 'restore') {
+                    app.restore();
+                  }
+                  if(command == 'reload') {
+                    window.location.reload();
+                  }
+                }
+              }
+
+              app.start({
+                el: document.body
+              });
+          }
+          oReq.send();
+        }
+      });
+
+    </script>
+  </head>
+  <body class="current-view reader">
+  
+  </body>
+</html>

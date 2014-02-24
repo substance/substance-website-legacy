@@ -1,0 +1,458 @@
+{
+  "id": "d05ddb3b99544b00b7335edb060301e0",
+  "schema": [
+    "substance-article",
+    "0.3.0"
+  ],
+  "nodes": {
+    "document": {
+      "id": "document",
+      "type": "document",
+      "views": [
+        "content",
+        "figures",
+        "citations"
+      ],
+      "guid": "d05ddb3b99544b00b7335edb060301e0",
+      "creator": "",
+      "title": "DIY Publishing with Substance and Github Pages",
+      "authors": [
+        "contributor_1"
+      ],
+      "abstract": "",
+      "created_at": "2014-02-14T18:33:58.523Z",
+      "updated_at": "2014-02-20T21:31:54.014Z",
+      "published_on": "2014-02-20T16:38:42.660Z"
+    },
+    "cover": {
+      "id": "cover",
+      "type": "cover",
+      "authors": []
+    },
+    "content": {
+      "type": "view",
+      "id": "content",
+      "nodes": [
+        "cover",
+        "fc11c340d9f65d0fd721f08af1aa4e5c",
+        "heading_30361c2b07cf2be01be30a60f8807b17",
+        "f8d8694dee8236b4c52d24be2c78c0d1",
+        "heading_1f20f22fca4356a4c1f78067a75c44fe",
+        "0c9fe67430bb320ce7f4cd17f6166699",
+        "heading_83227b85d7f8cc0141a7eafd84ea7bee",
+        "0c2cb6d776a476db92bcb244b519a531",
+        "heading_0d09c707944a825085440adc4ef813fd",
+        "1060e0d97adc6c39a2fe193de350091c",
+        "heading_9118e99d3298e6ea2a375c6fff254582",
+        "55f1fe6d8ed199e38af97261dd0afd28",
+        "heading_b7349a8b04f2590c861b80cdf591b2d2",
+        "82b9ef6671886ebf188e88d0d51e645e"
+      ]
+    },
+    "figures": {
+      "type": "view",
+      "id": "figures",
+      "nodes": [
+        "figure_41fe7709fd0c1c53e1c5db05fb871882",
+        "figure_fffa71d5420ab7b85d1ccab9e5ea1f2b",
+        "figure_e33757cfee5513dc1b238eae2a5cde74"
+      ]
+    },
+    "remarks": {
+      "type": "view",
+      "id": "remarks",
+      "nodes": []
+    },
+    "errors": {
+      "type": "view",
+      "id": "errors",
+      "nodes": []
+    },
+    "info": {
+      "type": "view",
+      "id": "info",
+      "nodes": [
+        "contributor_1"
+      ]
+    },
+    "contributor_1": {
+      "type": "contributor",
+      "id": "contributor_1",
+      "name": "Michael Aufreiter",
+      "role": "author",
+      "organization": "Substance Software GmbH",
+      "image": "contributor_1.png",
+      "email": "michael@substance.io"
+    },
+    "heading_30361c2b07cf2be01be30a60f8807b17": {
+      "type": "heading",
+      "id": "heading_30361c2b07cf2be01be30a60f8807b17",
+      "source_id": "",
+      "content": "Create a document",
+      "level": 1
+    },
+    "f8d8694dee8236b4c52d24be2c78c0d1": {
+      "type": "text",
+      "id": "f8d8694dee8236b4c52d24be2c78c0d1",
+      "source_id": "",
+      "content": "You can use the current alpha version of the Substance Composer to create a document. It is very easy to get started."
+    },
+    "heading_1f20f22fca4356a4c1f78067a75c44fe": {
+      "type": "heading",
+      "id": "heading_1f20f22fca4356a4c1f78067a75c44fe",
+      "source_id": "",
+      "content": "Publish your document",
+      "level": 1
+    },
+    "0c2cb6d776a476db92bcb244b519a531": {
+      "type": "text",
+      "id": "0c2cb6d776a476db92bcb244b519a531",
+      "source_id": "",
+      "content": "All you need is a Github account. Now click publish in the Composer interface and follow the instructions on the screen. That's it."
+    },
+    "text_d7f95c3062bcbe77420bdb871c282527": {
+      "type": "text",
+      "id": "text_d7f95c3062bcbe77420bdb871c282527",
+      "source_id": "",
+      "content": "The Substance Composer lets you store your Substance documents on disk using the Export feature in the Composer. You receive a .sdf.zip file named after the document's title."
+    },
+    "figure_41fe7709fd0c1c53e1c5db05fb871882": {
+      "type": "figure",
+      "id": "figure_41fe7709fd0c1c53e1c5db05fb871882",
+      "image": "figure_41fe7709fd0c1c53e1c5db05fb871882.png",
+      "image_url": "",
+      "label": "The Substance Composer",
+      "caption": "text_d7f95c3062bcbe77420bdb871c282527"
+    },
+    "figure_reference_5c433fa78dfd0e9b9197c4119b2348a9": {
+      "type": "figure_reference",
+      "id": "figure_reference_5c433fa78dfd0e9b9197c4119b2348a9",
+      "path": [
+        "f8d8694dee8236b4c52d24be2c78c0d1",
+        "content"
+      ],
+      "range": [
+        45,
+        63
+      ],
+      "target": "figure_41fe7709fd0c1c53e1c5db05fb871882"
+    },
+    "text_8319dccee2025e5f586aebb6c7dbd9bd": {
+      "type": "text",
+      "id": "text_8319dccee2025e5f586aebb6c7dbd9bd",
+      "source_id": "",
+      "content": "Substance documents are just regular zip archives. Once extracted they look like shown above. A. The content.json file stores the actual content and structure of your documents. B. The index.html file starts a Subtance Reader instance, and enables you publish your documents online. It works with any webserver. C. Substance documents are self-contained and store the assets such as images in regular binary files."
+    },
+    "figure_fffa71d5420ab7b85d1ccab9e5ea1f2b": {
+      "type": "figure",
+      "id": "figure_fffa71d5420ab7b85d1ccab9e5ea1f2b",
+      "image": "figure_fffa71d5420ab7b85d1ccab9e5ea1f2b.png",
+      "image_url": "",
+      "label": "The anatomy of a Substance Document",
+      "caption": "text_8319dccee2025e5f586aebb6c7dbd9bd"
+    },
+    "code_dc2b3946b8647aa2208ee91f955b628e": {
+      "type": "code",
+      "id": "code_dc2b3946b8647aa2208ee91f955b628e",
+      "path": [
+        "text_d7f95c3062bcbe77420bdb871c282527",
+        "content"
+      ],
+      "range": [
+        127,
+        135
+      ]
+    },
+    "strong_c2f0ff08f9da767eaea5bb2391e97906": {
+      "type": "strong",
+      "id": "strong_c2f0ff08f9da767eaea5bb2391e97906",
+      "path": [
+        "text_d7f95c3062bcbe77420bdb871c282527",
+        "content"
+      ],
+      "range": [
+        81,
+        87
+      ]
+    },
+    "strong_40bada7fd659e43a1def2a66a051cb15": {
+      "type": "strong",
+      "id": "strong_40bada7fd659e43a1def2a66a051cb15",
+      "path": [
+        "text_8319dccee2025e5f586aebb6c7dbd9bd",
+        "content"
+      ],
+      "range": [
+        94,
+        96
+      ]
+    },
+    "code_8773b891f3e34429297fb9e1dc366655": {
+      "type": "code",
+      "id": "code_8773b891f3e34429297fb9e1dc366655",
+      "path": [
+        "text_8319dccee2025e5f586aebb6c7dbd9bd",
+        "content"
+      ],
+      "range": [
+        185,
+        195
+      ]
+    },
+    "code_a56b02cd16d559759467c78c37b39095": {
+      "type": "code",
+      "id": "code_a56b02cd16d559759467c78c37b39095",
+      "path": [
+        "text_8319dccee2025e5f586aebb6c7dbd9bd",
+        "content"
+      ],
+      "range": [
+        101,
+        113
+      ]
+    },
+    "strong_909b2c5409964b9bcfe238aedf7077d4": {
+      "type": "strong",
+      "id": "strong_909b2c5409964b9bcfe238aedf7077d4",
+      "path": [
+        "text_8319dccee2025e5f586aebb6c7dbd9bd",
+        "content"
+      ],
+      "range": [
+        312,
+        314
+      ]
+    },
+    "strong_d9987deb32968a6bbd27e3b995de6f7a": {
+      "type": "strong",
+      "id": "strong_d9987deb32968a6bbd27e3b995de6f7a",
+      "path": [
+        "text_8319dccee2025e5f586aebb6c7dbd9bd",
+        "content"
+      ],
+      "range": [
+        178,
+        180
+      ]
+    },
+    "link_6bee13f33c37b200bf3792db4856c855": {
+      "type": "link",
+      "id": "link_6bee13f33c37b200bf3792db4856c855",
+      "path": [
+        "f8d8694dee8236b4c52d24be2c78c0d1",
+        "content"
+      ],
+      "range": [
+        24,
+        37
+      ],
+      "url": "http://substance.io/composer-alpha"
+    },
+    "heading_9118e99d3298e6ea2a375c6fff254582": {
+      "type": "heading",
+      "id": "heading_9118e99d3298e6ea2a375c6fff254582",
+      "source_id": "",
+      "content": "Enjoy the interactive reading experience",
+      "level": 1
+    },
+    "55f1fe6d8ed199e38af97261dd0afd28": {
+      "type": "text",
+      "id": "55f1fe6d8ed199e38af97261dd0afd28",
+      "source_id": "",
+      "content": "Published Substance documents, are presented in a minimal interactive reading interface. They look beautiful on mobile too! And they are indexed by Google, as soon as other websites start linking to them."
+    },
+    "fc11c340d9f65d0fd721f08af1aa4e5c": {
+      "type": "text",
+      "id": "fc11c340d9f65d0fd721f08af1aa4e5c",
+      "source_id": "",
+      "content": "Writing and publishing interactive documents has never been easier. In this little guide I will walk you through the steps needed to create your first  article and publish it online. In order to learn more about the Substance project see here: Beyond simulating paper."
+    },
+    "text_079d3b34b7246a3e25617bb690ed38e7": {
+      "type": "text",
+      "id": "text_079d3b34b7246a3e25617bb690ed38e7",
+      "source_id": "",
+      "content": "The Substance Reader presents the article in a minimal layout and lets you explore figures and figure descriptions – without losing your place in the article text. While most online articles simply replicate print, the Substance Reader provides an interactive reading experience."
+    },
+    "figure_e33757cfee5513dc1b238eae2a5cde74": {
+      "type": "figure",
+      "id": "figure_e33757cfee5513dc1b238eae2a5cde74",
+      "image": "figure_e33757cfee5513dc1b238eae2a5cde74.png",
+      "image_url": "",
+      "label": "Substance Reader",
+      "caption": "text_079d3b34b7246a3e25617bb690ed38e7"
+    },
+    "figure_reference_fa804baa4e1d792f0083bf09540c4e49": {
+      "type": "figure_reference",
+      "id": "figure_reference_fa804baa4e1d792f0083bf09540c4e49",
+      "path": [
+        "55f1fe6d8ed199e38af97261dd0afd28",
+        "content"
+      ],
+      "range": [
+        58,
+        87
+      ],
+      "target": "figure_e33757cfee5513dc1b238eae2a5cde74"
+    },
+    "link_7d8eb5bcd0dd57b1bdb7b2f6f736e221": {
+      "type": "link",
+      "id": "link_7d8eb5bcd0dd57b1bdb7b2f6f736e221",
+      "path": [
+        "fc11c340d9f65d0fd721f08af1aa4e5c",
+        "content"
+      ],
+      "range": [
+        244,
+        267
+      ],
+      "url": "http://substance.io/beyond-simulating-paper"
+    },
+    "figure_41fe7709fd0c1c53e1c5db05fb871882.png": {
+      "type": "file",
+      "id": "figure_41fe7709fd0c1c53e1c5db05fb871882.png",
+      "version": 2,
+      "content_type": "image/png"
+    },
+    "figure_fffa71d5420ab7b85d1ccab9e5ea1f2b.png": {
+      "type": "file",
+      "id": "figure_fffa71d5420ab7b85d1ccab9e5ea1f2b.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "figure_e33757cfee5513dc1b238eae2a5cde74.png": {
+      "type": "file",
+      "id": "figure_e33757cfee5513dc1b238eae2a5cde74.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "contributor_1.png": {
+      "type": "file",
+      "id": "contributor_1.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "heading_0d09c707944a825085440adc4ef813fd": {
+      "type": "heading",
+      "id": "heading_0d09c707944a825085440adc4ef813fd",
+      "source_id": "",
+      "content": "Using your own webserver",
+      "level": 2
+    },
+    "heading_83227b85d7f8cc0141a7eafd84ea7bee": {
+      "type": "heading",
+      "id": "heading_83227b85d7f8cc0141a7eafd84ea7bee",
+      "source_id": "",
+      "content": "Using Github",
+      "level": 2
+    },
+    "0c9fe67430bb320ce7f4cd17f6166699": {
+      "type": "text",
+      "id": "0c9fe67430bb320ce7f4cd17f6166699",
+      "source_id": "",
+      "content": "Since Alpha 2 the Substance Composer has support for publishing through Github Pages or alternatively, you can export your document and host it yourself."
+    },
+    "link_a97f58aea79e521425ff071a1d13b4c1": {
+      "type": "link",
+      "id": "link_a97f58aea79e521425ff071a1d13b4c1",
+      "path": [
+        "0c9fe67430bb320ce7f4cd17f6166699",
+        "content"
+      ],
+      "range": [
+        72,
+        84
+      ],
+      "url": "http://pages.github.com"
+    },
+    "1060e0d97adc6c39a2fe193de350091c": {
+      "type": "text",
+      "id": "1060e0d97adc6c39a2fe193de350091c",
+      "source_id": "",
+      "content": "In order to host the document yourself, hit the export button to store the document on your hard disk. Substance documents are interactive web-publications out of the box. Once unzipped, you can upload the contents to a web-server of your choice."
+    },
+    "figure_reference_d8046c74addbd8cc70976a982fe6ab00": {
+      "type": "figure_reference",
+      "id": "figure_reference_d8046c74addbd8cc70976a982fe6ab00",
+      "path": [
+        "0c2cb6d776a476db92bcb244b519a531",
+        "content"
+      ],
+      "range": [
+        59,
+        77
+      ],
+      "target": "figure_41fe7709fd0c1c53e1c5db05fb871882"
+    },
+    "figure_reference_3e3e79d63dabdd888d8837df117adcbb": {
+      "type": "figure_reference",
+      "id": "figure_reference_3e3e79d63dabdd888d8837df117adcbb",
+      "path": [
+        "1060e0d97adc6c39a2fe193de350091c",
+        "content"
+      ],
+      "range": [
+        177,
+        185
+      ],
+      "target": "figure_fffa71d5420ab7b85d1ccab9e5ea1f2b"
+    },
+    "link_bf7169b4e7710f58176ceec994f55b8a": {
+      "type": "link",
+      "id": "link_bf7169b4e7710f58176ceec994f55b8a",
+      "path": [
+        "text_d7f95c3062bcbe77420bdb871c282527",
+        "content"
+      ],
+      "range": [
+        4,
+        22
+      ],
+      "url": "http://substance.io/composer-alpha"
+    },
+    "heading_b7349a8b04f2590c861b80cdf591b2d2": {
+      "type": "heading",
+      "id": "heading_b7349a8b04f2590c861b80cdf591b2d2",
+      "source_id": "",
+      "content": "Feedback?",
+      "level": 1
+    },
+    "82b9ef6671886ebf188e88d0d51e645e": {
+      "type": "text",
+      "id": "82b9ef6671886ebf188e88d0d51e645e",
+      "source_id": "",
+      "content": "We are curious! Please write on our mailing list."
+    },
+    "link_ac1f861c408adaa2ee39f65782b430b8": {
+      "type": "link",
+      "id": "link_ac1f861c408adaa2ee39f65782b430b8",
+      "path": [
+        "82b9ef6671886ebf188e88d0d51e645e",
+        "content"
+      ],
+      "range": [
+        36,
+        48
+      ],
+      "url": "https://groups.google.com/forum/#!forum/substance_"
+    },
+    "link_be6918c14ff5fd620338228a53a2bfee": {
+      "type": "link",
+      "id": "link_be6918c14ff5fd620338228a53a2bfee",
+      "path": [
+        "0c2cb6d776a476db92bcb244b519a531",
+        "content"
+      ],
+      "range": [
+        18,
+        24
+      ],
+      "url": "https://github.com/join"
+    },
+    "publish_settings.json": {
+      "type": "file",
+      "id": "publish_settings.json",
+      "version": 1,
+      "content_type": "application/json"
+    }
+  }
+}

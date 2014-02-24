@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  <head>
+    <title>DIY Publishing with Substance and Github Pages</title>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+
+    <!-- Substance Reader 0.4.x -->
+    <link href='http://code.substance.io/substance-reader-0.4.x.css' rel='stylesheet' type='text/css'/>
+    <script src='http://code.substance.io/substance-reader-0.4.x.min.js'></script>
+
+    <script>
+
+      // Create a new Substance Reader instance
+      // --------
+      //
+      // Injects itself into body
+
+      $.get("content.json")
+      .done(function(data) {
+        var app = new Substance.Reader({
+          document: data
+        });
+
+        $(function() {
+          app.start();
+        });
+      })
+      .fail(function(err) {
+        $('body').html(JSON.stringify(err));
+      });
+
+    </script>
+  </head>
+  <body class="current-view reader">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-47090679-1', 'substance.io');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
