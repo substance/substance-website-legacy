@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  <head>
+    <title>Lens Manual - Offical Manual for eLife Lens</title>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+
+    <!-- Substance Reader 0.4.x -->
+    <link href='http://code.substance.io/substance-reader-0.4.x.css' rel='stylesheet' type='text/css'/>
+    <script src='http://code.substance.io/substance-reader-0.4.x.min.js'></script>
+
+    <script>
+
+      // Create a new Substance Reader instance
+      // --------
+      //
+      // Injects itself into body
+
+      $.get("content.json")
+      .done(function(data) {
+        var app = new Substance.Reader({
+          document: data
+        });
+
+        $(function() {
+          app.start();
+        });
+      })
+      .fail(function(err) {
+        $('body').html(JSON.stringify(err));
+      });
+
+    </script>
+  </head>
+  <body class="current-view reader">
+
+  </body>
+</html>
