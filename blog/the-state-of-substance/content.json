@@ -1,0 +1,610 @@
+{
+  "id": "the-state-of-substance",
+  "schema": [
+    "substance-article",
+    "0.3.0"
+  ],
+  "nodes": {
+    "document": {
+      "type": "document",
+      "id": "document",
+      "views": [
+        "content"
+      ],
+      "guid": "the-state-of-substance",
+      "creator": "",
+      "authors": [],
+      "title": "The State of Substance",
+      "abstract": "",
+      "published_on": "2013-11-25T00:00:00.000Z",
+      "meta": {}
+    },
+    "content": {
+      "type": "view",
+      "id": "content",
+      "nodes": [
+        "cover",
+        "text_1",
+        "header_1",
+        "text_3",
+        "text_4",
+        "text_5",
+        "header_2",
+        "text_6",
+        "header_3",
+        "text_7",
+        "text_8",
+        "header_4",
+        "text_9",
+        "text_10",
+        "header_5",
+        "text_11",
+        "text_12",
+        "header_6",
+        "text_13",
+        "header_7",
+        "header_8",
+        "text_14",
+        "text_15",
+        "header_9",
+        "text_16",
+        "text_18"
+      ]
+    },
+    "figures": {
+      "type": "view",
+      "id": "figures",
+      "nodes": []
+    },
+    "citations": {
+      "type": "view",
+      "id": "citations",
+      "nodes": []
+    },
+    "info": {
+      "type": "view",
+      "id": "info",
+      "nodes": []
+    },
+    "errors": {
+      "type": "view",
+      "id": "errors",
+      "nodes": []
+    },
+    "remarks": {
+      "type": "view",
+      "id": "remarks",
+      "nodes": []
+    },
+    "text_1": {
+      "type": "text",
+      "id": "text_1",
+      "source_id": "",
+      "content": "It's about time for an update on the state of Substance development. Earlier this year we were awarded with the Shuttleworth Flash Grant. It allowed us to invest more dedicated time into modularization and making our core API's stable."
+    },
+    "text_2": {
+      "type": "text",
+      "id": "text_2",
+      "source_id": "",
+      "content": ""
+    },
+    "header_1": {
+      "type": "heading",
+      "id": "header_1",
+      "source_id": "evolving-our-mission",
+      "content": "Evolving our Mission",
+      "level": 1
+    },
+    "text_3": {
+      "type": "text",
+      "id": "text_3",
+      "source_id": "",
+      "content": "It's been three years since I started Substance as an effort to build a semantic editing environment for the browser. Since then the idea evolved and I realized that the concept of strictly separating content from presentation could have a huge impact in many fields where digital content comes into play (science, education, journalism, open government, etc.)."
+    },
+    "text_4": {
+      "type": "text",
+      "id": "text_4",
+      "source_id": "",
+      "content": "With Substance we want to realize broader acceptance of digital content in general. By deeply integrating annotations and comments into authoring and reading environments we want to implement a natural way of human collaboration that is supported, not dictated, by software. There are not only technical aspects (consistency, versioning, replication) that require our attention. We want to complement our low-level technology stack with a set of carefully crafted highly functional user interface components for editing and contribution management."
+    },
+    "text_5": {
+      "type": "text",
+      "id": "text_5",
+      "source_id": "",
+      "content": "After all, Substance is being designed to be integrated into existing systems, with an emphasis on easy customization. We want to help others to make open annotation, open text books, open government etc. a reality faster."
+    },
+    "header_2": {
+      "type": "heading",
+      "id": "header_2",
+      "source_id": "where-are-we-at",
+      "content": "Where are we at?",
+      "level": 1
+    },
+    "text_6": {
+      "type": "text",
+      "id": "text_6",
+      "source_id": "",
+      "content": "Here's a quick run-down on what we've accomplished in the past months. I'd like to thank again Mark Horner and the Shuttleworth Foundation for their support."
+    },
+    "header_3": {
+      "type": "heading",
+      "id": "header_3",
+      "source_id": "interactive-reading",
+      "content": "Interactive Reading",
+      "level": 2
+    },
+    "text_7": {
+      "type": "text",
+      "id": "text_7",
+      "source_id": "",
+      "content": "The web browser provides a unified platform for viewing content. Instead of binding the content to a presentation-focused format, Substance considers content as data paving the way for a new generation of tools. Using this approach, we built eLife Lens an interactive viewer for scientific literature, which has been welcomed by the academic cummunity."
+    },
+    "text_8": {
+      "type": "text",
+      "id": "text_8",
+      "source_id": "",
+      "content": "Based on that work, we extracted the Substance Reader module, which can be used to display any Substance-based article. The reader is designed to support desktops (2-panel view) and mobile devices (details on demand). Customization is possible without touching the codebase. For instance, if you wanted to display interactive visualizations along with your content, you'd have to configure a custom article format. Since the Substance Reader implements a defined interface, it can display different article types at the same time. You can learn how to use the Substance Reader by taking the Substance Tutorial."
+    },
+    "header_4": {
+      "type": "heading",
+      "id": "header_4",
+      "source_id": "browser-based-document-manipulation",
+      "content": "Browser-based document manipulation",
+      "level": 2
+    },
+    "text_9": {
+      "type": "text",
+      "id": "text_9",
+      "source_id": "",
+      "content": "With the Substance Document Model we developed an open framework for manipulating structured digital documents in the browser. It is designed to ensure consistency, stricly separates content from presentation and provides an easy to use API. This abstract model serves as an interface for custom document models, that can be defined by domain experts. The Substance Document Model is unique in that it doesn't require any server side infrastructure, which makes it really easy to integrate into exisiting systems. Using the provided API users can create content elements and annotate them in various ways. We also have implemented support for incremental changes and versioning, which is crucial for implementing collaborative workflows."
+    },
+    "text_10": {
+      "type": "text",
+      "id": "text_10",
+      "source_id": "",
+      "content": "Substance Document makes developing web-based viewers and editors much easier, by providing the first web-native document model. This model operates on a JSON data-structure rather than HTML, allowing the user to query the document like a database."
+    },
+    "header_5": {
+      "type": "heading",
+      "id": "header_5",
+      "source_id": "the-substance-article",
+      "content": "The Substance Article",
+      "level": 2
+    },
+    "text_11": {
+      "type": "text",
+      "id": "text_11",
+      "source_id": "",
+      "content": "The Substance Article serves as a reference implementation for Substance-based document formats. In the current version, there is support for most common content types, such as paragraphs, headings, images, lists and tables. It provides a document manipulation API for Javascript as well as view compontents and default styles, individually for each content type. With Substance Nodes we are a providing a common set of reusable content types, which can be easily adapted by users."
+    },
+    "text_12": {
+      "type": "text",
+      "id": "text_12",
+      "source_id": "",
+      "content": "One example is the Lens Document Format, which adds support for domain specific content, such as rich figures, citations and supplemental materials."
+    },
+    "header_6": {
+      "type": "heading",
+      "id": "header_6",
+      "source_id": "import-export",
+      "content": "Import / Export",
+      "level": 2
+    },
+    "text_13": {
+      "type": "text",
+      "id": "text_13",
+      "source_id": "",
+      "content": "The Substance Converter lets you turn existing content into a Substance Article. You can import from Markdown, Media Wiki, ODT and many others. Of course this also works the other way around. Learn how to convert and display your existing Markdown content in our tutorial."
+    },
+    "header_7": {
+      "type": "heading",
+      "id": "header_7",
+      "source_id": "whats-next",
+      "content": "What's next?",
+      "level": 1
+    },
+    "header_8": {
+      "type": "heading",
+      "id": "header_8",
+      "source_id": "substance-as-a-business",
+      "content": "Substance as a business",
+      "level": 2
+    },
+    "text_14": {
+      "type": "text",
+      "id": "text_14",
+      "source_id": "",
+      "content": "Together with Oliver Buchtala, a very good friend of mine, we'll be starting the Substance Software GmbH with the beginning of the new year. We'll offer consulting in the context of digital publishing and in the long run commercial licenses for higher level Open Source modules along with other products and services."
+    },
+    "text_15": {
+      "type": "text",
+      "id": "text_15",
+      "source_id": "",
+      "content": "Behind this formation is our dedication to work on Substance full-time. We'll keep the open source spirit but also ensure that our work is backed by a sustainable business model."
+    },
+    "header_9": {
+      "type": "heading",
+      "id": "header_9",
+      "source_id": "the-substance-composer",
+      "content": "The Substance Composer",
+      "level": 2
+    },
+    "text_16": {
+      "type": "text",
+      "id": "text_16",
+      "source_id": "",
+      "content": "Now that we have a set of reliable building blocks we're switching back gears to developing our full-fledged editing solution. The all-new Substance Composer (play with the old experimental version here) will ship next summer as a native application for all major operating systems in a fully functional beta version."
+    },
+    "text_17": {
+      "type": "text",
+      "id": "text_17",
+      "source_id": "",
+      "content": ""
+    },
+    "text_18": {
+      "type": "text",
+      "id": "text_18",
+      "source_id": "",
+      "content": "Here's a sneak peak on the new minimal editor we just started building. The interface is influenced by our work on eLife Lens. Essentially, we want to turn a proven reading environment into a writing space, that doesn't stand in your way. We're excited for the coming months and I hope you are too!"
+    },
+    "link_1": {
+      "type": "link",
+      "id": "link_1",
+      "path": [
+        "text_1",
+        "content"
+      ],
+      "range": [
+        112,
+        136
+      ],
+      "url": "#blog/shuttleworth-grant"
+    },
+    "link_2": {
+      "type": "link",
+      "id": "link_2",
+      "path": [
+        "text_1",
+        "content"
+      ],
+      "range": [
+        217,
+        227
+      ],
+      "url": "#blog/substance-io-relaunches"
+    },
+    "emphasis_1": {
+      "type": "emphasis",
+      "id": "emphasis_1",
+      "path": [
+        "text_3",
+        "content"
+      ],
+      "range": [
+        201,
+        208
+      ]
+    },
+    "emphasis_2": {
+      "type": "emphasis",
+      "id": "emphasis_2",
+      "path": [
+        "text_3",
+        "content"
+      ],
+      "range": [
+        214,
+        226
+      ]
+    },
+    "emphasis_3": {
+      "type": "emphasis",
+      "id": "emphasis_3",
+      "path": [
+        "text_4",
+        "content"
+      ],
+      "range": [
+        56,
+        71
+      ]
+    },
+    "emphasis_4": {
+      "type": "emphasis",
+      "id": "emphasis_4",
+      "path": [
+        "text_4",
+        "content"
+      ],
+      "range": [
+        106,
+        117
+      ]
+    },
+    "emphasis_5": {
+      "type": "emphasis",
+      "id": "emphasis_5",
+      "path": [
+        "text_4",
+        "content"
+      ],
+      "range": [
+        122,
+        130
+      ]
+    },
+    "link_3": {
+      "type": "link",
+      "id": "link_3",
+      "path": [
+        "text_5",
+        "content"
+      ],
+      "range": [
+        150,
+        165
+      ],
+      "url": "http://hypothes.is/"
+    },
+    "link_4": {
+      "type": "link",
+      "id": "link_4",
+      "path": [
+        "text_5",
+        "content"
+      ],
+      "range": [
+        167,
+        182
+      ],
+      "url": "http://www.shuttleworthfoundation.org/fellows/mark-horner/"
+    },
+    "link_5": {
+      "type": "link",
+      "id": "link_5",
+      "path": [
+        "text_6",
+        "content"
+      ],
+      "range": [
+        115,
+        138
+      ],
+      "url": "http://www.shuttleworthfoundation.org/"
+    },
+    "link_6": {
+      "type": "link",
+      "id": "link_6",
+      "path": [
+        "text_7",
+        "content"
+      ],
+      "range": [
+        242,
+        252
+      ],
+      "url": "http://lens.substance.io"
+    },
+    "link_7": {
+      "type": "link",
+      "id": "link_7",
+      "path": [
+        "text_8",
+        "content"
+      ],
+      "range": [
+        37,
+        53
+      ],
+      "url": "http://github.com/substance/reader"
+    },
+    "link_8": {
+      "type": "link",
+      "id": "link_8",
+      "path": [
+        "text_8",
+        "content"
+      ],
+      "range": [
+        591,
+        609
+      ],
+      "url": "#substance/tutorial"
+    },
+    "link_9": {
+      "type": "link",
+      "id": "link_9",
+      "path": [
+        "text_9",
+        "content"
+      ],
+      "range": [
+        9,
+        33
+      ],
+      "url": "http://substance.io/#substance/manual/toc/header_6"
+    },
+    "emphasis_6": {
+      "type": "emphasis",
+      "id": "emphasis_6",
+      "path": [
+        "text_9",
+        "content"
+      ],
+      "range": [
+        152,
+        163
+      ]
+    },
+    "emphasis_7": {
+      "type": "emphasis",
+      "id": "emphasis_7",
+      "path": [
+        "text_9",
+        "content"
+      ],
+      "range": [
+        183,
+        190
+      ]
+    },
+    "emphasis_8": {
+      "type": "emphasis",
+      "id": "emphasis_8",
+      "path": [
+        "text_9",
+        "content"
+      ],
+      "range": [
+        196,
+        208
+      ]
+    },
+    "emphasis_9": {
+      "type": "emphasis",
+      "id": "emphasis_9",
+      "path": [
+        "text_9",
+        "content"
+      ],
+      "range": [
+        575,
+        583
+      ]
+    },
+    "link_10": {
+      "type": "link",
+      "id": "link_10",
+      "path": [
+        "text_9",
+        "content"
+      ],
+      "range": [
+        643,
+        662
+      ],
+      "url": "http://substance.io/#substance/manual/toc/header_13"
+    },
+    "link_11": {
+      "type": "link",
+      "id": "link_11",
+      "path": [
+        "text_9",
+        "content"
+      ],
+      "range": [
+        667,
+        677
+      ],
+      "url": "http://substance.io/#substance/manual/toc/header_15"
+    },
+    "emphasis_10": {
+      "type": "emphasis",
+      "id": "emphasis_10",
+      "path": [
+        "text_9",
+        "content"
+      ],
+      "range": [
+        713,
+        736
+      ]
+    },
+    "link_12": {
+      "type": "link",
+      "id": "link_12",
+      "path": [
+        "text_11",
+        "content"
+      ],
+      "range": [
+        369,
+        384
+      ],
+      "url": "http://github.com/substance/nodes"
+    },
+    "link_13": {
+      "type": "link",
+      "id": "link_13",
+      "path": [
+        "text_12",
+        "content"
+      ],
+      "range": [
+        19,
+        39
+      ],
+      "url": "http://lens.substance.io/#lens/lens_article"
+    },
+    "link_14": {
+      "type": "link",
+      "id": "link_14",
+      "path": [
+        "text_13",
+        "content"
+      ],
+      "range": [
+        263,
+        271
+      ],
+      "url": "#substance/tutorial"
+    },
+    "link_15": {
+      "type": "link",
+      "id": "link_15",
+      "path": [
+        "text_14",
+        "content"
+      ],
+      "range": [
+        14,
+        29
+      ],
+      "url": "http://github.com/oliver----"
+    },
+    "strong_1": {
+      "type": "strong",
+      "id": "strong_1",
+      "path": [
+        "text_16",
+        "content"
+      ],
+      "range": [
+        139,
+        157
+      ]
+    },
+    "link_16": {
+      "type": "link",
+      "id": "link_16",
+      "path": [
+        "text_16",
+        "content"
+      ],
+      "range": [
+        198,
+        202
+      ],
+      "url": "http://hub.substance.io/"
+    },
+    "link_17": {
+      "type": "link",
+      "id": "link_17",
+      "path": [
+        "text_18",
+        "content"
+      ],
+      "range": [
+        115,
+        125
+      ],
+      "url": "http://lens.substance.io"
+    },
+    "cover": {
+      "type": "cover",
+      "id": "cover",
+      "source_id": "",
+      "image": ""
+    }
+  }
+}

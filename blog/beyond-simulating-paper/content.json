@@ -22,7 +22,8 @@
       "creator": "",
       "title": "Beyond simulating paper",
       "abstract": "",
-      "keywords": []
+      "keywords": [],
+      "updated_at": "2014-02-24T19:50:30.622Z"
     },
     "content": {
       "type": "view",
@@ -123,7 +124,7 @@
       "name": "Michael Aufreiter",
       "role": "author",
       "organization": "Substance Software GmbH",
-      "image": "http://about.substance.io/images/michael_avatar.jpg",
+      "image": "michael_avatar.jpg",
       "email": "michael@substance.io"
     },
     "contributor_2": {
@@ -133,7 +134,7 @@
       "name": "Oliver Buchtala",
       "role": "author",
       "organization": "Substance Software GmbH",
-      "image": "http://about.substance.io/images/oliver_avatar.jpg",
+      "image": "oliver_avatar.jpg",
       "email": "oliver@substance.io"
     },
     "caption_figure_1": {
@@ -147,7 +148,8 @@
       "label": "Oliver Buchtala",
       "url": "data/oliver.jpg",
       "caption": "caption_figure_1",
-      "type": "figure"
+      "type": "figure",
+      "image": "figure_1.png"
     },
     "caption_figure_2": {
       "type": "text",
@@ -158,7 +160,7 @@
     "figure_2": {
       "id": "figure_2",
       "label": "Substance Composer",
-      "url": "data/composer.png",
+      "image": "figure_2.png",
       "caption": "caption_figure_2",
       "type": "figure"
     },
@@ -171,7 +173,7 @@
     "figure_3": {
       "id": "figure_3",
       "label": "Substance Reader",
-      "url": "data/reader.png",
+      "image": "figure_3.png",
       "caption": "caption_figure_3",
       "type": "figure"
     },
@@ -539,7 +541,7 @@
     "figure_0e51617a008094838943650223b2bff8": {
       "id": "figure_0e51617a008094838943650223b2bff8",
       "label": "Michael Aufreiter",
-      "url": "data/michael.jpg",
+      "image": "figure_0e51617a008094838943650223b2bff8.png",
       "caption": "text_fdeed277471f0af847eb0b38dd4cd9c0",
       "type": "figure"
     },
@@ -890,6 +892,30 @@
         791
       ],
       "url": "mailto:info@substance.io"
+    },
+    "figure_0e51617a008094838943650223b2bff8.png": {
+      "type": "file",
+      "id": "figure_0e51617a008094838943650223b2bff8.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "figure_1.png": {
+      "type": "file",
+      "id": "figure_1.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "figure_2.png": {
+      "type": "file",
+      "id": "figure_2.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "figure_3.png": {
+      "type": "file",
+      "id": "figure_3.png",
+      "version": 1,
+      "content_type": "image/png"
     }
   }
 }
