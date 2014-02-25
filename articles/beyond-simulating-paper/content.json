@@ -23,7 +23,7 @@
       "title": "Beyond simulating paper",
       "abstract": "",
       "keywords": [],
-      "updated_at": "2014-02-24T19:50:30.622Z"
+      "updated_at": "2014-02-24T23:52:59.854Z"
     },
     "content": {
       "type": "view",
@@ -124,7 +124,7 @@
       "name": "Michael Aufreiter",
       "role": "author",
       "organization": "Substance Software GmbH",
-      "image": "michael_avatar.jpg",
+      "image": "contributor_1.png",
       "email": "michael@substance.io"
     },
     "contributor_2": {
@@ -134,7 +134,7 @@
       "name": "Oliver Buchtala",
       "role": "author",
       "organization": "Substance Software GmbH",
-      "image": "oliver_avatar.jpg",
+      "image": "contributor_2.png",
       "email": "oliver@substance.io"
     },
     "caption_figure_1": {
@@ -914,6 +914,18 @@
     "figure_3.png": {
       "type": "file",
       "id": "figure_3.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "contributor_1.png": {
+      "type": "file",
+      "id": "contributor_1.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "contributor_2.png": {
+      "type": "file",
+      "id": "contributor_2.png",
       "version": 1,
       "content_type": "image/png"
     }
