@@ -59,10 +59,26 @@ a:hover {
   color: #28fff7;
 }
 
+/*
+Big Teaser (coming this April)
+---------------------------------------------*/
+
+
+.row p.big-teaser {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+
 
 /*
 Teaser
 ---------------------------------------------*/
+
+
 
 .section.teaser {
   font-size: 22px;
@@ -104,15 +120,81 @@ Header
 ---------------------------------------------*/
 
 
+.header .header-inner {
+  /*background: blue;*/
+  overflow: hidden;
+  line-height: 30px;
+}
+
+.header .header-inner .substance-logo {
+  color: white;
+  font-size: 20px;
+  display: block;
+  float: left;
+}
+
+.header .header-inner .menu {
+  float: right;
+  /*background: green;*/
+}
+
+.header .header-inner .menu .menu-entry {
+  font-size: 16px;
+  color: rgba(255,255,255,0.4);
+  float: left;
+  display: block;
+  margin-left: 20px;
+  padding: 4px 9px;
+  border-radius: 5px;
+}
+
+.header .header-inner .menu .menu-entry.active {
+  color: white;
+  background: black;
+}
+
+
+.header .header-inner .menu .menu-entry:hover {
+  color: white;
+}
+
+/*
+
+    <div class="section darker header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 header-inner">
+            
+              <a class="substance-logo" href="/">Substance</a>
+
+              <div class="menu">
+                <a class="menu-entry" href="/">About</a>
+                <a class="menu-entry active" href="/">Composer</a>
+              </div>
+
+
+            
+            <!-- <p class="text-center">
+              Create and publish interactive articles with the Substance Composer. Rely on a completely open web-native document format. Build custom integrations and apps using the Substance Javascript API's.
+            </p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+*/
+
+
+
+
 .header .lead {
-  font-size: 22px;
+  font-size: 18px;
 
 }
 
 .header h1 {
   /*font-family: 'AvenirLTStd-Heavy', 'Arial';*/
   font-weight: 700;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .header .row p {
