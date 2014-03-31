@@ -65,8 +65,8 @@ Big Teaser (coming this April)
 
 
 .row p.big-teaser {
-  font-family: 'Josefin Sans';
-  font-weight: 700;
+  /*font-family: 'Josefin Sans';*/
+  /*font-weight: 600;*/
   padding-top: 30px;
   padding-bottom: 20px;
   color: #fff;
@@ -94,15 +94,15 @@ Teaser
 }
 
 .section.teaser .row {
-  font-size: italic;
   padding: 10px 0;
   padding-bottom: 40px;
 }
 
 
 .teaser h1 a {
-  font-family: 'Josefin Sans';
+  /*font-family: 'Josefin Sans';*/
   font-size: 30px;
+  font-weight: normal;
   color: white;
 }
 
@@ -171,9 +171,9 @@ Header
 }
 
 .header h1 {
-  font-family: 'Josefin Sans';
-  font-weight: 700;
-  font-size: 30px;
+  /*font-family: 'Josefin Sans';*/
+  font-weight: normal;
+  font-size: 26px;
 }
 
 .header .row p {
@@ -185,9 +185,9 @@ Header
 .row.heading {
   padding-bottom: 20px;
   font-size: 25px;
-  font-weight: 600;
-  font-family: 'Josefin Sans';
-  font-weight: 700;
+  font-weight: normal;
+/*  font-family: 'Josefin Sans';
+  font-weight: 700;*/
 }
 
 .row.heading .feature {
