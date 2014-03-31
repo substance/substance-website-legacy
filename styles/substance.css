@@ -65,11 +65,12 @@ Big Teaser (coming this April)
 
 
 .row p.big-teaser {
+  font-family: 'Josefin Sans';
+  font-weight: 700;
   padding-top: 30px;
   padding-bottom: 20px;
   color: #fff;
   font-size: 50px;
-  font-weight: 600;
 }
 
 
@@ -100,6 +101,7 @@ Teaser
 
 
 .teaser h1 a {
+  font-family: 'Josefin Sans';
   font-size: 30px;
   color: white;
 }
@@ -121,68 +123,45 @@ Header
 
 
 .header .header-inner {
-  /*background: blue;*/
   overflow: hidden;
-  line-height: 30px;
+  line-height: 40px;
 }
 
 .header .header-inner .substance-logo {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
+  line-height: 30px;
   display: block;
   float: left;
+  font-family: 'Josefin Sans';
+  font-weight: 700;
 }
 
 .header .header-inner .menu {
   float: right;
-  /*background: green;*/
 }
 
 .header .header-inner .menu .menu-entry {
-  font-size: 16px;
+
+  font-size: 13px;
+  font-weight: 600;
   color: rgba(255,255,255,0.4);
   float: left;
   display: block;
   /*margin-left: 10px;*/
   padding: 2px 7px;
-  border-radius: 5px;
+  /*border-radius: 5px;*/
 }
 
 .header .header-inner .menu .menu-entry.active {
   color: white;
-  background: black;
+  /*background: rgba(0,0,0,0.5);*/
 }
 
 
 .header .header-inner .menu .menu-entry:hover {
   color: white;
 }
-
-/*
-
-    <div class="section darker header">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 header-inner">
-            
-              <a class="substance-logo" href="/">Substance</a>
-
-              <div class="menu">
-                <a class="menu-entry" href="/">About</a>
-                <a class="menu-entry active" href="/">Composer</a>
-              </div>
-
-
-            
-            <!-- <p class="text-center">
-              Create and publish interactive articles with the Substance Composer. Rely on a completely open web-native document format. Build custom integrations and apps using the Substance Javascript API's.
-            </p> -->
-          </div>
-        </div>
-      </div>
-    </div>
-*/
-
 
 
 
@@ -192,7 +171,7 @@ Header
 }
 
 .header h1 {
-  /*font-family: 'AvenirLTStd-Heavy', 'Arial';*/
+  font-family: 'Josefin Sans';
   font-weight: 700;
   font-size: 30px;
 }
@@ -205,13 +184,24 @@ Header
 
 .row.heading {
   padding-bottom: 20px;
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 600;
-  /*font-family: 'AvenirLTStd-Heavy';*/
-  /*font-weight: 600;*/
+  font-family: 'Josefin Sans';
+  font-weight: 700;
+}
+
+.row.heading .feature {
+  font-family: 'Open Sans';
+  font-weight: normal;
+}
+
+.row.heading p {
+  font-family: 'Open Sans';
+  font-weight: normal;
 }
 
 .row h3 {
+  font-weight: normal;
   font-size: 18px;
   padding-top: 20px;
 }
