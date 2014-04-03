@@ -23,7 +23,7 @@
       ],
       "abstract": "",
       "created_at": "2014-04-03T17:53:30.857Z",
-      "updated_at": "2014-04-03T19:42:54.066Z",
+      "updated_at": "2014-04-03T20:23:22.813Z",
       "published_on": "2014-03-31T19:36:03.461Z"
     },
     "cover": {
@@ -340,7 +340,7 @@
       "type": "webpage",
       "id": "webpage_5df9864a061677acc5d04082fa68d936",
       "description": "The Substance Composer lets users create and share professional web-first publications.",
-      "url": "http://example.com/composer"
+      "url": "http://substance.io/composer"
     },
     "citation_reference_eefbd83512aed2fc66a791d996e77e52": {
       "type": "citation_reference",
@@ -445,7 +445,7 @@
       "type": "text",
       "id": "ad839d28cd791a29e93f9d55eefba310",
       "source_id": "",
-      "content": "Update: We pitched our idea to the Knight News Challenge. You can add comments and applaude the propsal."
+      "content": "Update: We pitched our idea to the Knight News Challenge. You can add comments and applaude the proposal."
     },
     "webpage_fdab1144fb227de180258a1479480a6e": {
       "type": "webpage",
