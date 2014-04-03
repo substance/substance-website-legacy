@@ -1,0 +1,489 @@
+{
+  "id": "f49f80291f9deee25dc6a22721c363e5",
+  "schema": [
+    "substance-article",
+    "0.4.0"
+  ],
+  "nodes": {
+    "document": {
+      "id": "document",
+      "type": "document",
+      "views": [
+        "content",
+        "figures",
+        "citations"
+      ],
+      "license": "licence",
+      "guid": "f49f80291f9deee25dc6a22721c363e5",
+      "creator": "",
+      "title": "Everybody needs a space for free expression",
+      "authors": [
+        "contributor_28706676d8b02fa577fbb0efb08a77a0",
+        "contributor_a5e0ea905dd74f5456faea8b00f644e9"
+      ],
+      "abstract": "",
+      "created_at": "2014-04-03T17:53:30.857Z",
+      "updated_at": "2014-04-03T19:42:54.066Z",
+      "published_on": "2014-03-31T19:36:03.461Z"
+    },
+    "cover": {
+      "id": "cover",
+      "type": "cover",
+      "authors": []
+    },
+    "content": {
+      "type": "view",
+      "id": "content",
+      "nodes": [
+        "cover",
+        "text1",
+        "153c4a4a1ad199446549488a17c3cb6b",
+        "85d4456ea1a03586aa0f7e1ced3597e7",
+        "a7d5379b3ec0fb414de25b97c716aaf5",
+        "9e8e19187dd2970c1e2f3ee7ce544841",
+        "figure_37f2f7a0e9c346f559d2c5b66314e189",
+        "25415a97b5a45d43447e09b5aec2ed89",
+        "figure_d5722d22da50460febcb65c5a3ec89ed",
+        "0fa8b8d5bd64a65386abdef919e7dd4a",
+        "9ecc3adcc6d882c856c129cc0910c9b0",
+        "figure_6ba4942d883625f0cbd4c528e9f2bab4",
+        "34b9f8080808f468d9f39362ae0f96c4",
+        "7d8a2062b7ddf82753ed8c6935fb9bdb",
+        "a09c2ab25d8c1ca95715119b0df5365e",
+        "7d4a175d06019b5a0b28026f3bcdfb85",
+        "ad839d28cd791a29e93f9d55eefba310"
+      ]
+    },
+    "figures": {
+      "type": "view",
+      "id": "figures",
+      "nodes": []
+    },
+    "citations": {
+      "type": "view",
+      "id": "citations",
+      "nodes": [
+        "webpage_ad197568e44a4ef0d2a26a0c4522b2db",
+        "webpage_c3eac51c51a05e87f3e20fa09cb62bcc",
+        "webpage_17339b0050645aae69017e4d20e8f254",
+        "webpage_5df9864a061677acc5d04082fa68d936",
+        "webpage_6e87c10c9ff1f5ee3b1520fdf9d7b32f",
+        "webpage_fdab1144fb227de180258a1479480a6e",
+        "webpage_ebcdd44005bb7d70240a5c0b692a62d6"
+      ]
+    },
+    "remarks": {
+      "type": "view",
+      "id": "remarks",
+      "nodes": []
+    },
+    "errors": {
+      "type": "view",
+      "id": "errors",
+      "nodes": []
+    },
+    "info": {
+      "type": "view",
+      "id": "info",
+      "nodes": [
+        "publication_info",
+        "contributor_28706676d8b02fa577fbb0efb08a77a0",
+        "contributor_a5e0ea905dd74f5456faea8b00f644e9"
+      ]
+    },
+    "text1": {
+      "type": "text",
+      "id": "text1",
+      "content": "Centrally managed proprietary systems are dominating the Internet. People are no longer in control of their content, which is resulting in privacy violations, data fraud and censorship. According to the original idea of the internet, people have their own space for expression on the web. The web should function as a democratic medium. We want to take this idea further and develop the Substance Network, a personal space tailored for self-expression on the web. We want to help people reclaim the internet as an open space. With Substance, an open technology stack for web-based document manipulation, we developed a technical foundation supporting that idea."
+    },
+    "publication_info": {
+      "type": "publication_info"
+    },
+    "undefined": {
+      "type": "publication_info"
+    },
+    "text_fb9cff6e2d9f157e8e8967d6cd341b8f": {
+      "type": "text",
+      "id": "text_fb9cff6e2d9f157e8e8967d6cd341b8f",
+      "source_id": "",
+      "content": "Architecture of a personal Network"
+    },
+    "figure_8b88400668d8f47d10ac46f0e8bcf58a.png": {
+      "type": "file",
+      "id": "figure_8b88400668d8f47d10ac46f0e8bcf58a.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "contributor_28706676d8b02fa577fbb0efb08a77a0": {
+      "type": "contributor",
+      "id": "contributor_28706676d8b02fa577fbb0efb08a77a0",
+      "source_id": "",
+      "name": "Michael Aufreiter",
+      "role": "author",
+      "description": "As the initiator of Substance, Michael is passionate about the idea of open digital publishing. He coordinates the project and leads UI/UX development.",
+      "image": "contributor_28706676d8b02fa577fbb0efb08a77a0.png",
+      "image_url": "",
+      "email": "",
+      "contribution": ""
+    },
+    "contributor_28706676d8b02fa577fbb0efb08a77a0.png": {
+      "type": "file",
+      "id": "contributor_28706676d8b02fa577fbb0efb08a77a0.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "contributor_a5e0ea905dd74f5456faea8b00f644e9": {
+      "type": "contributor",
+      "id": "contributor_a5e0ea905dd74f5456faea8b00f644e9",
+      "source_id": "",
+      "name": "Oliver Buchtala",
+      "role": "author",
+      "description": "Oliver Buchtala has joined Substance in 2012, turning it from a platform into a flexible and extensible technology stack. He has worked over 15 years in software development.",
+      "image": "contributor_a5e0ea905dd74f5456faea8b00f644e9.png",
+      "image_url": "",
+      "email": "",
+      "contribution": ""
+    },
+    "contributor_a5e0ea905dd74f5456faea8b00f644e9.png": {
+      "type": "file",
+      "id": "contributor_a5e0ea905dd74f5456faea8b00f644e9.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "webpage_ad197568e44a4ef0d2a26a0c4522b2db": {
+      "type": "webpage",
+      "id": "webpage_ad197568e44a4ef0d2a26a0c4522b2db",
+      "description": "Tim Berners-Lee: we need to re-decentralise the web",
+      "url": "http://www.wired.co.uk/news/archive/2014-02/06/tim-berners-lee-reclaim-the-web"
+    },
+    "citation_reference_13444263401d520f35d10d0cda337484": {
+      "type": "citation_reference",
+      "id": "citation_reference_13444263401d520f35d10d0cda337484",
+      "path": [
+        "153c4a4a1ad199446549488a17c3cb6b",
+        "content"
+      ],
+      "range": [
+        224,
+        235
+      ],
+      "target": "webpage_ad197568e44a4ef0d2a26a0c4522b2db"
+    },
+    "85d4456ea1a03586aa0f7e1ced3597e7": {
+      "type": "text",
+      "id": "85d4456ea1a03586aa0f7e1ced3597e7",
+      "source_id": "",
+      "content": "In the spirit of these ideas, we want to establish a fair and easy way of self-publishing on the web. Everyone should be able to express their ideas, and respond to the ideas of others in a democratic way."
+    },
+    "a7d5379b3ec0fb414de25b97c716aaf5": {
+      "type": "text",
+      "id": "a7d5379b3ec0fb414de25b97c716aaf5",
+      "source_id": "",
+      "content": "It's not that there aren't any platforms for collaborative document creation available yet. Unfortunately, these platforms are proprietary and centralised, and do not respect the privacy of users. Private data is exploited for commercial purpose, and even worse it's vulnerable to fraud and abuse."
+    },
+    "9e8e19187dd2970c1e2f3ee7ce544841": {
+      "type": "text",
+      "id": "9e8e19187dd2970c1e2f3ee7ce544841",
+      "source_id": "",
+      "content": "We want to give back control to the users. Individuals, as well as organisations, should be able to establish their own collaboration hubs and distribution channels, making it a personal document editing and sharing network. Such a system removes the technical hurdles, so anyone can create and share documents on their own."
+    },
+    "25415a97b5a45d43447e09b5aec2ed89": {
+      "type": "text",
+      "id": "25415a97b5a45d43447e09b5aec2ed89",
+      "source_id": "",
+      "content": "In addition to the general idea of openness we are convinced that privacy as a human right must be protected. Users should be able to collaborate with each other in a secure way (using encryption) until they decide to share their documents with the world."
+    },
+    "0fa8b8d5bd64a65386abdef919e7dd4a": {
+      "type": "text",
+      "id": "0fa8b8d5bd64a65386abdef919e7dd4a",
+      "source_id": "",
+      "content": "We want to strengthen the vision of a democratic internet by realizing it as a decentralized system. Users define who is allowed to access their content, since it's their responsibility. Moreover, mirroring of published data helps to overcome censorship."
+    },
+    "webpage_c3eac51c51a05e87f3e20fa09cb62bcc": {
+      "type": "webpage",
+      "id": "webpage_c3eac51c51a05e87f3e20fa09cb62bcc",
+      "description": "Centralised vs. Decentralised Publishing",
+      "url": "https://medium.com/p/626055376c81"
+    },
+    "citation_reference_7d8d6560cd995c0b547b51279a06b7ea": {
+      "type": "citation_reference",
+      "id": "citation_reference_7d8d6560cd995c0b547b51279a06b7ea",
+      "path": [
+        "0fa8b8d5bd64a65386abdef919e7dd4a",
+        "content"
+      ],
+      "range": [
+        79,
+        99
+      ],
+      "target": "webpage_c3eac51c51a05e87f3e20fa09cb62bcc"
+    },
+    "webpage_17339b0050645aae69017e4d20e8f254": {
+      "type": "webpage",
+      "id": "webpage_17339b0050645aae69017e4d20e8f254",
+      "description": "Substance is an open platform for digital publishingbuilt on top of a web-first document format.",
+      "url": "http://substance.io"
+    },
+    "citation_reference_ff2aa3fd0b35c67104e1ee882611b176": {
+      "type": "citation_reference",
+      "id": "citation_reference_ff2aa3fd0b35c67104e1ee882611b176",
+      "path": [
+        "9ecc3adcc6d882c856c129cc0910c9b0",
+        "content"
+      ],
+      "range": [
+        5,
+        14
+      ],
+      "target": "webpage_17339b0050645aae69017e4d20e8f254"
+    },
+    "34b9f8080808f468d9f39362ae0f96c4": {
+      "type": "text",
+      "id": "34b9f8080808f468d9f39362ae0f96c4",
+      "source_id": "",
+      "content": "Substance Network brings self-expression in terms of modern web-publishing to the user, respecting desires for content ownership, privacy and security, and fostering the genuine idea of the internet as a decentralized space for open, collaborative, and democratic expression and discussion. We'd like to witness a society that conquers back the internet as a free medium."
+    },
+    "153c4a4a1ad199446549488a17c3cb6b": {
+      "type": "text",
+      "id": "153c4a4a1ad199446549488a17c3cb6b",
+      "source_id": "",
+      "content": "Following Tim Berners-Lee's original idea, the internet should be open to everyone, be decentralized by nature, and provide a means for painless, democratized collaboration and sharing. In an interview recently published on wired.co.uk he emphasizes the threat of for-profit internet monopolies and a 'balkanisation' of the web. He demands a re-decentralisation."
+    },
+    "text_116064c33f71fb54ca8160e5ff7280c0": {
+      "type": "text",
+      "id": "text_116064c33f71fb54ca8160e5ff7280c0",
+      "source_id": "",
+      "content": "Architecture of connected Substance Networks"
+    },
+    "figure_37f2f7a0e9c346f559d2c5b66314e189": {
+      "type": "figure",
+      "id": "figure_37f2f7a0e9c346f559d2c5b66314e189",
+      "image": "figure_37f2f7a0e9c346f559d2c5b66314e189.png",
+      "image_url": "",
+      "label": "Figure ",
+      "caption": "text_116064c33f71fb54ca8160e5ff7280c0"
+    },
+    "figure_37f2f7a0e9c346f559d2c5b66314e189.png": {
+      "type": "file",
+      "id": "figure_37f2f7a0e9c346f559d2c5b66314e189.png",
+      "version": 3,
+      "content_type": "image/png"
+    },
+    "text_f23de0c7ce02039202124d53accb80c9": {
+      "type": "text",
+      "id": "text_f23de0c7ce02039202124d53accb80c9",
+      "source_id": "",
+      "content": "Privacy aware sharing of documents"
+    },
+    "figure_a4923ee11fd478757dcd40cffb3bdc80.png": {
+      "type": "file",
+      "id": "figure_a4923ee11fd478757dcd40cffb3bdc80.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "text_5cc09953d87570d374b274ecc68ed8f0": {
+      "type": "text",
+      "id": "text_5cc09953d87570d374b274ecc68ed8f0",
+      "source_id": "",
+      "content": "The Substance Composer"
+    },
+    "figure_6ba4942d883625f0cbd4c528e9f2bab4": {
+      "type": "figure",
+      "id": "figure_6ba4942d883625f0cbd4c528e9f2bab4",
+      "image": "figure_6ba4942d883625f0cbd4c528e9f2bab4.png",
+      "image_url": "",
+      "label": "Figure ",
+      "caption": "text_5cc09953d87570d374b274ecc68ed8f0"
+    },
+    "figure_6ba4942d883625f0cbd4c528e9f2bab4.png": {
+      "type": "file",
+      "id": "figure_6ba4942d883625f0cbd4c528e9f2bab4.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "license": {
+      "type": "license",
+      "id": "license",
+      "name": "Creative Commons Attribution",
+      "code": "cc-by",
+      "version": "3.0",
+      "description": "This article is distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use and redistribution provided that the original author and source are credited.",
+      "url": "http://creativecommons.org/licenses/by/3.0/us/"
+    },
+    "text_5c13ed2624c4eec334e864d709864b46": {
+      "type": "text",
+      "id": "text_5c13ed2624c4eec334e864d709864b46",
+      "source_id": "",
+      "content": "Privacy-aware sharing of documents"
+    },
+    "figure_d5722d22da50460febcb65c5a3ec89ed": {
+      "type": "figure",
+      "id": "figure_d5722d22da50460febcb65c5a3ec89ed",
+      "image": "figure_d5722d22da50460febcb65c5a3ec89ed.png",
+      "image_url": "",
+      "label": "Figure ",
+      "caption": "text_5c13ed2624c4eec334e864d709864b46"
+    },
+    "figure_d5722d22da50460febcb65c5a3ec89ed.png": {
+      "type": "file",
+      "id": "figure_d5722d22da50460febcb65c5a3ec89ed.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "9ecc3adcc6d882c856c129cc0910c9b0": {
+      "type": "text",
+      "id": "9ecc3adcc6d882c856c129cc0910c9b0",
+      "source_id": "",
+      "content": "With Substance we are providing a technical foundation for solving these problems. It is a purely browser-based solution for document creation, ready to be integrated into various publication scenarios. We developed the Substance Composer, a web-based editing environment and eLife Lens an interactive display for scientific literature. Now we want to complement our solution with a decentralized hub for collaboration."
+    },
+    "webpage_5df9864a061677acc5d04082fa68d936": {
+      "type": "webpage",
+      "id": "webpage_5df9864a061677acc5d04082fa68d936",
+      "description": "The Substance Composer lets users create and share professional web-first publications.",
+      "url": "http://example.com/composer"
+    },
+    "citation_reference_eefbd83512aed2fc66a791d996e77e52": {
+      "type": "citation_reference",
+      "id": "citation_reference_eefbd83512aed2fc66a791d996e77e52",
+      "path": [
+        "9ecc3adcc6d882c856c129cc0910c9b0",
+        "content"
+      ],
+      "range": [
+        220,
+        238
+      ],
+      "target": "webpage_5df9864a061677acc5d04082fa68d936"
+    },
+    "webpage_6e87c10c9ff1f5ee3b1520fdf9d7b32f": {
+      "type": "webpage",
+      "id": "webpage_6e87c10c9ff1f5ee3b1520fdf9d7b32f",
+      "description": "A novel way of viewing research.",
+      "url": "http://lens.elifesciences.org"
+    },
+    "citation_reference_c1d85c7237ef3c146730442b8fb31147": {
+      "type": "citation_reference",
+      "id": "citation_reference_c1d85c7237ef3c146730442b8fb31147",
+      "path": [
+        "9ecc3adcc6d882c856c129cc0910c9b0",
+        "content"
+      ],
+      "range": [
+        276,
+        286
+      ],
+      "target": "webpage_6e87c10c9ff1f5ee3b1520fdf9d7b32f"
+    },
+    "7d8a2062b7ddf82753ed8c6935fb9bdb": {
+      "type": "text",
+      "id": "7d8a2062b7ddf82753ed8c6935fb9bdb",
+      "source_id": "",
+      "content": "We are searching for supporters of that idea, in order to shape it and turn it into a reality soon. If you like our proposal please help us by sharing this document with friends and talking about the issues described. We are very open to any kind of collaboration. Please get in touch with us at info@substance.io to share your thoughts or make a donation to the project."
+    },
+    "strong_570c542ebc0f73d9e98a0cdafb505da9": {
+      "type": "strong",
+      "id": "strong_570c542ebc0f73d9e98a0cdafb505da9",
+      "path": [
+        "text1",
+        "content"
+      ],
+      "range": [
+        387,
+        404
+      ]
+    },
+    "citation_reference_c447aa4f605ec4834665e6eac040e594": {
+      "type": "citation_reference",
+      "id": "citation_reference_c447aa4f605ec4834665e6eac040e594",
+      "path": [
+        "text1",
+        "content"
+      ],
+      "range": [
+        531,
+        540
+      ],
+      "target": "webpage_17339b0050645aae69017e4d20e8f254"
+    },
+    "emphasis_42cdd25846792f34e3e32629fb457375": {
+      "type": "emphasis",
+      "id": "emphasis_42cdd25846792f34e3e32629fb457375",
+      "path": [
+        "text1",
+        "content"
+      ],
+      "range": [
+        436,
+        451
+      ]
+    },
+    "strong_723d8ebc187f3327bab9c2728aad838c": {
+      "type": "strong",
+      "id": "strong_723d8ebc187f3327bab9c2728aad838c",
+      "path": [
+        "34b9f8080808f468d9f39362ae0f96c4",
+        "content"
+      ],
+      "range": [
+        0,
+        17
+      ]
+    },
+    "a09c2ab25d8c1ca95715119b0df5365e": {
+      "type": "text",
+      "id": "a09c2ab25d8c1ca95715119b0df5365e",
+      "source_id": "",
+      "content": "Thank you for your support,"
+    },
+    "7d4a175d06019b5a0b28026f3bcdfb85": {
+      "type": "text",
+      "id": "7d4a175d06019b5a0b28026f3bcdfb85",
+      "source_id": "",
+      "content": "Michael and Oliver"
+    },
+    "ad839d28cd791a29e93f9d55eefba310": {
+      "type": "text",
+      "id": "ad839d28cd791a29e93f9d55eefba310",
+      "source_id": "",
+      "content": "Update: We pitched our idea to the Knight News Challenge. You can add comments and applaude the propsal."
+    },
+    "webpage_fdab1144fb227de180258a1479480a6e": {
+      "type": "webpage",
+      "id": "webpage_fdab1144fb227de180258a1479480a6e",
+      "description": "Knight News Challenge Entry",
+      "url": "https://www.newschallenge.org/challenge/2014/feedback-review/substance-network"
+    },
+    "citation_reference_7fb2e5fac73b4623d5105b0f73fa67d0": {
+      "type": "citation_reference",
+      "id": "citation_reference_7fb2e5fac73b4623d5105b0f73fa67d0",
+      "path": [
+        "ad839d28cd791a29e93f9d55eefba310",
+        "content"
+      ],
+      "range": [
+        35,
+        56
+      ],
+      "target": "webpage_fdab1144fb227de180258a1479480a6e"
+    },
+    "webpage_ebcdd44005bb7d70240a5c0b692a62d6": {
+      "type": "webpage",
+      "id": "webpage_ebcdd44005bb7d70240a5c0b692a62d6",
+      "description": "Substance Contact Email",
+      "url": "mailto:info@substance.io"
+    },
+    "citation_reference_12b87da6706e50402ac6d6f480f04408": {
+      "type": "citation_reference",
+      "id": "citation_reference_12b87da6706e50402ac6d6f480f04408",
+      "path": [
+        "7d8a2062b7ddf82753ed8c6935fb9bdb",
+        "content"
+      ],
+      "range": [
+        296,
+        313
+      ],
+      "target": "webpage_ebcdd44005bb7d70240a5c0b692a62d6"
+    }
+  }
+}
