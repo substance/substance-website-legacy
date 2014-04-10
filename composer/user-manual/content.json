@@ -23,7 +23,7 @@
       ],
       "abstract": "",
       "created_at": "2014-04-05T16:34:01.762Z",
-      "updated_at": "2014-04-10T13:13:44.127Z",
+      "updated_at": "2014-04-10T13:23:52.468Z",
       "published_on": "2014-04-08T16:34:01.763Z"
     },
     "cover": {
@@ -823,7 +823,7 @@
       "type": "text",
       "id": "8be9df163cc966365c813a30081ca12e",
       "source_id": "",
-      "content": "You can adjust the CSS (style.css) and HTML (index.html) to style your publication differently. Just be aware that your custom stylesheet gets overriden if you export an updated version. Soon designers will be able to create templates for the Composer, automating this process."
+      "content": "You can adjust the CSS (style.css) and HTML (index.html) to style your publication differently. Just be aware that your custom stylesheet gets overriden once you export an updated version to the same folder. Soon designers will be able to create templates for the Composer, automating this process."
     },
     "heading_479280182170806de6b2696927945092": {
       "type": "heading",
@@ -854,7 +854,7 @@
       "type": "text",
       "id": "a0c848ba24e2af47e152c4906d73ce2d",
       "source_id": "",
-      "content": "Use it extensively. Create and host publications. Tell us what you like and what . While the Composer can't cover all usecases we have a very open ear to your feedback. If you can afford it, make a little donation"
+      "content": "Use it extensively. Create and host publications. Tell us what you like and what . While the Composer can't cover all usecases we have a very open ear to your feedback. If you can afford it, make a little donation to support the development of the app. We accept Paypal (contribute@substance.io) and bank transfers. Ask for our bank details at info@substance.io."
     },
     "heading_d5d5a604080f2de530669d90fa9e748a": {
       "type": "heading",
@@ -862,6 +862,30 @@
       "source_id": "",
       "content": "How can I help make the Substance Composer better?",
       "level": 2
+    },
+    "code_13554016a658791781ca023803f7ee9e": {
+      "type": "code",
+      "id": "code_13554016a658791781ca023803f7ee9e",
+      "path": [
+        "8be9df163cc966365c813a30081ca12e",
+        "content"
+      ],
+      "range": [
+        24,
+        33
+      ]
+    },
+    "code_8cb529e1c6f21c6b60e3dbe19b2843aa": {
+      "type": "code",
+      "id": "code_8cb529e1c6f21c6b60e3dbe19b2843aa",
+      "path": [
+        "8be9df163cc966365c813a30081ca12e",
+        "content"
+      ],
+      "range": [
+        45,
+        55
+      ]
     }
   }
 }
