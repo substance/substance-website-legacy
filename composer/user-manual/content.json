@@ -1,0 +1,867 @@
+{
+  "id": "9d81dbc538c02b5811f7be5fb8a52fcc",
+  "schema": [
+    "substance-article",
+    "0.4.0"
+  ],
+  "nodes": {
+    "document": {
+      "id": "document",
+      "type": "document",
+      "views": [
+        "content",
+        "figures",
+        "citations"
+      ],
+      "license": "licence",
+      "guid": "9d81dbc538c02b5811f7be5fb8a52fcc",
+      "creator": "",
+      "title": "Substance Composer User Manual",
+      "authors": [
+        "contributor_93e4377bb7ef2b4b2a2562aa48231dd0",
+        "contributor_68bea766688deac753f8dd51d5f196b4"
+      ],
+      "abstract": "",
+      "created_at": "2014-04-05T16:34:01.762Z",
+      "updated_at": "2014-04-10T13:13:44.127Z",
+      "published_on": "2014-04-08T16:34:01.763Z"
+    },
+    "cover": {
+      "id": "cover",
+      "type": "cover",
+      "authors": []
+    },
+    "content": {
+      "type": "view",
+      "id": "content",
+      "nodes": [
+        "cover",
+        "67a1ecf64eccbdc6543d5ef31782dd3d",
+        "heading_08c3a868e881410d2e61bf95e4e36df8",
+        "27a7b3e7cc005a97610683315626ec4c",
+        "heading_e1a859e5ec21e01ae5d6f067fc72aaac",
+        "117bddecdbcaf967f63a53f663f8f26d",
+        "heading_4b506dff71ecf260b0a7c5c8959a6d1c",
+        "5ecacc5903cdf8fb939218ea384462de",
+        "heading_985892b0d5c46962ad1e364f4437d826",
+        "e6182870afc07446fa8e90ef9dba1717",
+        "heading_54f3be18770a44ad4375e9c22d506443",
+        "ec72d91c3abd3fdb29e437411b4e48c0",
+        "figure_3ea92db9810fc7403aa2a98a61a04503",
+        "f5aec945d9a1255a623fd59c61157a74",
+        "heading_f83e0894cfeb0c32251dc392eeb44b67",
+        "9f25ce0624f78bc45b705fe4404d3bd5",
+        "heading_69c95f3cfcc27f52ef2af04e7398b7d0",
+        "c6e2a7b439a00e068f73357546b9bebd",
+        "heading_af49954ae97b48186bec0ac0fd6ea042",
+        "5c0f3793ce94ec1f128373797f570c9b",
+        "heading_6a91fbce782d8144b7bf40a276a13e29",
+        "6eb1e12a8e478488c2abaa92ed4effc8",
+        "heading_8c5d5bd3b94ce448710ac0f36e8effff",
+        "db2ca106b812ec016f1cb5ace75fb683",
+        "figure_eb2a4104b138b27428b55e8d14fd4c2c",
+        "1075422960dada279f49af9186c42206",
+        "heading_b03de1e0dff3d3e3886395e4af214f3b",
+        "25c20a63b36bed9afb56497e0e8b1861",
+        "figure_d57adeabd90c0b6c19a8de8421e9aedd",
+        "0b984c53f2647a8765aac0332d103a28",
+        "heading_5f3a6ac2b3ee16a5b6048823d6f4b3b3",
+        "031971305a36beee62ed2941182befca",
+        "heading_fe10b2d8f7800c73e47984590448a057",
+        "c3bc2dd902e6a1f29afccb2ccb688e00",
+        "170d02610d0ab3a50e2bbdda963ed972",
+        "figure_9da5984a0aae75b9202216795dcd33ad",
+        "f3e87bc120cd6e54cd2f6893190ae616",
+        "figure_1fa9221b555dafecf3e50335228c230c",
+        "10aee10309528f0fff072216f76ef33e",
+        "heading_f00004f1d1353fcf9165db468da83bd9",
+        "21592bc5693abc92f529b3cdb06652c7",
+        "heading_d2824dd68b7a96838598abeee98bf79e",
+        "heading_d5d5a604080f2de530669d90fa9e748a",
+        "a0c848ba24e2af47e152c4906d73ce2d",
+        "heading_479280182170806de6b2696927945092",
+        "8be9df163cc966365c813a30081ca12e"
+      ]
+    },
+    "figures": {
+      "type": "view",
+      "id": "figures",
+      "nodes": []
+    },
+    "citations": {
+      "type": "view",
+      "id": "citations",
+      "nodes": [
+        "web_resource_d9bfd593974f5c226169e0f6c34ca985",
+        "web_resource_c738bb3c711fc338e499c4d397da1d58",
+        "web_resource_c13c6487073dd1f23de7a44437c59e40",
+        "web_resource_29f60a9851901fddc3b98bc63e52535d",
+        "web_resource_2bde075a494ed9bb103d008b7e57f7c3"
+      ]
+    },
+    "remarks": {
+      "type": "view",
+      "id": "remarks",
+      "nodes": []
+    },
+    "errors": {
+      "type": "view",
+      "id": "errors",
+      "nodes": []
+    },
+    "info": {
+      "type": "view",
+      "id": "info",
+      "nodes": [
+        "publication_info",
+        "contributor_93e4377bb7ef2b4b2a2562aa48231dd0",
+        "contributor_68bea766688deac753f8dd51d5f196b4"
+      ]
+    },
+    "publication_info": {
+      "type": "publication_info"
+    },
+    "undefined": {
+      "type": "publication_info"
+    },
+    "heading_54f3be18770a44ad4375e9c22d506443": {
+      "type": "heading",
+      "id": "heading_54f3be18770a44ad4375e9c22d506443",
+      "source_id": "",
+      "content": "Your first Substance article",
+      "level": 1
+    },
+    "heading_b03de1e0dff3d3e3886395e4af214f3b": {
+      "type": "heading",
+      "id": "heading_b03de1e0dff3d3e3886395e4af214f3b",
+      "source_id": "",
+      "content": "Publish Yourself",
+      "level": 1
+    },
+    "heading_af49954ae97b48186bec0ac0fd6ea042": {
+      "type": "heading",
+      "id": "heading_af49954ae97b48186bec0ac0fd6ea042",
+      "source_id": "",
+      "content": "Add figures",
+      "level": 2
+    },
+    "0b984c53f2647a8765aac0332d103a28": {
+      "type": "text",
+      "id": "0b984c53f2647a8765aac0332d103a28",
+      "source_id": "",
+      "content": "Click Export as a web page in the Publish dialog or use File -> Export. Select a folder on your hard disk, where your publication gets stored temporarily. Use a web-compatible name without spaces and special characters (e.g. my-first-substance-article would be a good one)."
+    },
+    "heading_5f3a6ac2b3ee16a5b6048823d6f4b3b3": {
+      "type": "heading",
+      "id": "heading_5f3a6ac2b3ee16a5b6048823d6f4b3b3",
+      "source_id": "",
+      "content": "Control your own webspace",
+      "level": 2
+    },
+    "031971305a36beee62ed2941182befca": {
+      "type": "text",
+      "id": "031971305a36beee62ed2941182befca",
+      "source_id": "",
+      "content": "With Substance we want to encourage you to create your own webspace on the Internet where you can put your writing. Today, it is tempting to use hosted services, which are convenient to use. However, by using these 1-click publishing services, you also loose control about your data and give up a fair bit of freedom. If you do not have a webspace yet, we can recommend using jumpstarter.io (it's free for low traffic sites). Watch out for local independent hosting providers in your area, and help keep the Internet equally distributed. After all, any webhosting service works, the choice is on you."
+    },
+    "web_resource_d9bfd593974f5c226169e0f6c34ca985": {
+      "type": "web_resource",
+      "id": "web_resource_d9bfd593974f5c226169e0f6c34ca985",
+      "description": "Centralised vs. Decentralised Publishing: How much freedom are we willing to pay for maximum convenience?",
+      "url": "http://medium.com/p/626055376c81"
+    },
+    "citation_reference_228e9c1bf9c05cfc4c68f685307383b0": {
+      "type": "citation_reference",
+      "id": "citation_reference_228e9c1bf9c05cfc4c68f685307383b0",
+      "path": [
+        "031971305a36beee62ed2941182befca",
+        "content"
+      ],
+      "range": [
+        297,
+        316
+      ],
+      "target": "web_resource_d9bfd593974f5c226169e0f6c34ca985"
+    },
+    "heading_fe10b2d8f7800c73e47984590448a057": {
+      "type": "heading",
+      "id": "heading_fe10b2d8f7800c73e47984590448a057",
+      "source_id": "",
+      "content": "Upload using SFTP",
+      "level": 2
+    },
+    "c3bc2dd902e6a1f29afccb2ccb688e00": {
+      "type": "text",
+      "id": "c3bc2dd902e6a1f29afccb2ccb688e00",
+      "source_id": "",
+      "content": "Your serious hosting provider most likely supports SFTP for uploading content to your webspace. In order to do so, you need to have a little program for uploading your files. On Mac and windows you can use the free  Cyberduck. There's also WinSCP and many others."
+    },
+    "web_resource_c738bb3c711fc338e499c4d397da1d58": {
+      "type": "web_resource",
+      "id": "web_resource_c738bb3c711fc338e499c4d397da1d58",
+      "description": "Modern and simple hosting service.",
+      "url": "http://jumpstarter.io"
+    },
+    "citation_reference_8bbb5b68aa6802a380b9d664840a1118": {
+      "type": "citation_reference",
+      "id": "citation_reference_8bbb5b68aa6802a380b9d664840a1118",
+      "path": [
+        "031971305a36beee62ed2941182befca",
+        "content"
+      ],
+      "range": [
+        376,
+        390
+      ],
+      "target": "web_resource_c738bb3c711fc338e499c4d397da1d58"
+    },
+    "6eb1e12a8e478488c2abaa92ed4effc8": {
+      "type": "text",
+      "id": "6eb1e12a8e478488c2abaa92ed4effc8",
+      "source_id": "",
+      "content": "You can easily add remarks and errors by clicking the toggles on the top right of the content toolbar."
+    },
+    "web_resource_c13c6487073dd1f23de7a44437c59e40": {
+      "type": "web_resource",
+      "id": "web_resource_c13c6487073dd1f23de7a44437c59e40",
+      "description": "WinSCP is a free SFTP, SCP and FTP client for Windows.",
+      "url": "http://winscp.net"
+    },
+    "citation_reference_c39a206aebc699ff8aeaf6d5dbfdf2ca": {
+      "type": "citation_reference",
+      "id": "citation_reference_c39a206aebc699ff8aeaf6d5dbfdf2ca",
+      "path": [
+        "c3bc2dd902e6a1f29afccb2ccb688e00",
+        "content"
+      ],
+      "range": [
+        240,
+        246
+      ],
+      "target": "web_resource_c13c6487073dd1f23de7a44437c59e40"
+    },
+    "web_resource_29f60a9851901fddc3b98bc63e52535d": {
+      "type": "web_resource",
+      "id": "web_resource_29f60a9851901fddc3b98bc63e52535d",
+      "description": "Cyberduck is an FTP, SFTP, WebDAV, S3 & OpenStack Swift browser for Mac and Windows.",
+      "url": "http://cyberduck.io"
+    },
+    "citation_reference_03d960922129caf9aef01f8990f5b80e": {
+      "type": "citation_reference",
+      "id": "citation_reference_03d960922129caf9aef01f8990f5b80e",
+      "path": [
+        "c3bc2dd902e6a1f29afccb2ccb688e00",
+        "content"
+      ],
+      "range": [
+        216,
+        225
+      ],
+      "target": "web_resource_29f60a9851901fddc3b98bc63e52535d"
+    },
+    "heading_8c5d5bd3b94ce448710ac0f36e8effff": {
+      "type": "heading",
+      "id": "heading_8c5d5bd3b94ce448710ac0f36e8effff",
+      "source_id": "",
+      "content": "Review",
+      "level": 1
+    },
+    "db2ca106b812ec016f1cb5ace75fb683": {
+      "type": "text",
+      "id": "db2ca106b812ec016f1cb5ace75fb683",
+      "source_id": "",
+      "content": "The Substance Composer supports an offline review workflow. You can send your-document.sdf to a friend and let them review your content. They'll be able to add remarks and corrections, but also edit the text itself."
+    },
+    "ec72d91c3abd3fdb29e437411b4e48c0": {
+      "type": "text",
+      "id": "ec72d91c3abd3fdb29e437411b4e48c0",
+      "source_id": "",
+      "content": "Open the Substance Composer. You should see a blank document."
+    },
+    "heading_69c95f3cfcc27f52ef2af04e7398b7d0": {
+      "type": "heading",
+      "id": "heading_69c95f3cfcc27f52ef2af04e7398b7d0",
+      "source_id": "",
+      "content": "Add structure",
+      "level": 2
+    },
+    "c6e2a7b439a00e068f73357546b9bebd": {
+      "type": "text",
+      "id": "c6e2a7b439a00e068f73357546b9bebd",
+      "source_id": "",
+      "content": "Use the text transform tool on the upper left to turn a paragraph into a heading in order to structure your document. To change the level of a heading you can also use TAB and Shift+TAB keyboard shortcuts."
+    },
+    "67a1ecf64eccbdc6543d5ef31782dd3d": {
+      "type": "text",
+      "id": "67a1ecf64eccbdc6543d5ef31782dd3d",
+      "source_id": "",
+      "content": "The Substance Composer is a modern workspace for creating professional web-first publications. The app works pretty similar to traditional word processors. There is one important difference though: The Substance Composer urges you to focus only on your writing, not on its layout."
+    },
+    "f5aec945d9a1255a623fd59c61157a74": {
+      "type": "text",
+      "id": "f5aec945d9a1255a623fd59c61157a74",
+      "source_id": "",
+      "content": "Move around the cursor using mouse and arrow keys and enter text as you would expect it."
+    },
+    "heading_6a91fbce782d8144b7bf40a276a13e29": {
+      "type": "heading",
+      "id": "heading_6a91fbce782d8144b7bf40a276a13e29",
+      "source_id": "",
+      "content": "Add remarks",
+      "level": 2
+    },
+    "heading_f83e0894cfeb0c32251dc392eeb44b67": {
+      "type": "heading",
+      "id": "heading_f83e0894cfeb0c32251dc392eeb44b67",
+      "source_id": "",
+      "content": "Emphasize your text",
+      "level": 2
+    },
+    "heading_d2824dd68b7a96838598abeee98bf79e": {
+      "type": "heading",
+      "id": "heading_d2824dd68b7a96838598abeee98bf79e",
+      "source_id": "",
+      "content": "Frequently Asked Questions",
+      "level": 1
+    },
+    "heading_08c3a868e881410d2e61bf95e4e36df8": {
+      "type": "heading",
+      "id": "heading_08c3a868e881410d2e61bf95e4e36df8",
+      "source_id": "",
+      "content": "Installation",
+      "level": 1
+    },
+    "5ecacc5903cdf8fb939218ea384462de": {
+      "type": "text",
+      "id": "5ecacc5903cdf8fb939218ea384462de",
+      "source_id": "",
+      "content": "Windows version will be available soon."
+    },
+    "heading_e1a859e5ec21e01ae5d6f067fc72aaac": {
+      "type": "heading",
+      "id": "heading_e1a859e5ec21e01ae5d6f067fc72aaac",
+      "source_id": "",
+      "content": "OSX",
+      "level": 2
+    },
+    "heading_4b506dff71ecf260b0a7c5c8959a6d1c": {
+      "type": "heading",
+      "id": "heading_4b506dff71ecf260b0a7c5c8959a6d1c",
+      "source_id": "",
+      "content": "Windows",
+      "level": 2
+    },
+    "117bddecdbcaf967f63a53f663f8f26d": {
+      "type": "text",
+      "id": "117bddecdbcaf967f63a53f663f8f26d",
+      "source_id": "",
+      "content": "Extract the contents of the zip file and drag Substance Composer.app to your Applications folder."
+    },
+    "code_3f02dab8b14af6aeeaf8b1b9016898f2": {
+      "type": "code",
+      "id": "code_3f02dab8b14af6aeeaf8b1b9016898f2",
+      "path": [
+        "117bddecdbcaf967f63a53f663f8f26d",
+        "content"
+      ],
+      "range": [
+        46,
+        68
+      ]
+    },
+    "heading_f00004f1d1353fcf9165db468da83bd9": {
+      "type": "heading",
+      "id": "heading_f00004f1d1353fcf9165db468da83bd9",
+      "source_id": "",
+      "content": "Known issues",
+      "level": 1
+    },
+    "21592bc5693abc92f529b3cdb06652c7": {
+      "type": "text",
+      "id": "21592bc5693abc92f529b3cdb06652c7",
+      "source_id": "",
+      "content": "In rare conditions there is the possibilty that the displayed content gets out of sync with your input. However, if the Composer starts behaving funky, please first save your article ⌘+S. Then press ⌘+R which reloads the interface. Also, if you can reproduce the error, please send a bug report to support@substance.io. We'll try to address them as soon as possible."
+    },
+    "code_b554299ae8684e4e30cc3d2cb8780b1f": {
+      "type": "code",
+      "id": "code_b554299ae8684e4e30cc3d2cb8780b1f",
+      "path": [
+        "db2ca106b812ec016f1cb5ace75fb683",
+        "content"
+      ],
+      "range": [
+        73,
+        90
+      ]
+    },
+    "strong_1944aa2c1b7295cf583bc7fa32826849": {
+      "type": "strong",
+      "id": "strong_1944aa2c1b7295cf583bc7fa32826849",
+      "path": [
+        "93d91d242c93be5ed3886aec6e153e09",
+        "content"
+      ],
+      "range": [
+        17,
+        35
+      ]
+    },
+    "contributor_93e4377bb7ef2b4b2a2562aa48231dd0": {
+      "type": "contributor",
+      "id": "contributor_93e4377bb7ef2b4b2a2562aa48231dd0",
+      "source_id": "",
+      "name": "Michael Aufreiter",
+      "role": "author",
+      "description": "Michael Aufreiter is the original creator of the Substance platform. He has constantly been working on the idea of creating a new user experience for document editing. In the past he has invented many popular web-technologies (eLife Lens, Prose.io, Data.js, Github.js). ",
+      "image": "contributor_93e4377bb7ef2b4b2a2562aa48231dd0.png",
+      "image_url": "",
+      "email": "",
+      "contribution": ""
+    },
+    "contributor_93e4377bb7ef2b4b2a2562aa48231dd0.png": {
+      "type": "file",
+      "id": "contributor_93e4377bb7ef2b4b2a2562aa48231dd0.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "license": {
+      "type": "license",
+      "id": "license",
+      "name": "Creative Commons Attribution",
+      "code": "cc-by",
+      "version": "3.0",
+      "description": "This article is distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use and redistribution provided that the original author and source are credited.",
+      "url": "http://creativecommons.org/licenses/by/3.0/us/"
+    },
+    "heading_985892b0d5c46962ad1e364f4437d826": {
+      "type": "heading",
+      "id": "heading_985892b0d5c46962ad1e364f4437d826",
+      "source_id": "",
+      "content": "Linux",
+      "level": 2
+    },
+    "e6182870afc07446fa8e90ef9dba1717": {
+      "type": "text",
+      "id": "e6182870afc07446fa8e90ef9dba1717",
+      "source_id": "",
+      "content": "Linux version will be available soon."
+    },
+    "9f25ce0624f78bc45b705fe4404d3bd5": {
+      "type": "text",
+      "id": "9f25ce0624f78bc45b705fe4404d3bd5",
+      "source_id": "",
+      "content": "We provide a limited set of annotations to emphasize your content with different semantics. Use the annotation toolbar on the uper right of the content panel to do so."
+    },
+    "1075422960dada279f49af9186c42206": {
+      "type": "text",
+      "id": "1075422960dada279f49af9186c42206",
+      "source_id": "",
+      "content": "The Composer doesn't support online collaboration yet. However, you can share your Substance documents in a Dropbox or Google Drive folder, so your co-authors and editors can access and modify them."
+    },
+    "27a7b3e7cc005a97610683315626ec4c": {
+      "type": "text",
+      "id": "27a7b3e7cc005a97610683315626ec4c",
+      "source_id": "",
+      "content": "First you need to download and install the Substance Composer on your computer."
+    },
+    "web_resource_2bde075a494ed9bb103d008b7e57f7c3": {
+      "type": "web_resource",
+      "id": "web_resource_2bde075a494ed9bb103d008b7e57f7c3",
+      "description": "Substance Composer Webpage",
+      "url": "http://substance.io/composer"
+    },
+    "citation_reference_d42e3abf028897ee5ef17d1273529d76": {
+      "type": "citation_reference",
+      "id": "citation_reference_d42e3abf028897ee5ef17d1273529d76",
+      "path": [
+        "27a7b3e7cc005a97610683315626ec4c",
+        "content"
+      ],
+      "range": [
+        18,
+        26
+      ],
+      "target": "web_resource_2bde075a494ed9bb103d008b7e57f7c3"
+    },
+    "strong_b36e7f04675ca1656fa1c3049542b577": {
+      "type": "strong",
+      "id": "strong_b36e7f04675ca1656fa1c3049542b577",
+      "path": [
+        "67a1ecf64eccbdc6543d5ef31782dd3d",
+        "content"
+      ],
+      "range": [
+        4,
+        22
+      ]
+    },
+    "emphasis_92e21fd143a01ef3817a6f1930c6b5c6": {
+      "type": "emphasis",
+      "id": "emphasis_92e21fd143a01ef3817a6f1930c6b5c6",
+      "path": [
+        "5ecacc5903cdf8fb939218ea384462de",
+        "content"
+      ],
+      "range": [
+        0,
+        39
+      ]
+    },
+    "emphasis_874318fafbe2107bcb6e471af3b009df": {
+      "type": "emphasis",
+      "id": "emphasis_874318fafbe2107bcb6e471af3b009df",
+      "path": [
+        "e6182870afc07446fa8e90ef9dba1717",
+        "content"
+      ],
+      "range": [
+        0,
+        37
+      ]
+    },
+    "strong_c923f77222a52846564bedd2b7b9aa52": {
+      "type": "strong",
+      "id": "strong_c923f77222a52846564bedd2b7b9aa52",
+      "path": [
+        "21592bc5693abc92f529b3cdb06652c7",
+        "content"
+      ],
+      "range": [
+        199,
+        202
+      ]
+    },
+    "strong_2f33c2d6a1c8e336180bdfbe00d0f19d": {
+      "type": "strong",
+      "id": "strong_2f33c2d6a1c8e336180bdfbe00d0f19d",
+      "path": [
+        "21592bc5693abc92f529b3cdb06652c7",
+        "content"
+      ],
+      "range": [
+        183,
+        186
+      ]
+    },
+    "contributor_68bea766688deac753f8dd51d5f196b4": {
+      "type": "contributor",
+      "id": "contributor_68bea766688deac753f8dd51d5f196b4",
+      "source_id": "",
+      "name": "Oliver Buchtala",
+      "role": "author",
+      "description": "Oliver Buchtala has joined the project in 2012 turning Substance from a platform into a flexible and extensible technology stack. He has worked over 15 years in software development.",
+      "image": "contributor_68bea766688deac753f8dd51d5f196b4.png",
+      "image_url": "",
+      "email": "",
+      "contribution": ""
+    },
+    "strong_7e719c81ecded81a12431d7525a1db2a": {
+      "type": "strong",
+      "id": "strong_7e719c81ecded81a12431d7525a1db2a",
+      "path": [
+        "0b984c53f2647a8765aac0332d103a28",
+        "content"
+      ],
+      "range": [
+        56,
+        70
+      ]
+    },
+    "5c0f3793ce94ec1f128373797f570c9b": {
+      "type": "text",
+      "id": "5c0f3793ce94ec1f128373797f570c9b",
+      "source_id": "",
+      "content": "Click the Figure button in the toolbar which shows a file select dialog. Pick the image you want to add and confirm. The image will be attached to the document. We don't have any restrictions on the size of the image. Just make sure your images aren't too large, so they load fast enough on the web."
+    },
+    "text_a5d3e81229df08030d17c6aacaa7e57c": {
+      "type": "text",
+      "id": "text_a5d3e81229df08030d17c6aacaa7e57c",
+      "source_id": "",
+      "content": "A blank Substance document"
+    },
+    "figure_3ea92db9810fc7403aa2a98a61a04503": {
+      "type": "figure",
+      "id": "figure_3ea92db9810fc7403aa2a98a61a04503",
+      "image": "figure_3ea92db9810fc7403aa2a98a61a04503.png",
+      "caption": "text_a5d3e81229df08030d17c6aacaa7e57c"
+    },
+    "figure_3ea92db9810fc7403aa2a98a61a04503.png": {
+      "type": "file",
+      "id": "figure_3ea92db9810fc7403aa2a98a61a04503.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "emphasis_f3fe3e86fe72477fd04aaeebf837be43": {
+      "type": "emphasis",
+      "id": "emphasis_f3fe3e86fe72477fd04aaeebf837be43",
+      "path": [
+        "9f25ce0624f78bc45b705fe4404d3bd5",
+        "content"
+      ],
+      "range": [
+        43,
+        52
+      ]
+    },
+    "strong_66085be28291e459a2225adb18a1b61d": {
+      "type": "strong",
+      "id": "strong_66085be28291e459a2225adb18a1b61d",
+      "path": [
+        "9f25ce0624f78bc45b705fe4404d3bd5",
+        "content"
+      ],
+      "range": [
+        58,
+        65
+      ]
+    },
+    "subscript_c4884d6e00033311d6c5dacb3ee752cd": {
+      "type": "subscript",
+      "id": "subscript_c4884d6e00033311d6c5dacb3ee752cd",
+      "path": [
+        "9f25ce0624f78bc45b705fe4404d3bd5",
+        "content"
+      ],
+      "range": [
+        71,
+        80
+      ]
+    },
+    "superscript_d398490333d7015d71fe6feba6eb20ec": {
+      "type": "superscript",
+      "id": "superscript_d398490333d7015d71fe6feba6eb20ec",
+      "path": [
+        "9f25ce0624f78bc45b705fe4404d3bd5",
+        "content"
+      ],
+      "range": [
+        81,
+        90
+      ]
+    },
+    "strong_6706ed13de0a898017f6e2842f8fa927": {
+      "type": "strong",
+      "id": "strong_6706ed13de0a898017f6e2842f8fa927",
+      "path": [
+        "c6e2a7b439a00e068f73357546b9bebd",
+        "content"
+      ],
+      "range": [
+        168,
+        171
+      ]
+    },
+    "strong_fe8618ca61b18d093cf67ea1d7b70c25": {
+      "type": "strong",
+      "id": "strong_fe8618ca61b18d093cf67ea1d7b70c25",
+      "path": [
+        "c6e2a7b439a00e068f73357546b9bebd",
+        "content"
+      ],
+      "range": [
+        176,
+        185
+      ]
+    },
+    "25c20a63b36bed9afb56497e0e8b1861": {
+      "type": "text",
+      "id": "25c20a63b36bed9afb56497e0e8b1861",
+      "source_id": "",
+      "content": "At any time, your document can be turned into an interactive web publication. Click the Publish button on the top right to see a preview."
+    },
+    "text_316357e35efd710e9a0852858326e98e": {
+      "type": "text",
+      "id": "text_316357e35efd710e9a0852858326e98e",
+      "source_id": "",
+      "content": "An error annotation highlighting a typo"
+    },
+    "figure_eb2a4104b138b27428b55e8d14fd4c2c": {
+      "type": "figure",
+      "id": "figure_eb2a4104b138b27428b55e8d14fd4c2c",
+      "image": "figure_eb2a4104b138b27428b55e8d14fd4c2c.png",
+      "caption": "text_316357e35efd710e9a0852858326e98e"
+    },
+    "figure_eb2a4104b138b27428b55e8d14fd4c2c.png": {
+      "type": "file",
+      "id": "figure_eb2a4104b138b27428b55e8d14fd4c2c.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "text_b42a5d50c6751c7a9d2ee0a25d9fcc22": {
+      "type": "text",
+      "id": "text_b42a5d50c6751c7a9d2ee0a25d9fcc22",
+      "source_id": "",
+      "content": "In Cyberduck's connection dialog select SFTP, enter your webspace's credentials and hit Connect."
+    },
+    "figure_9da5984a0aae75b9202216795dcd33ad": {
+      "type": "figure",
+      "id": "figure_9da5984a0aae75b9202216795dcd33ad",
+      "image": "figure_9da5984a0aae75b9202216795dcd33ad.png",
+      "caption": "text_b42a5d50c6751c7a9d2ee0a25d9fcc22"
+    },
+    "figure_9da5984a0aae75b9202216795dcd33ad.png": {
+      "type": "file",
+      "id": "figure_9da5984a0aae75b9202216795dcd33ad.png",
+      "version": 2,
+      "content_type": "image/png"
+    },
+    "emphasis_ca03628f67fd4112262afdbd02e26d4b": {
+      "type": "emphasis",
+      "id": "emphasis_ca03628f67fd4112262afdbd02e26d4b",
+      "path": [
+        "text_b42a5d50c6751c7a9d2ee0a25d9fcc22",
+        "content"
+      ],
+      "range": [
+        88,
+        95
+      ]
+    },
+    "170d02610d0ab3a50e2bbdda963ed972": {
+      "type": "text",
+      "id": "170d02610d0ab3a50e2bbdda963ed972",
+      "source_id": "",
+      "content": "First connect to your webspace:"
+    },
+    "f3e87bc120cd6e54cd2f6893190ae616": {
+      "type": "text",
+      "id": "f3e87bc120cd6e54cd2f6893190ae616",
+      "source_id": "",
+      "content": "Once connected you can upload your publication."
+    },
+    "text_c981ecae8e768a6f3f9d15f69e57ced4": {
+      "type": "text",
+      "id": "text_c981ecae8e768a6f3f9d15f69e57ced4",
+      "source_id": "",
+      "content": "In Cyberduck just drag and drop the folder on the application to upload."
+    },
+    "figure_1fa9221b555dafecf3e50335228c230c": {
+      "type": "figure",
+      "id": "figure_1fa9221b555dafecf3e50335228c230c",
+      "image": "figure_1fa9221b555dafecf3e50335228c230c.png",
+      "caption": "text_c981ecae8e768a6f3f9d15f69e57ced4"
+    },
+    "figure_1fa9221b555dafecf3e50335228c230c.png": {
+      "type": "file",
+      "id": "figure_1fa9221b555dafecf3e50335228c230c.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "code_e8c578f92e65b8f99a0c41e7e3e98ca4": {
+      "type": "code",
+      "id": "code_e8c578f92e65b8f99a0c41e7e3e98ca4",
+      "path": [
+        "0b984c53f2647a8765aac0332d103a28",
+        "content"
+      ],
+      "range": [
+        225,
+        251
+      ]
+    },
+    "10aee10309528f0fff072216f76ef33e": {
+      "type": "text",
+      "id": "10aee10309528f0fff072216f76ef33e",
+      "source_id": "",
+      "content": "Finally you should be able to access your publication on the web on http://you.your-webspaceprovider.com/your-publication."
+    },
+    "strong_8f461efe6a1c0f35a179c5c9567cf454": {
+      "type": "strong",
+      "id": "strong_8f461efe6a1c0f35a179c5c9567cf454",
+      "path": [
+        "25c20a63b36bed9afb56497e0e8b1861",
+        "content"
+      ],
+      "range": [
+        88,
+        95
+      ]
+    },
+    "text_e6d9274f847d4a9c73bc72f764383fb6": {
+      "type": "text",
+      "id": "text_e6d9274f847d4a9c73bc72f764383fb6",
+      "source_id": "",
+      "content": "The Publish shows a preview of your final web publication. "
+    },
+    "figure_d57adeabd90c0b6c19a8de8421e9aedd": {
+      "type": "figure",
+      "id": "figure_d57adeabd90c0b6c19a8de8421e9aedd",
+      "image": "figure_d57adeabd90c0b6c19a8de8421e9aedd.png",
+      "caption": "text_e6d9274f847d4a9c73bc72f764383fb6"
+    },
+    "figure_d57adeabd90c0b6c19a8de8421e9aedd.png": {
+      "type": "file",
+      "id": "figure_d57adeabd90c0b6c19a8de8421e9aedd.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "strong_beb26617abc6373b16b7ec41d00b86e3": {
+      "type": "strong",
+      "id": "strong_beb26617abc6373b16b7ec41d00b86e3",
+      "path": [
+        "0b984c53f2647a8765aac0332d103a28",
+        "content"
+      ],
+      "range": [
+        6,
+        26
+      ]
+    },
+    "strong_a7139469647de66c6e86216dfadec4b4": {
+      "type": "strong",
+      "id": "strong_a7139469647de66c6e86216dfadec4b4",
+      "path": [
+        "5c0f3793ce94ec1f128373797f570c9b",
+        "content"
+      ],
+      "range": [
+        10,
+        16
+      ]
+    },
+    "8be9df163cc966365c813a30081ca12e": {
+      "type": "text",
+      "id": "8be9df163cc966365c813a30081ca12e",
+      "source_id": "",
+      "content": "You can adjust the CSS (style.css) and HTML (index.html) to style your publication differently. Just be aware that your custom stylesheet gets overriden if you export an updated version. Soon designers will be able to create templates for the Composer, automating this process."
+    },
+    "heading_479280182170806de6b2696927945092": {
+      "type": "heading",
+      "id": "heading_479280182170806de6b2696927945092",
+      "source_id": "",
+      "content": "Can I customize the output?",
+      "level": 2
+    },
+    "contributor_68bea766688deac753f8dd51d5f196b4.png": {
+      "type": "file",
+      "id": "contributor_68bea766688deac753f8dd51d5f196b4.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "code_3d64b02deb09872e6051ccf62b97fa0e": {
+      "type": "code",
+      "id": "code_3d64b02deb09872e6051ccf62b97fa0e",
+      "path": [
+        "10aee10309528f0fff072216f76ef33e",
+        "content"
+      ],
+      "range": [
+        68,
+        121
+      ]
+    },
+    "a0c848ba24e2af47e152c4906d73ce2d": {
+      "type": "text",
+      "id": "a0c848ba24e2af47e152c4906d73ce2d",
+      "source_id": "",
+      "content": "Use it extensively. Create and host publications. Tell us what you like and what . While the Composer can't cover all usecases we have a very open ear to your feedback. If you can afford it, make a little donation"
+    },
+    "heading_d5d5a604080f2de530669d90fa9e748a": {
+      "type": "heading",
+      "id": "heading_d5d5a604080f2de530669d90fa9e748a",
+      "source_id": "",
+      "content": "How can I help make the Substance Composer better?",
+      "level": 2
+    }
+  }
+}
