@@ -70,9 +70,39 @@ Big Teaser (coming this April)
   padding-top: 30px;
   padding-bottom: 20px;
   color: #fff;
-  font-size: 50px;
+
+  font-size: 30px;
 }
 
+.row p.big-teaser a {
+  color: rgba(255,255,255,1);
+}
+
+.row p.big-teaser a:hover {
+  color: rgba(255,255,255,1);
+}
+
+
+
+/*
+Download button
+---------------------------------------------*/
+
+.download-button {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  background: #222;
+  color: rgba(255,255,255,0.9);
+  font-size: 20px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.download-button:hover {
+  color: rgba(255,255,255,1);
+  background: #000;
+}
 
 
 /*
