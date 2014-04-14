@@ -23,7 +23,7 @@
       ],
       "abstract": "",
       "created_at": "2014-04-05T16:34:01.762Z",
-      "updated_at": "2014-04-11T13:19:01.020Z",
+      "updated_at": "2014-04-13T02:32:01.749Z",
       "published_on": "2014-04-09T16:34:01.763Z"
     },
     "cover": {
@@ -162,7 +162,7 @@
       "type": "text",
       "id": "031971305a36beee62ed2941182befca",
       "source_id": "",
-      "content": "With Substance we want to encourage you to create your own webspace on the Internet where you can put your writing. Today, it is tempting to use hosted services, which are convenient to use. However, by using these 1-click publishing services, you also loose control about your data and give up a fair bit of freedom. If you do not have a webspace yet, we can recommend using jumpstarter.io (it's free for low traffic sites). Watch out for local independent hosting providers in your area, and help keep the Internet equally distributed. After all, any webhosting service works, the choice is on you."
+      "content": "With Substance we want to encourage you to create your own webspace on the Internet where you can put your writing. It is tempting and convenient to use hosted web publishing solutions. However, by using these 1-click publishing services, you also lose control of your data and give up a fair bit of freedom. If you do not have a webspace yet, we recommend using jumpstarter.io (it's free for low traffic sites). Consider supporting local independent hosting providers in your area, and helping to keep the Internet equally distributed. After all, any webhosting service works, the choice is up to you."
     },
     "web_resource_d9bfd593974f5c226169e0f6c34ca985": {
       "type": "web_resource",
@@ -178,8 +178,8 @@
         "content"
       ],
       "range": [
-        297,
-        316
+        288,
+        307
       ],
       "target": "web_resource_d9bfd593974f5c226169e0f6c34ca985"
     },
@@ -194,7 +194,7 @@
       "type": "text",
       "id": "c3bc2dd902e6a1f29afccb2ccb688e00",
       "source_id": "",
-      "content": "Your serious hosting provider most likely supports SFTP for uploading content to your webspace. In order to do so, you need to have a little program for uploading your files. On Mac and windows you can use the free  Cyberduck. There's also WinSCP and many others."
+      "content": "Many webhosting services support secure file transfer protocol (SFTP) for uploading content to your webspace. To upload content in this way, you will need an application which supports SFTP. One such freely availble application for Mac OS X and Windows is Cyberduck. An alternative for Windows users is WinSCP, and there are many others available as well."
     },
     "web_resource_c738bb3c711fc338e499c4d397da1d58": {
       "type": "web_resource",
@@ -210,8 +210,8 @@
         "content"
       ],
       "range": [
-        376,
-        390
+        363,
+        377
       ],
       "target": "web_resource_c738bb3c711fc338e499c4d397da1d58"
     },
@@ -235,8 +235,8 @@
         "content"
       ],
       "range": [
-        240,
-        246
+        303,
+        309
       ],
       "target": "web_resource_c13c6487073dd1f23de7a44437c59e40"
     },
@@ -254,8 +254,8 @@
         "content"
       ],
       "range": [
-        216,
-        225
+        256,
+        265
       ],
       "target": "web_resource_29f60a9851901fddc3b98bc63e52535d"
     },
@@ -270,13 +270,13 @@
       "type": "text",
       "id": "db2ca106b812ec016f1cb5ace75fb683",
       "source_id": "",
-      "content": "The Substance Composer supports an offline review workflow. You can send your-document.sdf to a friend and let them review your content. They'll be able to add remarks and corrections, but also edit the text itself."
+      "content": "Substance Composer supports an offline review workflow. You can send your-document.sdf to a friend and let them review your content. They'll be able to add remarks and corrections, but also edit the text itself."
     },
     "ec72d91c3abd3fdb29e437411b4e48c0": {
       "type": "text",
       "id": "ec72d91c3abd3fdb29e437411b4e48c0",
       "source_id": "",
-      "content": "Open the Substance Composer. You should see a blank document."
+      "content": "Open Substance Composer. You will be greeted by a blank document."
     },
     "heading_69c95f3cfcc27f52ef2af04e7398b7d0": {
       "type": "heading",
@@ -295,13 +295,13 @@
       "type": "text",
       "id": "67a1ecf64eccbdc6543d5ef31782dd3d",
       "source_id": "",
-      "content": "The Substance Composer is a modern workspace for creating professional web-first publications. The app works pretty similar to traditional word processors. There is one important difference though: The Substance Composer urges you to focus only on your writing, not on its layout."
+      "content": "Substance Composer is a modern workspace for creating professional web-first publications. The app works similarly to traditional word processors. There is one important difference though: Substance Composer urges you to focus only on your writing, not on its layout."
     },
     "f5aec945d9a1255a623fd59c61157a74": {
       "type": "text",
       "id": "f5aec945d9a1255a623fd59c61157a74",
       "source_id": "",
-      "content": "Move around the cursor using mouse and arrow keys and enter text as you would expect it."
+      "content": "Move the cursor using mouse or arrow keys, and enter text as you would in any text editing environment."
     },
     "heading_6a91fbce782d8144b7bf40a276a13e29": {
       "type": "heading",
@@ -380,7 +380,7 @@
       "type": "text",
       "id": "21592bc5693abc92f529b3cdb06652c7",
       "source_id": "",
-      "content": "In rare conditions there is the possibilty that the displayed content gets out of sync with your input. However, if the Composer starts behaving funky, please first save your article ⌘+S. Then press ⌘+R which reloads the interface. Also, if you can reproduce the error, please send a bug report to support@substance.io. We'll try to address them as soon as possible."
+      "content": "In rare conditions there is the possibilty that the displayed content gets out of sync with your input. If Substance Composer exhibites this behavior, please first save your article using ⌘+S. Then, press ⌘+R to reload the interface. If you do encounter this issue and would like to detail the steps taken to reproduce it, please send a bug report to support@substance.io. We'll try to address them as soon as possible."
     },
     "code_b554299ae8684e4e30cc3d2cb8780b1f": {
       "type": "code",
@@ -390,8 +390,8 @@
         "content"
       ],
       "range": [
-        73,
-        90
+        69,
+        86
       ]
     },
     "strong_1944aa2c1b7295cf583bc7fa32826849": {
@@ -456,7 +456,7 @@
       "type": "text",
       "id": "1075422960dada279f49af9186c42206",
       "source_id": "",
-      "content": "The Composer doesn't support online collaboration yet. However, you can share your Substance documents in a Dropbox or Google Drive folder, so your co-authors and editors can access and modify them."
+      "content": "Sunstance Composer doesn't yet support online collaboration. However, you can share documents in a Dropbox or Google Drive folder, so that your co-authors and editors can access and modify them."
     },
     "27a7b3e7cc005a97610683315626ec4c": {
       "type": "text",
@@ -491,8 +491,8 @@
         "content"
       ],
       "range": [
-        4,
-        22
+        0,
+        18
       ]
     },
     "emphasis_92e21fd143a01ef3817a6f1930c6b5c6": {
@@ -527,8 +527,8 @@
         "content"
       ],
       "range": [
-        199,
-        202
+        205,
+        208
       ]
     },
     "strong_2f33c2d6a1c8e336180bdfbe00d0f19d": {
@@ -539,8 +539,8 @@
         "content"
       ],
       "range": [
-        183,
-        186
+        188,
+        191
       ]
     },
     "contributor_68bea766688deac753f8dd51d5f196b4": {
@@ -571,7 +571,7 @@
       "type": "text",
       "id": "5c0f3793ce94ec1f128373797f570c9b",
       "source_id": "",
-      "content": "Click the Figure button in the toolbar which shows a file select dialog. Pick the image you want to add and confirm. The image will be attached to the document. We don't have any restrictions on the size of the image. Just make sure your images aren't too large, so they load fast enough on the web."
+      "content": "Click the Figure button in the toolbar which shows a file select dialog. Pick the image you want to add and confirm. The image will be attached to the document. We don't have any restrictions on the size of the image. Just make sure your images aren't too large, so they load fast enough once published to the web."
     },
     "text_a5d3e81229df08030d17c6aacaa7e57c": {
       "type": "text",
@@ -667,7 +667,7 @@
       "type": "text",
       "id": "25c20a63b36bed9afb56497e0e8b1861",
       "source_id": "",
-      "content": "At any time, your document can be turned into an interactive web publication. Click the Publish button on the top right to see a preview."
+      "content": "Your document can be turned into an interactive web publication at any time. Click Publish on the top right to see a preview."
     },
     "text_316357e35efd710e9a0852858326e98e": {
       "type": "text",
@@ -773,8 +773,8 @@
         "content"
       ],
       "range": [
-        88,
-        95
+        83,
+        90
       ]
     },
     "text_e6d9274f847d4a9c73bc72f764383fb6": {
@@ -823,7 +823,7 @@
       "type": "text",
       "id": "8be9df163cc966365c813a30081ca12e",
       "source_id": "",
-      "content": "You can adjust the CSS (style.css) and HTML (index.html) to style your publication differently. Just be aware that your custom stylesheet gets overriden once you export an updated version to the same folder. Soon designers will be able to create templates for the Composer, automating this process."
+      "content": "You can modify the CSS (style.css) and HTML (index.html) to add your desired style to a publication. Just be aware that your custom styles are overridden when you export an updated version to the same folder. Designers will soon be able to automate this process by creating templates for Substance Composer."
     },
     "heading_479280182170806de6b2696927945092": {
       "type": "heading",
@@ -854,7 +854,7 @@
       "type": "text",
       "id": "a0c848ba24e2af47e152c4906d73ce2d",
       "source_id": "",
-      "content": "Use it extensively. Create and host publications. Tell us what you like and what . While the Composer can't cover all usecases we have a very open ear to your feedback. If you can afford it, make a little donation to support the development of the app. We accept Paypal (contribute@substance.io) and bank transfers. Ask for our bank details at info@substance.io."
+      "content": "Use it extensively. Create and host publications. Tell us what you like and what could be improved. While Substance Composer can't cover all use cases we certainly value your feedback. If you can afford it, please consider making a donation to support development of Substance Composer. We accept Paypal (contribute@substance.io) and bank transfers. Ask for our bank details by emailing info@substance.io."
     },
     "heading_d5d5a604080f2de530669d90fa9e748a": {
       "type": "heading",
