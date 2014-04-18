@@ -1,0 +1,415 @@
+{
+  "id": "4583fbd54d7020ddebd625fe6018c52b",
+  "schema": [
+    "substance-article",
+    "0.4.0"
+  ],
+  "nodes": {
+    "document": {
+      "id": "document",
+      "type": "document",
+      "views": [
+        "content",
+        "figures",
+        "citations"
+      ],
+      "license": "licence",
+      "guid": "4583fbd54d7020ddebd625fe6018c52b",
+      "creator": "",
+      "title": "How to create a custom template for Substance",
+      "authors": [
+        "contributor_66a9ce0d804fdf8b4540a5d2de83fcfb"
+      ],
+      "abstract": "",
+      "created_at": "2014-04-18T20:52:39.686Z",
+      "updated_at": "2014-04-18T23:09:45.682Z",
+      "published_on": "2014-04-18T20:52:39.686Z"
+    },
+    "cover": {
+      "id": "cover",
+      "type": "cover",
+      "authors": []
+    },
+    "content": {
+      "type": "view",
+      "id": "content",
+      "nodes": [
+        "cover",
+        "text1",
+        "3a5e6ba4d29b72ae3c4bf4551348ba86",
+        "heading_51259c7a289b837048d82fdfeb9e1c5d",
+        "386b16fc6e92d18bb4b7ed42ab960835",
+        "c6e6c37277d396b2e5cde5dce54d2954",
+        "0555cc280eee1f4aedcaafcc7cc0de97",
+        "d2ee427eda464976dd191837ba91e864",
+        "code_block_370debda590cd0182d7107364e9a9089",
+        "text_948b83972846e4c47c71ffddca108f16",
+        "heading_b5acf91b94f2ca8a22c81cc21ec1c273",
+        "e9ea83b8a6f32e82ed2c169bb0e4d7a9",
+        "code_block_700f4fbfab8b89ac27f292b0684cd4a8",
+        "d65cb065c1eb4cf72f4534560eb24238",
+        "heading_563418a05f5cf49583610c36a078dffd",
+        "e3cc3b152c523811040b23c232fdc65f",
+        "heading_fe8a6d7a0767c17c9eefba2b70f7b675",
+        "48e90e459dfa83e0b12d271008b0ae22",
+        "code_block_543f9811d46e2ba3c013882fd5979b7a",
+        "text_c01092686c7702135f68b4c14372b3b2"
+      ]
+    },
+    "figures": {
+      "type": "view",
+      "id": "figures",
+      "nodes": []
+    },
+    "citations": {
+      "type": "view",
+      "id": "citations",
+      "nodes": [
+        "web_resource_ed7112854926f625b463e4ca6985adb3",
+        "web_resource_18032466c8b060914abc47643d6fe9e3"
+      ]
+    },
+    "remarks": {
+      "type": "view",
+      "id": "remarks",
+      "nodes": []
+    },
+    "errors": {
+      "type": "view",
+      "id": "errors",
+      "nodes": []
+    },
+    "info": {
+      "type": "view",
+      "id": "info",
+      "nodes": [
+        "publication_info",
+        "contributor_66a9ce0d804fdf8b4540a5d2de83fcfb"
+      ]
+    },
+    "text1": {
+      "type": "text",
+      "id": "text1",
+      "content": "With Substance Composer Beta 2 users can create their own templates to customize the output of the Substance Composer."
+    },
+    "publication_info": {
+      "id": "publication_info",
+      "type": "publication_info"
+    },
+    "contributor_66a9ce0d804fdf8b4540a5d2de83fcfb": {
+      "type": "contributor",
+      "id": "contributor_66a9ce0d804fdf8b4540a5d2de83fcfb",
+      "source_id": "",
+      "name": "Michael Aufreiter",
+      "role": "author",
+      "description": "As the initiator of Substance, Michael coordinates the project and leads UI/UX development. He is a passionate open source commiter since many years. Notable projects include Prose, a visual interface for managing content on GitHub, eLife Lens and of course Substance.",
+      "image": "contributor_66a9ce0d804fdf8b4540a5d2de83fcfb.png",
+      "image_url": "",
+      "email": "",
+      "contribution": ""
+    },
+    "heading_51259c7a289b837048d82fdfeb9e1c5d": {
+      "type": "heading",
+      "id": "heading_51259c7a289b837048d82fdfeb9e1c5d",
+      "source_id": "",
+      "content": "Setup",
+      "level": 1
+    },
+    "386b16fc6e92d18bb4b7ed42ab960835": {
+      "type": "text",
+      "id": "386b16fc6e92d18bb4b7ed42ab960835",
+      "source_id": "",
+      "content": "A good way to start is to download the default set of templates, and use that as a basis for your own template."
+    },
+    "web_resource_ed7112854926f625b463e4ca6985adb3": {
+      "type": "web_resource",
+      "id": "web_resource_ed7112854926f625b463e4ca6985adb3",
+      "description": "Substance Default Templates",
+      "url": "https://github.com/substance/templates/archive/v0.1.0.zip"
+    },
+    "citation_reference_876f2980186c1e244e66e5e51ab99bcb": {
+      "type": "citation_reference",
+      "id": "citation_reference_876f2980186c1e244e66e5e51ab99bcb",
+      "path": [
+        "386b16fc6e92d18bb4b7ed42ab960835",
+        "content"
+      ],
+      "range": [
+        26,
+        34
+      ],
+      "target": "web_resource_ed7112854926f625b463e4ca6985adb3"
+    },
+    "c6e6c37277d396b2e5cde5dce54d2954": {
+      "type": "text",
+      "id": "c6e6c37277d396b2e5cde5dce54d2954",
+      "source_id": "",
+      "content": "Find the Substance Composer Application Folder at ~/Library/Application Support/Substance Composer. Create a templates folder if it doesn't already exist."
+    },
+    "code_a4e6afe1f8673fb4f9f1af1051b40f75": {
+      "type": "code",
+      "id": "code_a4e6afe1f8673fb4f9f1af1051b40f75",
+      "path": [
+        "c6e6c37277d396b2e5cde5dce54d2954",
+        "content"
+      ],
+      "range": [
+        50,
+        98
+      ]
+    },
+    "code_e84bd00e535206a27c2414945fa924c7": {
+      "type": "code",
+      "id": "code_e84bd00e535206a27c2414945fa924c7",
+      "path": [
+        "c6e6c37277d396b2e5cde5dce54d2954",
+        "content"
+      ],
+      "range": [
+        109,
+        118
+      ]
+    },
+    "0555cc280eee1f4aedcaafcc7cc0de97": {
+      "type": "text",
+      "id": "0555cc280eee1f4aedcaafcc7cc0de97",
+      "source_id": "",
+      "content": "Put your custom template there. Use a machine-readable name for the folder. E.g. ocean-blue."
+    },
+    "d2ee427eda464976dd191837ba91e864": {
+      "type": "text",
+      "id": "d2ee427eda464976dd191837ba91e864",
+      "source_id": "",
+      "content": "Make sure you have specified a template configuration in a config.json file."
+    },
+    "web_resource_18032466c8b060914abc47643d6fe9e3": {
+      "type": "web_resource",
+      "id": "web_resource_18032466c8b060914abc47643d6fe9e3",
+      "description": "Substance Composer Beta",
+      "url": "http://substance.io/beta"
+    },
+    "citation_reference_cb3e48ac0db54a2db816342598f35a88": {
+      "type": "citation_reference",
+      "id": "citation_reference_cb3e48ac0db54a2db816342598f35a88",
+      "path": [
+        "text1",
+        "content"
+      ],
+      "range": [
+        5,
+        30
+      ],
+      "target": "web_resource_18032466c8b060914abc47643d6fe9e3"
+    },
+    "code_d69b401527b52732250c0af457479084": {
+      "type": "code",
+      "id": "code_d69b401527b52732250c0af457479084",
+      "path": [
+        "0555cc280eee1f4aedcaafcc7cc0de97",
+        "content"
+      ],
+      "range": [
+        81,
+        91
+      ]
+    },
+    "code_block_370debda590cd0182d7107364e9a9089": {
+      "type": "code_block",
+      "id": "code_block_370debda590cd0182d7107364e9a9089",
+      "source_id": "",
+      "content": "{\n  \"id\": \"ocean-blue\",\n  \"name\": \"Ocean Blue\",\n  \"params\": {\n    \"include_toc\": {\n      \"type\": \"boolean\",\n      \"name\": \"Table of Contents\",\n      \"default\": false\n    },\n    ...\n  }\n}"
+    },
+    "text_948b83972846e4c47c71ffddca108f16": {
+      "type": "text",
+      "id": "text_948b83972846e4c47c71ffddca108f16",
+      "source_id": "",
+      "content": "Substance templates do support params, which are exposed in the Composer user interface as checkboxes. E.g. you can let the user choose if they want to include a Table of Contents with their publication or not."
+    },
+    "publish_settings.json": {
+      "type": "file",
+      "id": "publish_settings.json",
+      "version": 1,
+      "content_type": "application/json"
+    },
+    "code_2e74088214acdc13039f3bfb15d47d0f": {
+      "type": "code",
+      "id": "code_2e74088214acdc13039f3bfb15d47d0f",
+      "path": [
+        "d2ee427eda464976dd191837ba91e864",
+        "content"
+      ],
+      "range": [
+        59,
+        70
+      ]
+    },
+    "3a5e6ba4d29b72ae3c4bf4551348ba86": {
+      "type": "text",
+      "id": "3a5e6ba4d29b72ae3c4bf4551348ba86",
+      "source_id": "",
+      "content": "Note: This guide is a work in progress."
+    },
+    "emphasis_9a3ebe67aa369a907af136a07ffcaf0f": {
+      "type": "emphasis",
+      "id": "emphasis_9a3ebe67aa369a907af136a07ffcaf0f",
+      "path": [
+        "3a5e6ba4d29b72ae3c4bf4551348ba86",
+        "content"
+      ],
+      "range": [
+        0,
+        39
+      ]
+    },
+    "strong_5824eed610b1fa5cb8c537973e398b92": {
+      "type": "strong",
+      "id": "strong_5824eed610b1fa5cb8c537973e398b92",
+      "path": [
+        "text_948b83972846e4c47c71ffddca108f16",
+        "content"
+      ],
+      "range": [
+        31,
+        37
+      ]
+    },
+    "emphasis_1f794988a342e77c38d73afac98c7758": {
+      "type": "emphasis",
+      "id": "emphasis_1f794988a342e77c38d73afac98c7758",
+      "path": [
+        "text_948b83972846e4c47c71ffddca108f16",
+        "content"
+      ],
+      "range": [
+        162,
+        179
+      ]
+    },
+    "heading_563418a05f5cf49583610c36a078dffd": {
+      "type": "heading",
+      "id": "heading_563418a05f5cf49583610c36a078dffd",
+      "source_id": "",
+      "content": "CSS and images",
+      "level": 1
+    },
+    "e3cc3b152c523811040b23c232fdc65f": {
+      "type": "text",
+      "id": "e3cc3b152c523811040b23c232fdc65f",
+      "source_id": "",
+      "content": "Just put your custom css files into the assets folder. They'll be exposed in the root of the generated page, so you can embed them with a link tag as usual (see example above). Same goes for images. Keep the assets folder flat, as we do not support sub-folders yet. Soon to come."
+    },
+    "e9ea83b8a6f32e82ed2c169bb0e4d7a9": {
+      "type": "text",
+      "id": "e9ea83b8a6f32e82ed2c169bb0e4d7a9",
+      "source_id": "",
+      "content": "Customize the main layout in nodes/document.html. You can put any HTML in there along with EJS for generated content. Here's a very basic example."
+    },
+    "code_cfb518f7f9a7d3527db4b32b991e19da": {
+      "type": "code",
+      "id": "code_cfb518f7f9a7d3527db4b32b991e19da",
+      "path": [
+        "e9ea83b8a6f32e82ed2c169bb0e4d7a9",
+        "content"
+      ],
+      "range": [
+        29,
+        48
+      ]
+    },
+    "code_block_700f4fbfab8b89ac27f292b0684cd4a8": {
+      "type": "code_block",
+      "id": "code_block_700f4fbfab8b89ac27f292b0684cd4a8",
+      "source_id": "",
+      "content": "<html>\n<head>\n<link href=\"style.css\" rel=\"stylesheet\" />\n<title><%= doc.title %></title>\n</head>\n<body>\n<%= render(doc) %>\n</body>\n</html>\n"
+    },
+    "d65cb065c1eb4cf72f4534560eb24238": {
+      "type": "text",
+      "id": "d65cb065c1eb4cf72f4534560eb24238",
+      "source_id": "",
+      "content": "Note, that we expose a render function, which inserts the contents of the document at that position."
+    },
+    "emphasis_cb42f115cf4c1bf90bfb3bf603d67a35": {
+      "type": "emphasis",
+      "id": "emphasis_cb42f115cf4c1bf90bfb3bf603d67a35",
+      "path": [
+        "e9ea83b8a6f32e82ed2c169bb0e4d7a9",
+        "content"
+      ],
+      "range": [
+        66,
+        70
+      ]
+    },
+    "emphasis_3a507ac26f1432f0e8616126e49a3952": {
+      "type": "emphasis",
+      "id": "emphasis_3a507ac26f1432f0e8616126e49a3952",
+      "path": [
+        "e9ea83b8a6f32e82ed2c169bb0e4d7a9",
+        "content"
+      ],
+      "range": [
+        91,
+        94
+      ]
+    },
+    "heading_b5acf91b94f2ca8a22c81cc21ec1c273": {
+      "type": "heading",
+      "id": "heading_b5acf91b94f2ca8a22c81cc21ec1c273",
+      "source_id": "",
+      "content": "Customize the main layout",
+      "level": 1
+    },
+    "heading_fe8a6d7a0767c17c9eefba2b70f7b675": {
+      "type": "heading",
+      "id": "heading_fe8a6d7a0767c17c9eefba2b70f7b675",
+      "source_id": "",
+      "content": "Customize Markup of indidual node types",
+      "level": 1
+    },
+    "48e90e459dfa83e0b12d271008b0ae22": {
+      "type": "text",
+      "id": "48e90e459dfa83e0b12d271008b0ae22",
+      "source_id": "",
+      "content": "Most of the time the default implementations of node templates in combination with CSS will suffice, but you can certainly customize their markup too. E.g. here's an example implementation of the figure.html template."
+    },
+    "code_a1647c6195e6f609e01735031490afe6": {
+      "type": "code",
+      "id": "code_a1647c6195e6f609e01735031490afe6",
+      "path": [
+        "48e90e459dfa83e0b12d271008b0ae22",
+        "content"
+      ],
+      "range": [
+        196,
+        207
+      ]
+    },
+    "code_block_543f9811d46e2ba3c013882fd5979b7a": {
+      "type": "code_block",
+      "id": "code_block_543f9811d46e2ba3c013882fd5979b7a",
+      "source_id": "",
+      "content": "<div id=\"<%= node.id %>\" class=\"content-node figure\">\n  <div class=\"content\">\n    <a href=\"<%= node.image %>\" target=\"_blank\">\n      <img src=\"<%= node.image %>\">\n    </a>\n    <% if (node.caption) { %>\n    <div class=\"caption\">\n      <%= annotated([node.caption, 'content']) %>\n    </div>\n    <% } %>\n  </div>\n</div>"
+    },
+    "text_c01092686c7702135f68b4c14372b3b2": {
+      "type": "text",
+      "id": "text_c01092686c7702135f68b4c14372b3b2",
+      "source_id": "",
+      "content": ""
+    },
+    "license": {
+      "type": "license",
+      "id": "license",
+      "name": "Creative Commons Attribution License",
+      "code": "cc-by",
+      "version": "3.0",
+      "description": "This article is distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use and redistribution provided that the original author and source are credited.",
+      "url": "http://creativecommons.org/licenses/by/3.0/us/"
+    },
+    "contributor_66a9ce0d804fdf8b4540a5d2de83fcfb.png": {
+      "type": "file",
+      "id": "contributor_66a9ce0d804fdf8b4540a5d2de83fcfb.png",
+      "version": 1,
+      "content_type": "image/png"
+    }
+  }
+}
