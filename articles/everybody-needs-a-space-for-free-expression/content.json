@@ -23,7 +23,7 @@
       ],
       "abstract": "",
       "created_at": "2014-04-03T17:53:30.857Z",
-      "updated_at": "2014-04-03T20:23:22.813Z",
+      "updated_at": "2014-04-19T00:00:04.096Z",
       "published_on": "2014-03-31T19:36:03.461Z"
     },
     "cover": {
@@ -50,8 +50,7 @@
         "34b9f8080808f468d9f39362ae0f96c4",
         "7d8a2062b7ddf82753ed8c6935fb9bdb",
         "a09c2ab25d8c1ca95715119b0df5365e",
-        "7d4a175d06019b5a0b28026f3bcdfb85",
-        "ad839d28cd791a29e93f9d55eefba310"
+        "7d4a175d06019b5a0b28026f3bcdfb85"
       ]
     },
     "figures": {
@@ -63,13 +62,12 @@
       "type": "view",
       "id": "citations",
       "nodes": [
-        "webpage_ad197568e44a4ef0d2a26a0c4522b2db",
-        "webpage_c3eac51c51a05e87f3e20fa09cb62bcc",
-        "webpage_17339b0050645aae69017e4d20e8f254",
-        "webpage_5df9864a061677acc5d04082fa68d936",
-        "webpage_6e87c10c9ff1f5ee3b1520fdf9d7b32f",
-        "webpage_fdab1144fb227de180258a1479480a6e",
-        "webpage_ebcdd44005bb7d70240a5c0b692a62d6"
+        "web_resource_ad197568e44a4ef0d2a26a0c4522b2db",
+        "web_resource_c3eac51c51a05e87f3e20fa09cb62bcc",
+        "web_resource_17339b0050645aae69017e4d20e8f254",
+        "web_resource_5df9864a061677acc5d04082fa68d936",
+        "web_resource_6e87c10c9ff1f5ee3b1520fdf9d7b32f",
+        "web_resource_ebcdd44005bb7d70240a5c0b692a62d6"
       ]
     },
     "remarks": {
@@ -150,9 +148,9 @@
       "version": 1,
       "content_type": "image/png"
     },
-    "webpage_ad197568e44a4ef0d2a26a0c4522b2db": {
-      "type": "webpage",
-      "id": "webpage_ad197568e44a4ef0d2a26a0c4522b2db",
+    "web_resource_ad197568e44a4ef0d2a26a0c4522b2db": {
+      "type": "web_resource",
+      "id": "web_resource_ad197568e44a4ef0d2a26a0c4522b2db",
       "description": "Tim Berners-Lee: we need to re-decentralise the web",
       "url": "http://www.wired.co.uk/news/archive/2014-02/06/tim-berners-lee-reclaim-the-web"
     },
@@ -167,7 +165,7 @@
         224,
         235
       ],
-      "target": "webpage_ad197568e44a4ef0d2a26a0c4522b2db"
+      "target": "web_resource_ad197568e44a4ef0d2a26a0c4522b2db"
     },
     "85d4456ea1a03586aa0f7e1ced3597e7": {
       "type": "text",
@@ -199,9 +197,9 @@
       "source_id": "",
       "content": "We want to strengthen the vision of a democratic internet by realizing it as a decentralized system. Users define who is allowed to access their content, since it's their responsibility. Moreover, mirroring of published data helps to overcome censorship."
     },
-    "webpage_c3eac51c51a05e87f3e20fa09cb62bcc": {
-      "type": "webpage",
-      "id": "webpage_c3eac51c51a05e87f3e20fa09cb62bcc",
+    "web_resource_c3eac51c51a05e87f3e20fa09cb62bcc": {
+      "type": "web_resource",
+      "id": "web_resource_c3eac51c51a05e87f3e20fa09cb62bcc",
       "description": "Centralised vs. Decentralised Publishing",
       "url": "https://medium.com/p/626055376c81"
     },
@@ -216,11 +214,11 @@
         79,
         99
       ],
-      "target": "webpage_c3eac51c51a05e87f3e20fa09cb62bcc"
+      "target": "web_resource_c3eac51c51a05e87f3e20fa09cb62bcc"
     },
-    "webpage_17339b0050645aae69017e4d20e8f254": {
-      "type": "webpage",
-      "id": "webpage_17339b0050645aae69017e4d20e8f254",
+    "web_resource_17339b0050645aae69017e4d20e8f254": {
+      "type": "web_resource",
+      "id": "web_resource_17339b0050645aae69017e4d20e8f254",
       "description": "Substance is an open platform for digital publishingbuilt on top of a web-first document format.",
       "url": "http://substance.io"
     },
@@ -235,7 +233,7 @@
         5,
         14
       ],
-      "target": "webpage_17339b0050645aae69017e4d20e8f254"
+      "target": "web_resource_17339b0050645aae69017e4d20e8f254"
     },
     "34b9f8080808f468d9f39362ae0f96c4": {
       "type": "text",
@@ -336,9 +334,9 @@
       "source_id": "",
       "content": "With Substance we are providing a technical foundation for solving these problems. It is a purely browser-based solution for document creation, ready to be integrated into various publication scenarios. We developed the Substance Composer, a web-based editing environment and eLife Lens an interactive display for scientific literature. Now we want to complement our solution with a decentralized hub for collaboration."
     },
-    "webpage_5df9864a061677acc5d04082fa68d936": {
-      "type": "webpage",
-      "id": "webpage_5df9864a061677acc5d04082fa68d936",
+    "web_resource_5df9864a061677acc5d04082fa68d936": {
+      "type": "web_resource",
+      "id": "web_resource_5df9864a061677acc5d04082fa68d936",
       "description": "The Substance Composer lets users create and share professional web-first publications.",
       "url": "http://substance.io/composer"
     },
@@ -353,11 +351,11 @@
         220,
         238
       ],
-      "target": "webpage_5df9864a061677acc5d04082fa68d936"
+      "target": "web_resource_5df9864a061677acc5d04082fa68d936"
     },
-    "webpage_6e87c10c9ff1f5ee3b1520fdf9d7b32f": {
-      "type": "webpage",
-      "id": "webpage_6e87c10c9ff1f5ee3b1520fdf9d7b32f",
+    "web_resource_6e87c10c9ff1f5ee3b1520fdf9d7b32f": {
+      "type": "web_resource",
+      "id": "web_resource_6e87c10c9ff1f5ee3b1520fdf9d7b32f",
       "description": "A novel way of viewing research.",
       "url": "http://lens.elifesciences.org"
     },
@@ -372,7 +370,7 @@
         276,
         286
       ],
-      "target": "webpage_6e87c10c9ff1f5ee3b1520fdf9d7b32f"
+      "target": "web_resource_6e87c10c9ff1f5ee3b1520fdf9d7b32f"
     },
     "7d8a2062b7ddf82753ed8c6935fb9bdb": {
       "type": "text",
@@ -403,7 +401,7 @@
         531,
         540
       ],
-      "target": "webpage_17339b0050645aae69017e4d20e8f254"
+      "target": "web_resource_17339b0050645aae69017e4d20e8f254"
     },
     "emphasis_42cdd25846792f34e3e32629fb457375": {
       "type": "emphasis",
@@ -441,34 +439,9 @@
       "source_id": "",
       "content": "Michael and Oliver"
     },
-    "ad839d28cd791a29e93f9d55eefba310": {
-      "type": "text",
-      "id": "ad839d28cd791a29e93f9d55eefba310",
-      "source_id": "",
-      "content": "Update: We pitched our idea to the Knight News Challenge. You can add comments and applaude the proposal."
-    },
-    "webpage_fdab1144fb227de180258a1479480a6e": {
-      "type": "webpage",
-      "id": "webpage_fdab1144fb227de180258a1479480a6e",
-      "description": "Knight News Challenge Entry",
-      "url": "https://www.newschallenge.org/challenge/2014/feedback-review/substance-network"
-    },
-    "citation_reference_7fb2e5fac73b4623d5105b0f73fa67d0": {
-      "type": "citation_reference",
-      "id": "citation_reference_7fb2e5fac73b4623d5105b0f73fa67d0",
-      "path": [
-        "ad839d28cd791a29e93f9d55eefba310",
-        "content"
-      ],
-      "range": [
-        35,
-        56
-      ],
-      "target": "webpage_fdab1144fb227de180258a1479480a6e"
-    },
-    "webpage_ebcdd44005bb7d70240a5c0b692a62d6": {
-      "type": "webpage",
-      "id": "webpage_ebcdd44005bb7d70240a5c0b692a62d6",
+    "web_resource_ebcdd44005bb7d70240a5c0b692a62d6": {
+      "type": "web_resource",
+      "id": "web_resource_ebcdd44005bb7d70240a5c0b692a62d6",
       "description": "Substance Contact Email",
       "url": "mailto:info@substance.io"
     },
@@ -483,7 +456,13 @@
         296,
         313
       ],
-      "target": "webpage_ebcdd44005bb7d70240a5c0b692a62d6"
+      "target": "web_resource_ebcdd44005bb7d70240a5c0b692a62d6"
+    },
+    "publish_settings.json": {
+      "type": "file",
+      "id": "publish_settings.json",
+      "version": 1,
+      "content_type": "application/json"
     }
   }
 }
