@@ -24,18 +24,31 @@
       $(function() {
         // Download button switcher
         $('.choose-os.windows').click(function(e) {
-          $('.choose-os.osx').removeClass('active');
+          $('.choose-os').removeClass('active');
           $('.choose-os.windows').addClass('active');
-          $('.download-button.osx').removeClass('active');
+            
+          $('.download-button').removeClass('active');
           $('.download-button.windows').addClass('active');
           e.preventDefault();
         });
 
         $('.choose-os.osx').click(function(e) {
+          $('.choose-os').removeClass('active');
           $('.choose-os.osx').addClass('active');
-          $('.choose-os.windows').removeClass('active');
+            
+          $('.download-button').removeClass('active');
           $('.download-button.osx').addClass('active');
-          $('.download-button.windows').removeClass('active');
+          
+          e.preventDefault();
+        });
+
+        $('.choose-os.ubuntu').click(function(e) {
+          $('.choose-os').removeClass('active');
+          $('.choose-os.ubuntu').addClass('active');
+            
+          $('.download-button').removeClass('active');
+          $('.download-button.ubuntu').addClass('active');
+          
           e.preventDefault();
         });
       });
@@ -169,7 +182,8 @@
           <div class="col-md-12 text-center">
               <p>
                 <a href="#" class="choose-os osx active">Mac OSX</a>
-                <a href="#" class="choose-os windows">Windows</a><br/><br/>
+                <a href="#" class="choose-os windows">Windows</a>
+                <a href="#" class="choose-os ubuntu">Ubuntu</a><br/><br/>
               </p>
               <a class="download-button active osx" href="https://github.com/substance/composer/releases/download/v1.0.0-beta2/Substance-Composer-Beta-2.tar.gz">
                 <div class="label">Download Beta 2</div>
@@ -179,6 +193,11 @@
               <a class="download-button windows" href="https://github.com/substance/composer/releases/download/v1.0.0-beta2/Substance-Composer-Beta-2-Setup.exe">
                 <div class="label">Download Beta 2</div>
                 <div class="fileinfo">Substance-Composer-Beta-2-Setup.exe (25.9MB)</div>
+              </a>
+
+              <a class="download-button ubuntu" href="#">
+                <div class="label">Coming soon ...</div>
+                <div class="fileinfo">&nbsp;</div>
               </a>
 
             <p class="" style="font-size: 13px;">Now with <a href="/composer/template-development">custom templates</a>!</p>
