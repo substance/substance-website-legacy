@@ -5,6 +5,8 @@
     <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
 
+    
+
     <link href='../styles/font-awesome.css' rel='stylesheet' type='text/css'/>
 
     <meta name="description" content="Whether you're a journalist, writer or scientist, the Substance Composer<br/> is the tool to create and self-publish professional web-first publications."/>
@@ -15,8 +17,34 @@
 
     <link href='../styles/bootstrap.css' rel='stylesheet' type='text/css'/>
     <link href='../styles/substance.css' rel='stylesheet' type='text/css'/>
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+
+    <script>
+
+      $(function() {
+        // Download button switcher
+        $('.choose-os.windows').click(function(e) {
+          $('.choose-os.osx').removeClass('active');
+          $('.choose-os.windows').addClass('active');
+          $('.download-button.osx').removeClass('active');
+          $('.download-button.windows').addClass('active');
+          e.preventDefault();
+        });
+
+        $('.choose-os.osx').click(function(e) {
+          $('.choose-os.osx').addClass('active');
+          $('.choose-os.windows').removeClass('active');
+          $('.download-button.osx').addClass('active');
+          $('.download-button.windows').removeClass('active');
+          e.preventDefault();
+        });
+      });
+
+    </script>
+
 
   </head>
+
   <body>
 
     <div class="section darker header">
@@ -118,7 +146,7 @@
           <div class="col-md-12">
             <h3 class="text-center" id="contribute">Contribute</h3>
             <p class="text-center">
-              Substance is being developed since 2010 and has been, for the most part, a voluntary effort. We really need your help! First, spread the word about Substance. Second, consider a donation to support core development. You can either use Paypal (see link below) or do a bank transfer. Send us an email to <a href="mailto:contribute@substance.io">contribute@substance.io</a>. We will send you an invoice and provide you with bank details. It is also possible to micro-fund specific features. Talk to us!<br/><br/>
+              Substance is being developed since 2010 and has been, for the most part, a voluntary effort. We really need your help now. Please, spread the word about Substance and consider a donation if you like our platform. You can either use Paypal (see link below) or do a bank transfer. Send us an email to <a href="mailto:contribute@substance.io">contribute@substance.io</a>. We will send you an invoice and provide you with bank details. It is also possible to micro-fund specific features. Talk to us!<br/><br/>
               
               <form style="margin: 0px auto; width: 120px;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                 <input type="hidden" name="cmd" value="_s-xclick">
@@ -139,11 +167,19 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <p class="">
-              <a class="download-button" href="https://github.com/substance/composer/releases/download/v1.0.0-beta2/substance-composer-beta2-osx.tar.gz">Download Beta 2</a>
-            </p>
+              <p>
+                <a href="#" class="choose-os osx active">Mac OSX</a>
+                <a href="#" class="choose-os windows">Windows</a><br/><br/>
+              </p>
+              <a class="download-button active osx" href="https://github.com/substance/composer/releases/download/v1.0.0-beta2/Substance-Composer-Beta-2.tar.gz">
+                <div class="label">Download Beta 2</div>
+                <div class="fileinfo">Substance-Composer-Beta-2.tar.gz (37.1MB)</div>
+              </a>
 
-            <p>Substance Composer Beta 2 for OSX (37.1 MB)</p>
+              <a class="download-button windows" href="https://github.com/substance/composer/releases/download/v1.0.0-beta2/Substance-Composer-Beta-2-Setup.exe">
+                <div class="label">Download Beta 2</div>
+                <div class="fileinfo">Substance-Composer-Beta-2-Setup.exe (25.9MB)</div>
+              </a>
 
             <p class="" style="font-size: 13px;">Now with <a href="/composer/template-development">custom templates</a>!</p>
             <p class="text-center" style="font-size: 14px; "><br/><br/>On OSX 10.9, make sure you allow opening downloaded apps:<br/> <strong>System Preferences -> Security &amp; Privacy</strong>. Allow apps downloaded from: "Anywhere"</p>
@@ -182,7 +218,6 @@
         </div>
       </div>
     </div>
-
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
