@@ -13,26 +13,35 @@
   <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
   <link href="style.css" rel="stylesheet" />
-  <script src="jquery-2.1.0.min.js"></script>
-  <script src="underscore.js"></script>
-  <script src="app.js"></script>
+  
 
   <title>Substance Composer User Manual</title>
 </head>
 <body>
 
-<div class="article">
+<div class="article section-numbering">
 <div id="cover" class="content-node cover">
+
+
+
 <div class="content">
-<div class="published-on">Wed Apr 09 2014</div>
+
 <h1>Substance Composer User Manual</h1>
-<div class="authors">
+
+<div class="article-meta">
   
-    <a href="#contributor_93e4377bb7ef2b4b2a2562aa48231dd0" class="author">Michael Aufreiter</a>
   
-    <a href="#contributor_68bea766688deac753f8dd51d5f196b4" class="author">Oliver Buchtala</a>
+    <div class="authors">
+      By
+
+      
+      <a href="#contributor_93e4377bb7ef2b4b2a2562aa48231dd0" class="author">Michael Aufreiter</a> and <a href="#contributor_68bea766688deac753f8dd51d5f196b4" class="author">Oliver Buchtala</a>
+    </div>
   
+  <div class="published-on">Wed Apr 09 2014</div>
 </div>
+
+
 
  
 
@@ -57,6 +66,10 @@
     
       <div class="toc-entry level-2"><a href="#heading_af49954ae97b48186bec0ac0fd6ea042">Add figures</a></div>
     
+      <div class="toc-entry level-2"><a href="#heading_2ff4a51b4539e184e47ad3b6c1f1efb9">Add videos</a></div>
+    
+      <div class="toc-entry level-2"><a href="#heading_3dea3851c4f239c3d43dd46219b2d370">Add audio</a></div>
+    
       <div class="toc-entry level-2"><a href="#heading_6a91fbce782d8144b7bf40a276a13e29">Add remarks</a></div>
     
       <div class="toc-entry level-1"><a href="#heading_8c5d5bd3b94ce448710ac0f36e8effff">Review</a></div>
@@ -70,6 +83,12 @@
       <div class="toc-entry level-1"><a href="#heading_f00004f1d1353fcf9165db468da83bd9">Known issues</a></div>
     
       <div class="toc-entry level-1"><a href="#heading_d2824dd68b7a96838598abeee98bf79e">Frequently Asked Questions</a></div>
+    
+      <div class="toc-entry level-2"><a href="#heading_d4dd43503eb6e154deb04f7abe3b1bcd">Why can't I publish with a single click?</a></div>
+    
+      <div class="toc-entry level-2"><a href="#heading_af22716dcd6f88afdc616d184aa0b019">How can I publish a collection of documents?</a></div>
+    
+      <div class="toc-entry level-2"><a href="#heading_5081b9286b6701e3c6c81f925848597e">What's in an .SDF file?</a></div>
     
       <div class="toc-entry level-2"><a href="#heading_d5d5a604080f2de530669d90fa9e748a">How can I help make the Substance Composer better?</a></div>
     
@@ -89,7 +108,7 @@
 
 <div id="heading_08c3a868e881410d2e61bf95e4e36df8" class="content-node heading level-1">
   <div class="content">
-    <a href="#heading_08c3a868e881410d2e61bf95e4e36df8"class="anchor">#</a>
+    <a href="#heading_08c3a868e881410d2e61bf95e4e36df8" class="anchor">#</a>
     <h1>Installation</h1>
   </div>
 </div>
@@ -101,7 +120,7 @@
 
 <div id="heading_e1a859e5ec21e01ae5d6f067fc72aaac" class="content-node heading level-2">
   <div class="content">
-    <a href="#heading_e1a859e5ec21e01ae5d6f067fc72aaac"class="anchor">#</a>
+    <a href="#heading_e1a859e5ec21e01ae5d6f067fc72aaac" class="anchor">#</a>
     <h2>OSX</h2>
   </div>
 </div>
@@ -113,31 +132,31 @@
 
 <div id="heading_4b506dff71ecf260b0a7c5c8959a6d1c" class="content-node heading level-2">
   <div class="content">
-    <a href="#heading_4b506dff71ecf260b0a7c5c8959a6d1c"class="anchor">#</a>
+    <a href="#heading_4b506dff71ecf260b0a7c5c8959a6d1c" class="anchor">#</a>
     <h2>Windows</h2>
   </div>
 </div>
 <div id="5ecacc5903cdf8fb939218ea384462de" class="content-node text">
 <div class="content">
-  <em>Windows version will be available soon.</em>
+  Execute <code>setup.exe</code> and follow the installation instructions.
 </div>
 </div>
 
 <div id="heading_985892b0d5c46962ad1e364f4437d826" class="content-node heading level-2">
   <div class="content">
-    <a href="#heading_985892b0d5c46962ad1e364f4437d826"class="anchor">#</a>
+    <a href="#heading_985892b0d5c46962ad1e364f4437d826" class="anchor">#</a>
     <h2>Linux</h2>
   </div>
 </div>
 <div id="e6182870afc07446fa8e90ef9dba1717" class="content-node text">
 <div class="content">
-  <em>Linux version will be available soon.</em>
+  <em>Linux version is available.</em> Installation instructions are coming soon.
 </div>
 </div>
 
 <div id="heading_54f3be18770a44ad4375e9c22d506443" class="content-node heading level-1">
   <div class="content">
-    <a href="#heading_54f3be18770a44ad4375e9c22d506443"class="anchor">#</a>
+    <a href="#heading_54f3be18770a44ad4375e9c22d506443" class="anchor">#</a>
     <h1>Your first Substance article</h1>
   </div>
 </div>
@@ -148,7 +167,9 @@
 </div>
 <div id="figure_3ea92db9810fc7403aa2a98a61a04503" class="content-node figure">
   <div class="content">
-    <a href="figure_3ea92db9810fc7403aa2a98a61a04503.png" target="_blank"><img src="figure_3ea92db9810fc7403aa2a98a61a04503.png"></a>
+    <!--<a href="figure_3ea92db9810fc7403aa2a98a61a04503.png" target="_blank">-->
+      <img src="figure_3ea92db9810fc7403aa2a98a61a04503.png">
+    <!--</a>-->
     
     <div class="caption">A blank Substance document</div>
     
@@ -162,7 +183,7 @@
 
 <div id="heading_f83e0894cfeb0c32251dc392eeb44b67" class="content-node heading level-2">
   <div class="content">
-    <a href="#heading_f83e0894cfeb0c32251dc392eeb44b67"class="anchor">#</a>
+    <a href="#heading_f83e0894cfeb0c32251dc392eeb44b67" class="anchor">#</a>
     <h2>Emphasize your text</h2>
   </div>
 </div>
@@ -174,7 +195,7 @@
 
 <div id="heading_69c95f3cfcc27f52ef2af04e7398b7d0" class="content-node heading level-2">
   <div class="content">
-    <a href="#heading_69c95f3cfcc27f52ef2af04e7398b7d0"class="anchor">#</a>
+    <a href="#heading_69c95f3cfcc27f52ef2af04e7398b7d0" class="anchor">#</a>
     <h2>Add structure</h2>
   </div>
 </div>
@@ -186,7 +207,7 @@
 
 <div id="heading_af49954ae97b48186bec0ac0fd6ea042" class="content-node heading level-2">
   <div class="content">
-    <a href="#heading_af49954ae97b48186bec0ac0fd6ea042"class="anchor">#</a>
+    <a href="#heading_af49954ae97b48186bec0ac0fd6ea042" class="anchor">#</a>
     <h2>Add figures</h2>
   </div>
 </div>
@@ -196,9 +217,78 @@
 </div>
 </div>
 
+<div id="heading_2ff4a51b4539e184e47ad3b6c1f1efb9" class="content-node heading level-2">
+  <div class="content">
+    <a href="#heading_2ff4a51b4539e184e47ad3b6c1f1efb9" class="anchor">#</a>
+    <h2>Add videos</h2>
+  </div>
+</div>
+<div id="758f5a3bd2ecdd3010164f929bdae388" class="content-node text">
+<div class="content">
+  You can easily embed videos in your publication. Substance supports modern HTML5 video formats. 
+</div>
+</div>
+<div id="figure_c55a33b361c53158c0c475d80f4502f0" class="content-node figure">
+  <div class="content">
+    <!--<a href="figure_c55a33b361c53158c0c475d80f4502f0.gif" target="_blank">-->
+      <img src="figure_c55a33b361c53158c0c475d80f4502f0.gif">
+    <!--</a>-->
+    
+    <div class="caption">Adding a video to your publication</div>
+    
+  </div>
+</div>
+<div id="af71b5817d2945ac087fcdb7c64a473a" class="content-node text">
+<div class="content">
+  Unfortunately, browsers support <a href="http://diveintohtml5.info/video.html" title="Video on the web">different encodings for video playback</a>. We recommend to use a combination of MP4 (h264) and OGG or MP4 (h264) and WebM for maximum browser compatibility. There are a number of video converters our there that you can use to prepare your video in different encodings. We have used <a href="http://www.mirovideoconverter.com" title="Miro Video Converter">Miro Video Converter</a> to prepare MP4 and WebM versions of a video. You can also set a poster image, which is shown as a placeholder before the video is played by the reader of your article.
+</div>
+</div>
+<div id="figure_5ac09d10ce055c93898b12c73870c5f5" class="content-node figure">
+  <div class="content">
+    <!--<a href="figure_5ac09d10ce055c93898b12c73870c5f5.gif" target="_blank">-->
+      <img src="figure_5ac09d10ce055c93898b12c73870c5f5.gif">
+    <!--</a>-->
+    
+    <div class="caption">Converting a video file to the open WebM format</div>
+    
+  </div>
+</div>
+<div id="e5f9fc5f7b752f9a0f6d231ded6adc37" class="content-node text">
+<div class="content">
+  Please note, that due to licensing issues MP4 files can't be played within the Composer. However, they will work once you have exported your publication and open it in a web browser.
+</div>
+</div>
+
+<div id="heading_3dea3851c4f239c3d43dd46219b2d370" class="content-node heading level-2">
+  <div class="content">
+    <a href="#heading_3dea3851c4f239c3d43dd46219b2d370" class="anchor">#</a>
+    <h2>Add audio</h2>
+  </div>
+</div>
+<div id="e636ddbe54f8b8c99980f6bd8fdfe316" class="content-node text">
+<div class="content">
+  Similar to video you can also include sound files in your documents.
+</div>
+</div>
+<div id="figure_b1004b3a491fe26a8d0729510db2b4c3" class="content-node figure">
+  <div class="content">
+    <!--<a href="figure_b1004b3a491fe26a8d0729510db2b4c3.gif" target="_blank">-->
+      <img src="figure_b1004b3a491fe26a8d0729510db2b4c3.gif">
+    <!--</a>-->
+    
+    <div class="caption">Adding audio to your publication</div>
+    
+  </div>
+</div>
+<div id="81c17a70bb9a5972ab2acc79d3609adb" class="content-node text">
+<div class="content">
+  Please note that due to licensing issues MP3 files can't be played within the Composer. However they will work fine when viewed in a regular web browser.
+</div>
+</div>
+
 <div id="heading_6a91fbce782d8144b7bf40a276a13e29" class="content-node heading level-2">
   <div class="content">
-    <a href="#heading_6a91fbce782d8144b7bf40a276a13e29"class="anchor">#</a>
+    <a href="#heading_6a91fbce782d8144b7bf40a276a13e29" class="anchor">#</a>
     <h2>Add remarks</h2>
   </div>
 </div>
@@ -210,7 +300,7 @@
 
 <div id="heading_8c5d5bd3b94ce448710ac0f36e8effff" class="content-node heading level-1">
   <div class="content">
-    <a href="#heading_8c5d5bd3b94ce448710ac0f36e8effff"class="anchor">#</a>
+    <a href="#heading_8c5d5bd3b94ce448710ac0f36e8effff" class="anchor">#</a>
     <h1>Review</h1>
   </div>
 </div>
@@ -221,7 +311,9 @@
 </div>
 <div id="figure_eb2a4104b138b27428b55e8d14fd4c2c" class="content-node figure">
   <div class="content">
-    <a href="figure_eb2a4104b138b27428b55e8d14fd4c2c.png" target="_blank"><img src="figure_eb2a4104b138b27428b55e8d14fd4c2c.png"></a>
+    <!--<a href="figure_eb2a4104b138b27428b55e8d14fd4c2c.png" target="_blank">-->
+      <img src="figure_eb2a4104b138b27428b55e8d14fd4c2c.png">
+    <!--</a>-->
     
     <div class="caption">An error annotation highlighting a typo</div>
     
@@ -235,7 +327,7 @@
 
 <div id="heading_b03de1e0dff3d3e3886395e4af214f3b" class="content-node heading level-1">
   <div class="content">
-    <a href="#heading_b03de1e0dff3d3e3886395e4af214f3b"class="anchor">#</a>
+    <a href="#heading_b03de1e0dff3d3e3886395e4af214f3b" class="anchor">#</a>
     <h1>Publish Yourself</h1>
   </div>
 </div>
@@ -246,7 +338,9 @@
 </div>
 <div id="figure_d57adeabd90c0b6c19a8de8421e9aedd" class="content-node figure">
   <div class="content">
-    <a href="figure_d57adeabd90c0b6c19a8de8421e9aedd.png" target="_blank"><img src="figure_d57adeabd90c0b6c19a8de8421e9aedd.png"></a>
+    <!--<a href="figure_d57adeabd90c0b6c19a8de8421e9aedd.png" target="_blank">-->
+      <img src="figure_d57adeabd90c0b6c19a8de8421e9aedd.png">
+    <!--</a>-->
     
     <div class="caption">The Publish shows a preview of your final web publication. </div>
     
@@ -254,13 +348,13 @@
 </div>
 <div id="0b984c53f2647a8765aac0332d103a28" class="content-node text">
 <div class="content">
-  Click <strong>Export as a web page</strong> in the Publish dialog or use <strong>File -> Export</strong>. Select a folder on your hard disk, where your publication gets stored temporarily. Use a web-compatible name without spaces and special characters (e.g. <code>my-first-substance-article</code> would be a good one).
+  Click <strong>Export as a web page</strong> in the Publish dialog or use <strong>File -&gt; Export</strong>. Select a folder on your hard disk, where your publication gets stored temporarily. Use a web-compatible name without spaces and special characters (e.g. <code>my-first-substance-article</code> would be a good one).
 </div>
 </div>
 
 <div id="heading_5f3a6ac2b3ee16a5b6048823d6f4b3b3" class="content-node heading level-2">
   <div class="content">
-    <a href="#heading_5f3a6ac2b3ee16a5b6048823d6f4b3b3"class="anchor">#</a>
+    <a href="#heading_5f3a6ac2b3ee16a5b6048823d6f4b3b3" class="anchor">#</a>
     <h2>Control your own webspace</h2>
   </div>
 </div>
@@ -272,7 +366,7 @@
 
 <div id="heading_fe10b2d8f7800c73e47984590448a057" class="content-node heading level-2">
   <div class="content">
-    <a href="#heading_fe10b2d8f7800c73e47984590448a057"class="anchor">#</a>
+    <a href="#heading_fe10b2d8f7800c73e47984590448a057" class="anchor">#</a>
     <h2>Upload using SFTP</h2>
   </div>
 </div>
@@ -288,7 +382,9 @@
 </div>
 <div id="figure_9da5984a0aae75b9202216795dcd33ad" class="content-node figure">
   <div class="content">
-    <a href="figure_9da5984a0aae75b9202216795dcd33ad.png" target="_blank"><img src="figure_9da5984a0aae75b9202216795dcd33ad.png"></a>
+    <!--<a href="figure_9da5984a0aae75b9202216795dcd33ad.png" target="_blank">-->
+      <img src="figure_9da5984a0aae75b9202216795dcd33ad.png">
+    <!--</a>-->
     
     <div class="caption">In Cyberduck's connection dialog select SFTP, enter your webspace's credentials and hit <em>Connect</em>.</div>
     
@@ -301,7 +397,9 @@
 </div>
 <div id="figure_1fa9221b555dafecf3e50335228c230c" class="content-node figure">
   <div class="content">
-    <a href="figure_1fa9221b555dafecf3e50335228c230c.png" target="_blank"><img src="figure_1fa9221b555dafecf3e50335228c230c.png"></a>
+    <!--<a href="figure_1fa9221b555dafecf3e50335228c230c.png" target="_blank">-->
+      <img src="figure_1fa9221b555dafecf3e50335228c230c.png">
+    <!--</a>-->
     
     <div class="caption">In Cyberduck just drag and drop the folder on the application to upload.</div>
     
@@ -315,7 +413,7 @@
 
 <div id="heading_f00004f1d1353fcf9165db468da83bd9" class="content-node heading level-1">
   <div class="content">
-    <a href="#heading_f00004f1d1353fcf9165db468da83bd9"class="anchor">#</a>
+    <a href="#heading_f00004f1d1353fcf9165db468da83bd9" class="anchor">#</a>
     <h1>Known issues</h1>
   </div>
 </div>
@@ -327,26 +425,62 @@
 
 <div id="heading_d2824dd68b7a96838598abeee98bf79e" class="content-node heading level-1">
   <div class="content">
-    <a href="#heading_d2824dd68b7a96838598abeee98bf79e"class="anchor">#</a>
+    <a href="#heading_d2824dd68b7a96838598abeee98bf79e" class="anchor">#</a>
     <h1>Frequently Asked Questions</h1>
   </div>
 </div>
 
+<div id="heading_d4dd43503eb6e154deb04f7abe3b1bcd" class="content-node heading level-2">
+  <div class="content">
+    <a href="#heading_d4dd43503eb6e154deb04f7abe3b1bcd" class="anchor">#</a>
+    <h2>Why can't I publish with a single click?</h2>
+  </div>
+</div>
+<div id="4abef95fe3b4020aebe6879f1a0f88b6" class="content-node text">
+<div class="content">
+  Substance doesn't have a backend. We chose to start with developing a system that doesn't require any infrastructure. That way we put the user in control of their content. We support all possible hosting options (SFTP, FTP, S3, Rackspace, etc.). We're planning to develop a platform for collaboration, but want to wait until the Substance document format is adopted well enough.
+</div>
+</div>
+
+<div id="heading_af22716dcd6f88afdc616d184aa0b019" class="content-node heading level-2">
+  <div class="content">
+    <a href="#heading_af22716dcd6f88afdc616d184aa0b019" class="anchor">#</a>
+    <h2>How can I publish a collection of documents?</h2>
+  </div>
+</div>
+<div id="83c667a1152a6f59477d81c4a0f0c804" class="content-node text">
+<div class="content">
+  Substance publications are self-contained and can live on its own. For us it was important to keep articles independent from their embedding context, as this allows maximum flexibility and compatibility. Of course you can embed Substance documents into your webpage. We'll tell you how in a series of tutorials that will be ready soon.
+</div>
+</div>
+
+<div id="heading_5081b9286b6701e3c6c81f925848597e" class="content-node heading level-2">
+  <div class="content">
+    <a href="#heading_5081b9286b6701e3c6c81f925848597e" class="anchor">#</a>
+    <h2>What's in an .SDF file?</h2>
+  </div>
+</div>
+<div id="59ae0182bcdbfd6c066f59823082b872" class="content-node text">
+<div class="content">
+  <code>.sdf</code> files are just zip archives. You can rename them to <code>.zip</code> and extract its contents. Inside you'll find a content.json file plus assets like images.
+</div>
+</div>
+
 <div id="heading_d5d5a604080f2de530669d90fa9e748a" class="content-node heading level-2">
   <div class="content">
-    <a href="#heading_d5d5a604080f2de530669d90fa9e748a"class="anchor">#</a>
+    <a href="#heading_d5d5a604080f2de530669d90fa9e748a" class="anchor">#</a>
     <h2>How can I help make the Substance Composer better?</h2>
   </div>
 </div>
 <div id="a0c848ba24e2af47e152c4906d73ce2d" class="content-node text">
 <div class="content">
-  Use it extensively. Create and host publications. Tell us what you like and what could be improved. While Substance Composer can't cover all use cases we certainly value your feedback. If you can afford it, please consider making a donation to support development of Substance Composer. We accept Paypal (contribute@substance.io) and bank transfers. Ask for our bank details by emailing info@substance.io.
+  Use it extensively. Create and host publications. Tell us what you like and what could be improved. While Substance Composer can't cover all use cases we certainly value your feedback. We are also looking for partners that help us take development further and fund certain features that are highly requested. Please get in touch if you are interested in a collaboration.
 </div>
 </div>
 
 <div id="heading_479280182170806de6b2696927945092" class="content-node heading level-2">
   <div class="content">
-    <a href="#heading_479280182170806de6b2696927945092"class="anchor">#</a>
+    <a href="#heading_479280182170806de6b2696927945092" class="anchor">#</a>
     <h2>Can I customize the output?</h2>
   </div>
 </div>
@@ -358,7 +492,6 @@
 
 <div id="publication_info" class="content-node publication-info">
   <div class="content">
-
 
     
     
@@ -411,31 +544,41 @@
             <div class="citation-description">Substance Composer Webpage</div>
           </div>
         
+          <div class="citation" id="web_resource_3e5541cd926944bbb66241a5116747ef">
+            <div class="citation-url"><a href="http://diveintohtml5.info/video.html">http://diveintohtml5.info/video.html</a></div>
+            <div class="citation-description">Video on the web</div>
+          </div>
+        
+          <div class="citation" id="web_resource_5adc6de56129e9cc8ea20146b96363b2">
+            <div class="citation-url"><a href="http://www.mirovideoconverter.com">http://www.mirovideoconverter.com</a></div>
+            <div class="citation-description">Miro Video Converter</div>
+          </div>
+        
       </div>
     
 
-    <div class="supplements">
-      <div class="label">Supplements</div>
-      <div class="file">
-        <div class="file-name"><a href="substance-composer-user-manual.sdf">substance-composer-user-manual.sdf</a></div>
-        <div class="file-description">Download this article to read offline, add personal notes and even edit.<br/>Just make sure to install the <a href="http://substance.io/composer">Substance Composer</a> on your desktop.</div>
-      </div>
-    </div>
+    
 
     
     <div class="copyright">
       <div class="label">Copyright</div>
       
 
+      
       <div class="copyright-statement">
         Copyright &copy; 2014
         Michael Aufreiter, Oliver Buchtala
       </div>
+      
       <div class="license">
         This article is distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use and redistribution provided that the original author and source are credited.
         
         See <a href="http://creativecommons.org/licenses/by/3.0/us/">Creative Commons Attribution</a>.
         
+      </div>
+
+      <div class="generator">
+        This publication was produced with <a href="http://substance.io/composer">Substance</a>, an open self-publishing system.
       </div>
     </div>
     
@@ -444,11 +587,7 @@
 </div>
 
 <script>
-  $(function() {
-    var articleEl = $('.article')[0];
-    var app = new Reader(articleEl);
-    app.start();
-  });
+  
 </script>
 </body>
 </html>

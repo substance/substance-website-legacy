@@ -23,13 +23,14 @@
       ],
       "abstract": "",
       "created_at": "2014-04-05T16:34:01.762Z",
-      "updated_at": "2014-04-13T02:32:01.749Z",
+      "updated_at": "2014-04-29T22:12:42.677Z",
       "published_on": "2014-04-09T16:34:01.763Z"
     },
     "cover": {
       "id": "cover",
       "type": "cover",
-      "authors": []
+      "authors": [],
+      "image": ""
     },
     "content": {
       "type": "view",
@@ -55,6 +56,16 @@
         "c6e2a7b439a00e068f73357546b9bebd",
         "heading_af49954ae97b48186bec0ac0fd6ea042",
         "5c0f3793ce94ec1f128373797f570c9b",
+        "heading_2ff4a51b4539e184e47ad3b6c1f1efb9",
+        "758f5a3bd2ecdd3010164f929bdae388",
+        "figure_c55a33b361c53158c0c475d80f4502f0",
+        "af71b5817d2945ac087fcdb7c64a473a",
+        "figure_5ac09d10ce055c93898b12c73870c5f5",
+        "e5f9fc5f7b752f9a0f6d231ded6adc37",
+        "heading_3dea3851c4f239c3d43dd46219b2d370",
+        "e636ddbe54f8b8c99980f6bd8fdfe316",
+        "figure_b1004b3a491fe26a8d0729510db2b4c3",
+        "81c17a70bb9a5972ab2acc79d3609adb",
         "heading_6a91fbce782d8144b7bf40a276a13e29",
         "6eb1e12a8e478488c2abaa92ed4effc8",
         "heading_8c5d5bd3b94ce448710ac0f36e8effff",
@@ -77,6 +88,12 @@
         "heading_f00004f1d1353fcf9165db468da83bd9",
         "21592bc5693abc92f529b3cdb06652c7",
         "heading_d2824dd68b7a96838598abeee98bf79e",
+        "heading_d4dd43503eb6e154deb04f7abe3b1bcd",
+        "4abef95fe3b4020aebe6879f1a0f88b6",
+        "heading_af22716dcd6f88afdc616d184aa0b019",
+        "83c667a1152a6f59477d81c4a0f0c804",
+        "heading_5081b9286b6701e3c6c81f925848597e",
+        "59ae0182bcdbfd6c066f59823082b872",
         "heading_d5d5a604080f2de530669d90fa9e748a",
         "a0c848ba24e2af47e152c4906d73ce2d",
         "heading_479280182170806de6b2696927945092",
@@ -96,7 +113,9 @@
         "web_resource_c738bb3c711fc338e499c4d397da1d58",
         "web_resource_c13c6487073dd1f23de7a44437c59e40",
         "web_resource_29f60a9851901fddc3b98bc63e52535d",
-        "web_resource_2bde075a494ed9bb103d008b7e57f7c3"
+        "web_resource_2bde075a494ed9bb103d008b7e57f7c3",
+        "web_resource_3e5541cd926944bbb66241a5116747ef",
+        "web_resource_5adc6de56129e9cc8ea20146b96363b2"
       ]
     },
     "remarks": {
@@ -335,7 +354,7 @@
       "type": "text",
       "id": "5ecacc5903cdf8fb939218ea384462de",
       "source_id": "",
-      "content": "Windows version will be available soon."
+      "content": "Execute setup.exe and follow the installation instructions."
     },
     "heading_e1a859e5ec21e01ae5d6f067fc72aaac": {
       "type": "heading",
@@ -444,7 +463,7 @@
       "type": "text",
       "id": "e6182870afc07446fa8e90ef9dba1717",
       "source_id": "",
-      "content": "Linux version will be available soon."
+      "content": "Linux version is available. Installation instructions are coming soon."
     },
     "9f25ce0624f78bc45b705fe4404d3bd5": {
       "type": "text",
@@ -495,18 +514,6 @@
         18
       ]
     },
-    "emphasis_92e21fd143a01ef3817a6f1930c6b5c6": {
-      "type": "emphasis",
-      "id": "emphasis_92e21fd143a01ef3817a6f1930c6b5c6",
-      "path": [
-        "5ecacc5903cdf8fb939218ea384462de",
-        "content"
-      ],
-      "range": [
-        0,
-        39
-      ]
-    },
     "emphasis_874318fafbe2107bcb6e471af3b009df": {
       "type": "emphasis",
       "id": "emphasis_874318fafbe2107bcb6e471af3b009df",
@@ -516,7 +523,7 @@
       ],
       "range": [
         0,
-        37
+        27
       ]
     },
     "strong_c923f77222a52846564bedd2b7b9aa52": {
@@ -625,18 +632,6 @@
       "range": [
         71,
         80
-      ]
-    },
-    "superscript_d398490333d7015d71fe6feba6eb20ec": {
-      "type": "superscript",
-      "id": "superscript_d398490333d7015d71fe6feba6eb20ec",
-      "path": [
-        "9f25ce0624f78bc45b705fe4404d3bd5",
-        "content"
-      ],
-      "range": [
-        81,
-        90
       ]
     },
     "strong_6706ed13de0a898017f6e2842f8fa927": {
@@ -854,7 +849,7 @@
       "type": "text",
       "id": "a0c848ba24e2af47e152c4906d73ce2d",
       "source_id": "",
-      "content": "Use it extensively. Create and host publications. Tell us what you like and what could be improved. While Substance Composer can't cover all use cases we certainly value your feedback. If you can afford it, please consider making a donation to support development of Substance Composer. We accept Paypal (contribute@substance.io) and bank transfers. Ask for our bank details by emailing info@substance.io."
+      "content": "Use it extensively. Create and host publications. Tell us what you like and what could be improved. While Substance Composer can't cover all use cases we certainly value your feedback. We are also looking for partners that help us take development further and fund certain features that are highly requested. Please get in touch if you are interested in a collaboration."
     },
     "heading_d5d5a604080f2de530669d90fa9e748a": {
       "type": "heading",
@@ -886,6 +881,235 @@
         45,
         55
       ]
+    },
+    "heading_d4dd43503eb6e154deb04f7abe3b1bcd": {
+      "type": "heading",
+      "id": "heading_d4dd43503eb6e154deb04f7abe3b1bcd",
+      "source_id": "",
+      "content": "Why can't I publish with a single click?",
+      "level": 2
+    },
+    "heading_af22716dcd6f88afdc616d184aa0b019": {
+      "type": "heading",
+      "id": "heading_af22716dcd6f88afdc616d184aa0b019",
+      "source_id": "",
+      "content": "How can I publish a collection of documents?",
+      "level": 2
+    },
+    "59ae0182bcdbfd6c066f59823082b872": {
+      "type": "text",
+      "id": "59ae0182bcdbfd6c066f59823082b872",
+      "source_id": "",
+      "content": ".sdf files are just zip archives. You can rename them to .zip and extract its contents. Inside you'll find a content.json file plus assets like images."
+    },
+    "code_409db3141e234251fcdc106ab7c37698": {
+      "type": "code",
+      "id": "code_409db3141e234251fcdc106ab7c37698",
+      "path": [
+        "59ae0182bcdbfd6c066f59823082b872",
+        "content"
+      ],
+      "range": [
+        57,
+        61
+      ]
+    },
+    "code_18b41ce1a862aea1001682c9727b4cc9": {
+      "type": "code",
+      "id": "code_18b41ce1a862aea1001682c9727b4cc9",
+      "path": [
+        "59ae0182bcdbfd6c066f59823082b872",
+        "content"
+      ],
+      "range": [
+        0,
+        4
+      ]
+    },
+    "758f5a3bd2ecdd3010164f929bdae388": {
+      "type": "text",
+      "id": "758f5a3bd2ecdd3010164f929bdae388",
+      "source_id": "",
+      "content": "You can easily embed videos in your publication. Substance supports modern HTML5 video formats. "
+    },
+    "heading_2ff4a51b4539e184e47ad3b6c1f1efb9": {
+      "type": "heading",
+      "id": "heading_2ff4a51b4539e184e47ad3b6c1f1efb9",
+      "source_id": "",
+      "content": "Add videos",
+      "level": 2
+    },
+    "superscript_31d00ee274f800a00500a9fa3ddad7c3": {
+      "type": "superscript",
+      "id": "superscript_31d00ee274f800a00500a9fa3ddad7c3",
+      "path": [
+        "9f25ce0624f78bc45b705fe4404d3bd5",
+        "content"
+      ],
+      "range": [
+        81,
+        90
+      ]
+    },
+    "web_resource_3e5541cd926944bbb66241a5116747ef": {
+      "type": "web_resource",
+      "id": "web_resource_3e5541cd926944bbb66241a5116747ef",
+      "description": "Video on the web",
+      "url": "http://diveintohtml5.info/video.html"
+    },
+    "citation_reference_3ed433281cbf164d4664b708d95e3df5": {
+      "type": "citation_reference",
+      "id": "citation_reference_3ed433281cbf164d4664b708d95e3df5",
+      "path": [
+        "af71b5817d2945ac087fcdb7c64a473a",
+        "content"
+      ],
+      "range": [
+        32,
+        70
+      ],
+      "target": "web_resource_3e5541cd926944bbb66241a5116747ef"
+    },
+    "heading_3dea3851c4f239c3d43dd46219b2d370": {
+      "type": "heading",
+      "id": "heading_3dea3851c4f239c3d43dd46219b2d370",
+      "source_id": "",
+      "content": "Add audio",
+      "level": 2
+    },
+    "e636ddbe54f8b8c99980f6bd8fdfe316": {
+      "type": "text",
+      "id": "e636ddbe54f8b8c99980f6bd8fdfe316",
+      "source_id": "",
+      "content": "Similar to video you can also include sound files in your documents."
+    },
+    "web_resource_5adc6de56129e9cc8ea20146b96363b2": {
+      "type": "web_resource",
+      "id": "web_resource_5adc6de56129e9cc8ea20146b96363b2",
+      "description": "Miro Video Converter",
+      "url": "http://www.mirovideoconverter.com"
+    },
+    "citation_reference_cf1d44e91d9f0a3e1108c2253ceee743": {
+      "type": "citation_reference",
+      "id": "citation_reference_cf1d44e91d9f0a3e1108c2253ceee743",
+      "path": [
+        "af71b5817d2945ac087fcdb7c64a473a",
+        "content"
+      ],
+      "range": [
+        311,
+        331
+      ],
+      "target": "web_resource_5adc6de56129e9cc8ea20146b96363b2"
+    },
+    "af71b5817d2945ac087fcdb7c64a473a": {
+      "type": "text",
+      "id": "af71b5817d2945ac087fcdb7c64a473a",
+      "source_id": "",
+      "content": "Unfortunately, browsers support different encodings for video playback. We recommend to use a combination of MP4 (h264) and OGG or MP4 (h264) and WebM for maximum browser compatibility. There are a number of video converters our there that you can use to prepare your video in different encodings. We have used Miro Video Converter to prepare MP4 and WebM versions of a video. You can also set a poster image, which is shown as a placeholder before the video is played by the reader of your article."
+    },
+    "81c17a70bb9a5972ab2acc79d3609adb": {
+      "type": "text",
+      "id": "81c17a70bb9a5972ab2acc79d3609adb",
+      "source_id": "",
+      "content": "Please note that due to licensing issues MP3 files can't be played within the Composer. However they will work fine when viewed in a regular web browser."
+    },
+    "e5f9fc5f7b752f9a0f6d231ded6adc37": {
+      "type": "text",
+      "id": "e5f9fc5f7b752f9a0f6d231ded6adc37",
+      "source_id": "",
+      "content": "Please note, that due to licensing issues MP4 files can't be played within the Composer. However, they will work once you have exported your publication and open it in a web browser."
+    },
+    "publish_settings.json": {
+      "type": "file",
+      "id": "publish_settings.json",
+      "version": 1,
+      "content_type": "application/json"
+    },
+    "code_266823759266e75f42d55461e3617917": {
+      "type": "code",
+      "id": "code_266823759266e75f42d55461e3617917",
+      "path": [
+        "5ecacc5903cdf8fb939218ea384462de",
+        "content"
+      ],
+      "range": [
+        8,
+        17
+      ]
+    },
+    "figure_c55a33b361c53158c0c475d80f4502f0.gif": {
+      "type": "file",
+      "id": "figure_c55a33b361c53158c0c475d80f4502f0.gif",
+      "version": 1,
+      "content_type": "image/gif"
+    },
+    "text_cafdc702196517d5068105da6e608a16": {
+      "type": "text",
+      "id": "text_cafdc702196517d5068105da6e608a16",
+      "source_id": "",
+      "content": "Adding a video to your publication"
+    },
+    "figure_c55a33b361c53158c0c475d80f4502f0": {
+      "type": "figure",
+      "id": "figure_c55a33b361c53158c0c475d80f4502f0",
+      "image": "figure_c55a33b361c53158c0c475d80f4502f0.gif",
+      "caption": "text_cafdc702196517d5068105da6e608a16"
+    },
+    "figure_5ac09d10ce055c93898b12c73870c5f5.gif": {
+      "type": "file",
+      "id": "figure_5ac09d10ce055c93898b12c73870c5f5.gif",
+      "version": 1,
+      "content_type": "image/gif"
+    },
+    "text_12c35a48a2e8762014fb06ca84e0c7ea": {
+      "type": "text",
+      "id": "text_12c35a48a2e8762014fb06ca84e0c7ea",
+      "source_id": "",
+      "content": "Converting a video file to the open WebM format"
+    },
+    "figure_5ac09d10ce055c93898b12c73870c5f5": {
+      "type": "figure",
+      "id": "figure_5ac09d10ce055c93898b12c73870c5f5",
+      "image": "figure_5ac09d10ce055c93898b12c73870c5f5.gif",
+      "caption": "text_12c35a48a2e8762014fb06ca84e0c7ea"
+    },
+    "figure_b1004b3a491fe26a8d0729510db2b4c3.gif": {
+      "type": "file",
+      "id": "figure_b1004b3a491fe26a8d0729510db2b4c3.gif",
+      "version": 1,
+      "content_type": "image/gif"
+    },
+    "text_57b814664a1055fcbcd105906fe0e560": {
+      "type": "text",
+      "id": "text_57b814664a1055fcbcd105906fe0e560",
+      "source_id": "",
+      "content": "Adding audio to your publication"
+    },
+    "figure_b1004b3a491fe26a8d0729510db2b4c3": {
+      "type": "figure",
+      "id": "figure_b1004b3a491fe26a8d0729510db2b4c3",
+      "image": "figure_b1004b3a491fe26a8d0729510db2b4c3.gif",
+      "caption": "text_57b814664a1055fcbcd105906fe0e560"
+    },
+    "4abef95fe3b4020aebe6879f1a0f88b6": {
+      "type": "text",
+      "id": "4abef95fe3b4020aebe6879f1a0f88b6",
+      "source_id": "",
+      "content": "Substance doesn't have a backend. We chose to start with developing a system that doesn't require any infrastructure. That way we put the user in control of their content. We support all possible hosting options (SFTP, FTP, S3, Rackspace, etc.). We're planning to develop a platform for collaboration, but want to wait until the Substance document format is adopted well enough."
+    },
+    "83c667a1152a6f59477d81c4a0f0c804": {
+      "type": "text",
+      "id": "83c667a1152a6f59477d81c4a0f0c804",
+      "source_id": "",
+      "content": "Substance publications are self-contained and can live on its own. For us it was important to keep articles independent from their embedding context, as this allows maximum flexibility and compatibility. Of course you can embed Substance documents into your webpage. We'll tell you how in a series of tutorials that will be ready soon."
+    },
+    "heading_5081b9286b6701e3c6c81f925848597e": {
+      "type": "heading",
+      "id": "heading_5081b9286b6701e3c6c81f925848597e",
+      "source_id": "",
+      "content": "What's in an .SDF file?",
+      "level": 2
     }
   }
 }
