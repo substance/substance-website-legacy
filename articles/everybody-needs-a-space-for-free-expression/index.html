@@ -14,10 +14,6 @@
 
   <link href="style.css" rel="stylesheet" />
   
-  <script src="jquery-2.1.0.min.js"></script>
-  <script src="underscore.js"></script>
-  <script src="app.js"></script>
-  
 
   <title>Everybody needs a space for free expression</title>
 </head>
@@ -25,16 +21,27 @@
 
 <div class="article">
 <div id="cover" class="content-node cover">
+
+
+
 <div class="content">
-<div class="published-on">Mon Mar 31 2014</div>
+
 <h1>Everybody needs a space for free expression</h1>
-<div class="authors">
+
+<div class="article-meta">
   
-    <a href="#contributor_28706676d8b02fa577fbb0efb08a77a0" class="author">Michael Aufreiter</a>
   
-    <a href="#contributor_a5e0ea905dd74f5456faea8b00f644e9" class="author">Oliver Buchtala</a>
+    <div class="authors">
+      By
+
+      
+      <a href="#contributor_28706676d8b02fa577fbb0efb08a77a0" class="author">Michael Aufreiter</a> and <a href="#contributor_a5e0ea905dd74f5456faea8b00f644e9" class="author">Oliver Buchtala</a>
+    </div>
   
+  <div class="published-on">Mon Mar 31 2014</div>
 </div>
+
+
 
  
 
@@ -67,26 +74,30 @@
   We want to give back control to the users. Individuals, as well as organisations, should be able to establish their own collaboration hubs and distribution channels, making it a personal document editing and sharing network. Such a system removes the technical hurdles, so anyone can create and share documents on their own.
 </div>
 </div>
-<div id="figure_37f2f7a0e9c346f559d2c5b66314e189" class="content-node figure">
+<div id="video_b6c9a622ada5d648f65a17c5270c2b3a" class="content-node video">
   <div class="content">
-    <a href="figure_37f2f7a0e9c346f559d2c5b66314e189.png" target="_blank"><img src="figure_37f2f7a0e9c346f559d2c5b66314e189.png"></a>
+    <div class="video-wrapper">
+     <video controls="true" class="" poster="video_b6c9a622ada5d648f65a17c5270c2b3a.png">
+     
+      
+        <source src="video_b6c9a622ada5d648f65a17c5270c2b3a.webm" type="video/webm; codecs='vp8, vorbis'"/>
+      
     
-    <div class="caption">Architecture of connected Substance Networks</div>
+      
+        <source src="video_b6c9a622ada5d648f65a17c5270c2b3a.mp4" type="video/mp4; codecs='avc1.42E01E, mp4a.40.2'"/>
+      
+    
+    </video>
+    </div>
+    
+      <div class="caption">Daniel Beilinson talking about how he uses Substance</div>
     
   </div>
 </div>
-<div id="25415a97b5a45d43447e09b5aec2ed89" class="content-node text">
+<div id="c36fa21be30c1ff942b05dc8b6833140" class="content-node text">
 <div class="content">
   In addition to the general idea of openness we are convinced that privacy as a human right must be protected. Users should be able to collaborate with each other in a secure way (using encryption) until they decide to share their documents with the world.
 </div>
-</div>
-<div id="figure_d5722d22da50460febcb65c5a3ec89ed" class="content-node figure">
-  <div class="content">
-    <a href="figure_d5722d22da50460febcb65c5a3ec89ed.png" target="_blank"><img src="figure_d5722d22da50460febcb65c5a3ec89ed.png"></a>
-    
-    <div class="caption">Privacy-aware sharing of documents</div>
-    
-  </div>
 </div>
 <div id="0fa8b8d5bd64a65386abdef919e7dd4a" class="content-node text">
 <div class="content">
@@ -100,7 +111,9 @@
 </div>
 <div id="figure_6ba4942d883625f0cbd4c528e9f2bab4" class="content-node figure">
   <div class="content">
-    <a href="figure_6ba4942d883625f0cbd4c528e9f2bab4.png" target="_blank"><img src="figure_6ba4942d883625f0cbd4c528e9f2bab4.png"></a>
+    <!--<a href="figure_6ba4942d883625f0cbd4c528e9f2bab4.png" target="_blank">-->
+      <img src="figure_6ba4942d883625f0cbd4c528e9f2bab4.png">
+    <!--</a>-->
     
     <div class="caption">The Substance Composer</div>
     
@@ -190,16 +203,6 @@
     
 
     
-      <div class="supplements">
-        <div class="label">Supplements</div>
-        <div class="file">
-          <div class="file-name"><a href="everybody-needs-a-space-for-free-expression.sdf">everybody-needs-a-space-for-free-expression.sdf</a></div>
-          <div class="file-description">
-            Download this article to read offline, add personal notes and even edit.<br/>Just make sure to install the <a href="http://substance.io/composer">Substance Composer</a> on your desktop.
-          </div>
-        </div>
-      </div>
-    
 
     
     <div class="copyright">
@@ -218,6 +221,10 @@
         See <a href="http://creativecommons.org/licenses/by/3.0/us/">Creative Commons Attribution</a>.
         
       </div>
+
+      <div class="generator">
+        This publication was produced with <a href="http://substance.io/composer">Substance</a>, an open self-publishing system.
+      </div>
     </div>
     
   </div>
@@ -225,12 +232,6 @@
 </div>
 
 <script>
-  
-    $(function() {
-      var articleEl = $('.article')[0];
-      var app = new Reader(articleEl);
-      app.start();
-    });
   
 </script>
 </body>
