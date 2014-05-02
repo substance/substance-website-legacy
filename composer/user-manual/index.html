@@ -12,6 +12,27 @@
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
   <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
+  <script>
+    window.onload = function() {
+      var imageEls = document.querySelectorAll(".figure img");
+      for (var i = 0; i < imageEls.length; i++) {
+        var imageEl = imageEls[i];
+        var parent = imageEl.parentNode;
+        var captionEl = parent.querySelector(".caption");
+        if (captionEl) {
+          function transferWidth() {
+            captionEl.style["max-width"] = imageEl.naturalWidth+"px";
+          }
+          if (imageEl.complete) {
+            transferWidth();
+          } else {
+            imageEl.onload = transferWidth;
+          }
+        }
+      };
+    };
+  </script>
+
   <link href="style.css" rel="stylesheet" />
   
 
@@ -42,6 +63,10 @@
 </div>
 
 
+  <div class="article-abstract">
+    Substance Composer is a modern workspace for creating professional web-first publications. The app works similarly to traditional word processors. There is one important difference though: Substance Composer urges you to focus only on your writing, not on its layout.
+  </div>
+
 
  
 
@@ -69,6 +94,8 @@
       <div class="toc-entry level-2"><a href="#heading_2ff4a51b4539e184e47ad3b6c1f1efb9">Add videos</a></div>
     
       <div class="toc-entry level-2"><a href="#heading_3dea3851c4f239c3d43dd46219b2d370">Add audio</a></div>
+    
+      <div class="toc-entry level-2"><a href="#heading_b4326b925dccb30afaef82607576eb0c">Add web pages</a></div>
     
       <div class="toc-entry level-2"><a href="#heading_6a91fbce782d8144b7bf40a276a13e29">Add remarks</a></div>
     
@@ -98,11 +125,6 @@
 </div>
 
 
-</div>
-</div>
-<div id="67a1ecf64eccbdc6543d5ef31782dd3d" class="content-node text">
-<div class="content">
-  <strong>Substance Composer</strong> is a modern workspace for creating professional web-first publications. The app works similarly to traditional word processors. There is one important difference though: Substance Composer urges you to focus only on your writing, not on its layout.
 </div>
 </div>
 
@@ -286,6 +308,36 @@
 </div>
 </div>
 
+<div id="heading_b4326b925dccb30afaef82607576eb0c" class="content-node heading level-2">
+  <div class="content">
+    <a href="#heading_b4326b925dccb30afaef82607576eb0c" class="anchor">#</a>
+    <h2>Add web pages</h2>
+  </div>
+</div>
+<div id="06893d8573fa644cc53e59e81cc62aa9" class="content-node text">
+<div class="content">
+  It is possible to embed any HTML webpage into your document. That way you can deal with missing node types, such as tables, visualizations etc. However there are a few things you should know:
+</div>
+</div>
+<div id="8b855419fefdb3bfd338b01c9f5a39c8" class="content-node text">
+<div class="content">
+  Substance documents are self-contained, so ideally your embedded HTML page does not link to external resources (images etc.). You can use them, but then readers won't be able to view that content offline. Also, it is impossible for Substance Composer to determine the dimensions of the iFrame used in the document. So you have to set the width and height explicitly on the body element of the web page that you want to embed. Here's a sample HTML page that can be handled by the Composer.
+</div>
+</div>
+<div id="code_block_e7f95e717bc4ac3101a6d324826aa07c" class="content-node code-block">
+<div class="content">
+<pre>&lt;html&gt;
+&lt;body data-width=&quot;300px&quot; data-height=&quot;400px&quot;&gt;
+  &lt;table&gt;
+    &lt;tr&gt;&lt;th&gt;Item&lt;/th&gt;&lt;th&gt;Price&lt;/th&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Wheel&lt;/td&gt;&lt;td&gt;$ 45.49&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Brakes&lt;/td&gt;&lt;td&gt;$ 145.49&lt;/td&gt;&lt;/tr&gt;
+  &lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+</div>
+</div>
+
 <div id="heading_6a91fbce782d8144b7bf40a276a13e29" class="content-node heading level-2">
   <div class="content">
     <a href="#heading_6a91fbce782d8144b7bf40a276a13e29" class="anchor">#</a>
@@ -438,7 +490,7 @@
 </div>
 <div id="4abef95fe3b4020aebe6879f1a0f88b6" class="content-node text">
 <div class="content">
-  Substance doesn't have a backend. We chose to start with developing a system that doesn't require any infrastructure. That way we put the user in control of their content. We support all possible hosting options (SFTP, FTP, S3, Rackspace, etc.). We're planning to develop a platform for collaboration, but want to wait until the Substance document format is adopted well enough.
+  Substance doesn't have a backend (yet). We chose to start with developing a system that doesn't require any infrastructure. That way we put the user in control of their content. We support all possible hosting options (SFTP, FTP, S3, Rackspace, etc.). We're planning to develop a platform for collaboration, but want to wait until the Substance document format is adopted well enough.
 </div>
 </div>
 
@@ -474,7 +526,7 @@
 </div>
 <div id="a0c848ba24e2af47e152c4906d73ce2d" class="content-node text">
 <div class="content">
-  Use it extensively. Create and host publications. Tell us what you like and what could be improved. While Substance Composer can't cover all use cases we certainly value your feedback. We are also looking for partners that help us take development further and fund certain features that are highly requested. Please get in touch if you are interested in a collaboration.
+  Use it extensively. Create and host publications. Tell us what you like and what could be improved. While Substance Composer can't cover all possible use cases we really value your feedback. We are also looking for partners that help us take development further and fund certain features that are highly requested. Please get in touch if you are interested in a collaboration.
 </div>
 </div>
 
@@ -490,29 +542,9 @@
 </div>
 </div>
 
-<div id="publication_info" class="content-node publication-info">
+
+<div id="references" class="content-node references">
   <div class="content">
-
-    
-    
-    
-      <div class="authors">
-        
-          <div class="author" id="contributor_93e4377bb7ef2b4b2a2562aa48231dd0">
-            <div class="author-name">Michael Aufreiter</div>
-            <img class="author-image" src="contributor_93e4377bb7ef2b4b2a2562aa48231dd0.png"/>
-            <div class="author-description">Michael Aufreiter is the original creator of the Substance platform. He has constantly been working on the idea of creating a new user experience for document editing. In the past he has invented many popular web-technologies (eLife Lens, Prose.io, Data.js, Github.js). </div>
-          </div>
-        
-          <div class="author" id="contributor_68bea766688deac753f8dd51d5f196b4">
-            <div class="author-name">Oliver Buchtala</div>
-            <img class="author-image" src="contributor_68bea766688deac753f8dd51d5f196b4.png"/>
-            <div class="author-description">Oliver Buchtala has joined the project in 2012 turning Substance from a platform into a flexible and extensible technology stack. He has worked over 15 years in software development.</div>
-          </div>
-        
-      </div>
-    
-
     
 
     
@@ -556,12 +588,40 @@
         
       </div>
     
+  </div>
+</div>
 
+<div id="publication_info" class="content-node publication-info">
+  <div class="content">
+
+
+
+    
+    
+    
+      <div class="authors">
+        
+          <div class="author" id="contributor_93e4377bb7ef2b4b2a2562aa48231dd0">
+            <div class="author-name">Michael Aufreiter</div>
+            <img class="author-image" src="contributor_93e4377bb7ef2b4b2a2562aa48231dd0.png"/>
+            <div class="author-description">Michael Aufreiter is the original creator of the Substance platform. He has constantly been working on the idea of creating a new user experience for document editing. In the past he has invented many popular web-technologies (eLife Lens, Prose.io, Data.js, Github.js). </div>
+          </div>
+        
+          <div class="author" id="contributor_68bea766688deac753f8dd51d5f196b4">
+            <div class="author-name">Oliver Buchtala</div>
+            <img class="author-image" src="contributor_68bea766688deac753f8dd51d5f196b4.png"/>
+            <div class="author-description">Oliver Buchtala has joined the project in 2012 turning Substance from a platform into a flexible and extensible technology stack. He has worked over 15 years in software development.</div>
+          </div>
+        
+      </div>
     
 
     
+
+
+
     <div class="copyright">
-      <div class="label">Copyright</div>
+      <!-- <div class="label">Copyright</div> -->
       
 
       
@@ -577,17 +637,20 @@
         
       </div>
 
-      <div class="generator">
-        This publication was produced with <a href="http://substance.io/composer">Substance</a>, an open self-publishing system.
-      </div>
+
     </div>
-    
+
   </div>
+
+<div class="generator">
+  <div class="content">
+    This article was created with <a href="http://substance.io/composer">Substance</a>, an open self-publishing system.
+  </div>
+</div>
+
 </div>
 </div>
 
-<script>
-  
-</script>
+
 </body>
 </html>

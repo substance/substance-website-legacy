@@ -1,0 +1,92 @@
+{
+  "id": "19dfd0993ac167a4ea53dd53824ccadc",
+  "schema": [
+    "substance-article",
+    "0.5.0"
+  ],
+  "nodes": {
+    "document": {
+      "id": "document",
+      "type": "document",
+      "views": [
+        "content",
+        "figures",
+        "citations"
+      ],
+      "license": "licence",
+      "guid": "19dfd0993ac167a4ea53dd53824ccadc",
+      "creator": "",
+      "title": "Untitled",
+      "authors": [],
+      "abstract": "adfadf",
+      "created_at": "2014-05-02T14:44:20.926Z",
+      "updated_at": "2014-05-02T14:44:37.619Z",
+      "published_on": "2014-05-02T14:44:20.927Z"
+    },
+    "cover": {
+      "id": "cover",
+      "type": "cover",
+      "authors": []
+    },
+    "content": {
+      "type": "view",
+      "id": "content",
+      "nodes": [
+        "cover",
+        "text_3d88aa3664f7006e9f5da14cd3bb05dc",
+        "text1"
+      ]
+    },
+    "figures": {
+      "type": "view",
+      "id": "figures",
+      "nodes": []
+    },
+    "citations": {
+      "type": "view",
+      "id": "citations",
+      "nodes": []
+    },
+    "remarks": {
+      "type": "view",
+      "id": "remarks",
+      "nodes": []
+    },
+    "errors": {
+      "type": "view",
+      "id": "errors",
+      "nodes": []
+    },
+    "info": {
+      "type": "view",
+      "id": "info",
+      "nodes": [
+        "publication_info"
+      ]
+    },
+    "text1": {
+      "type": "text",
+      "id": "text1",
+      "content": "afda"
+    },
+    "publication_info": {
+      "id": "publication_info",
+      "type": "publication_info"
+    },
+    "license": {
+      "id": "license",
+      "type": "license",
+      "name": "None",
+      "code": "none",
+      "description": "No license",
+      "version": "1.0",
+      "url": ""
+    },
+    "text_3d88aa3664f7006e9f5da14cd3bb05dc": {
+      "type": "text",
+      "id": "text_3d88aa3664f7006e9f5da14cd3bb05dc",
+      "source_id": "",
+      "content": "asdfa"
+    }
+  }
+}

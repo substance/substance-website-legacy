@@ -46,6 +46,10 @@ body {
   padding: 50px 0;
 }
 
+.section.substance-composer {
+  padding-top: 0px;
+}
+
 .darker {
   background: #272828;
 }
@@ -58,6 +62,22 @@ a:hover {
   text-decoration: none;
   color: #28fff7;
 }
+
+
+
+/* Light (white) background */
+
+
+.light {
+  background: #fff;
+  color: #444;
+}
+
+.light.alt {
+  background: #f6f6f6;
+  color: #444;
+}
+
 
 /*
 Big Teaser (coming this April)
@@ -82,17 +102,15 @@ Big Teaser (coming this April)
   color: rgba(255,255,255,1);
 }
 
-
-
 /*
 Download button
 ---------------------------------------------*/
 
 .download-button {
   display: none;
-  width: 340px;
+  width: 360px;
   margin: 0 auto;
-  background: #222;
+  background: #111;
   color: rgba(255,255,255,0.9);
   font-size: 20px;
   padding: 20px;
@@ -254,18 +272,66 @@ Header
   padding-top: 20px;
 }
 
+
+
 .row p {
+  line-height: 30px;
   /*font-family: 'Source Sans Pro';*/
   font-size: 16px;
   color: rgba(255,255,255,0.6);
 }
 
+
+.light .row {
+  padding-top: 30px;
+}
+
+.light .row p {
+  /*font-family: 'Source Sans Pro';*/
+  font-size: 16px;
+  color: #555;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.light .row blockquote {
+  color: #777;
+}
+
+.light.alt .row p {
+  max-width: 600px;
+}
+
+
+.light h2 {
+  padding-top: 60px;
+}
+
+.light h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.light a {
+  color: #4A90E2;
+}
+
+.light a:hover {
+  color: #9DCAFF;
+}
+
+
+
+
+
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 video {
-  width: 100%;
+  max-width: 100%;
 }
 
 
