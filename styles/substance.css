@@ -108,7 +108,7 @@ Download button
 
 .download-button {
   display: none;
-  width: 360px;
+  max-width: 360px;
   margin: 0 auto;
   background: #111;
   color: rgba(255,255,255,0.9);
