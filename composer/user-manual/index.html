@@ -107,6 +107,10 @@
     
       <div class="toc-entry level-2"><a href="#heading_fe10b2d8f7800c73e47984590448a057">Upload using SFTP</a></div>
     
+      <div class="toc-entry level-1"><a href="#heading_c797c26316be178b0f47c471db297914">Theming</a></div>
+    
+      <div class="toc-entry level-2"><a href="#heading_a212b9a4a1dd904babfbd605148056d3">Theme development</a></div>
+    
       <div class="toc-entry level-1"><a href="#heading_f00004f1d1353fcf9165db468da83bd9">Known issues</a></div>
     
       <div class="toc-entry level-1"><a href="#heading_d2824dd68b7a96838598abeee98bf79e">Frequently Asked Questions</a></div>
@@ -463,6 +467,110 @@
 </div>
 </div>
 
+<div id="heading_c797c26316be178b0f47c471db297914" class="content-node heading level-1">
+  <div class="content">
+    <a href="#heading_c797c26316be178b0f47c471db297914" class="anchor">#</a>
+    <h1>Theming</h1>
+  </div>
+</div>
+<div id="b611ac40f59a0fc186e5d0b021b7d205" class="content-node text">
+<div class="content">
+  Substance has support for theming. You can develop completely customized layouts for your Substance articles. First let's learn how to install a theme: 
+</div>
+</div>
+<div id="feea34ec31f1e14dc1b4767be6e081cb" class="content-node text">
+<div class="content">
+  Download the <a href="http://cdn.substance.io/templates/substance-dark.zip" title="Substance Dark Theme">Substance Dark Theme</a>. Extract the contents of the zip file. Now you need to locate the Substance Composer Application data directory on your system.
+</div>
+</div>
+<div id="list_item_bec7adccfe0d4437a1a3ff46919ceeb1" class="content-node list-item level-1">
+<div class="content">
+  <strong>OS X</strong>: <code>~/Library/Application Support/Substance Composer</code>
+</div>
+</div>
+<div id="list_item_871e5db481eb8584aa97205049d37d3d" class="content-node list-item level-1">
+<div class="content">
+  <strong>Windows</strong>: <code>%APPDATA%\Substance Composer</code>
+</div>
+</div>
+<div id="list_item_de355caf11b3c058ce4f53ba5b11d442" class="content-node list-item level-1">
+<div class="content">
+  <strong>Linux</strong>: <code>~/.config/</code>substance-composer
+</div>
+</div>
+<div id="text_46bf6c7dbde9c272eae9cc8b0f72a81f" class="content-node text">
+<div class="content">
+  Now move the extracted folder (<code>substance-dark</code>) into the <code>templates</code> directory. Restart the Substance Composer and you should be able to select the Substance Dark Theme in the Publish Tab.
+</div>
+</div>
+<div id="figure_e64b7759a37b7c1083d1d591400df65f" class="content-node figure">
+  <div class="content">
+    <!--<a href="figure_e64b7759a37b7c1083d1d591400df65f.png" target="_blank">-->
+      <img src="figure_e64b7759a37b7c1083d1d591400df65f.png">
+    <!--</a>-->
+    
+    <div class="caption">Publish Dialogue after selecting a custom theme.</div>
+    
+  </div>
+</div>
+
+<div id="heading_a212b9a4a1dd904babfbd605148056d3" class="content-node heading level-2">
+  <div class="content">
+    <a href="#heading_a212b9a4a1dd904babfbd605148056d3" class="anchor">#</a>
+    <h2>Theme development</h2>
+  </div>
+</div>
+<div id="ea0a06c00c986e43a5aa98c6dc24c88e" class="content-node text">
+<div class="content">
+  Themes are actually pretty simple and can be compared to Wordpress Templates. If you look at the contents of the Substance Dark Theme, you find a nodes folder, which has the HTML markup for all different content types. Main entry point is the document.html file. Under assets you can put anything you need to reference in your template, such as icon-images or stylesheet files. When referencing assets, not that you do not need to prefix /assets/ in your HTML, as the files will be copied to a flat structure.
+</div>
+</div>
+<div id="59e59564702106a5bc6c3cf4157a5cc8" class="content-node text">
+<div class="content">
+  Here's an example implementation of figure.html.
+</div>
+</div>
+<div id="code_block_b60afdf98ad3a5ae9593be1119b0c2c6" class="content-node code-block">
+<div class="content">
+<pre>&lt;div id=&quot;&lt;%= node.id %&gt;&quot; class=&quot;content-node figure&quot;&gt;
+  &lt;div class=&quot;content&quot;&gt;
+      &lt;img src=&quot;&lt;%= node.image %&gt;&quot;&gt;
+    &lt;% if (node.caption) { %&gt;
+    &lt;div class=&quot;caption&quot;&gt;&lt;%= annotated([node.caption, 'content']) %&gt;&lt;/div&gt;
+    &lt;% } %&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</pre>
+</div>
+</div>
+<div id="f91414f3ea87c156ed83809ed1e82411" class="content-node text">
+<div class="content">
+  The corresponding style sheet rules could look like this. 
+</div>
+</div>
+<div id="code_block_88619e3b67fbbff688c3751108096f36" class="content-node code-block">
+<div class="content">
+<pre>.content-node.figure { margin-bottom: 2em; background:#121415; }
+
+.content-node.figure .content { max-width: 1000px; margin: 0px auto; text-align: center; }
+
+.content-node.figure .content a { text-align: center; }
+
+.content-node.figure .caption { font-size: 14px; color: #a9c5c5; margin: 0 auto; }
+
+.content-node.figure img { max-width: 100%; }</pre>
+</div>
+</div>
+<div id="107636a7965038a51aea9b0ef06f129e" class="content-node text">
+<div class="content">
+  However, you can do anything you want with regards to markup structure and CSS, there's are no rules you need to follow. You can also exclude information you don't need in your final publication. E.g. the list of authors. Feel free to build on the existing Substance themes to create your own.
+</div>
+</div>
+<div id="26c4a7f9d748e7b81f32a2e94bff1410" class="content-node text">
+<div class="content">
+  Given the power of custom theming, Substance Composer is a great tool for web designers, who can enter the contents of a page, and easily generate HTML+CSS, based on their custom templates. Think of it like <a href="http://jekyllrb.com/" title="Jekyll is a blog-aware static site generator">Jekyll</a>, but with a visual front-end for content input. Also, when Jekyll is for multi-page blogs, Substance is for single-page web publications.
+</div>
+</div>
+
 <div id="heading_f00004f1d1353fcf9165db468da83bd9" class="content-node heading level-1">
   <div class="content">
     <a href="#heading_f00004f1d1353fcf9165db468da83bd9" class="anchor">#</a>
@@ -584,6 +692,16 @@
           <div class="citation" id="web_resource_5adc6de56129e9cc8ea20146b96363b2">
             <div class="citation-url"><a href="http://www.mirovideoconverter.com">http://www.mirovideoconverter.com</a></div>
             <div class="citation-description">Miro Video Converter</div>
+          </div>
+        
+          <div class="citation" id="web_resource_e3fb1ef638cb0b318b51a132e9c61db9">
+            <div class="citation-url"><a href="http://cdn.substance.io/templates/substance-dark.zip">http://cdn.substance.io/templates/substance-dark.zip</a></div>
+            <div class="citation-description">Substance Dark Theme</div>
+          </div>
+        
+          <div class="citation" id="web_resource_765b1b77147e4c8b477cf52d99eb1f53">
+            <div class="citation-url"><a href="http://jekyllrb.com/">http://jekyllrb.com/</a></div>
+            <div class="citation-description">Jekyll is a blog-aware static site generator</div>
           </div>
         
       </div>
