@@ -1,0 +1,457 @@
+{
+  "id": "368e509ceb1c9f0632980a97e75627ad",
+  "schema": [
+    "substance-article",
+    "0.5.0"
+  ],
+  "nodes": {
+    "document": {
+      "id": "document",
+      "type": "document",
+      "views": [
+        "content",
+        "figures",
+        "citations"
+      ],
+      "license": "licence",
+      "guid": "368e509ceb1c9f0632980a97e75627ad",
+      "creator": "",
+      "title": "Do-It-Yourself: Freies, offenes Publizieren im WWW",
+      "authors": [
+        "contributor_a3631bf355e77f7ae34b1402ee34e15f",
+        "contributor_4695a8119806ded103470248d6aca414"
+      ],
+      "abstract": "Workshop: Im Rahmen unseres Projekts Substance beschäftigen wir uns seit vielen Jahren mit dem Thema “Freies, offenes Publizieren im Web”. Wir gehen der Frage nach, wie nachhaltig sichergestellt werden kann, dass jede Bürgerin und jeder Bürger das Web als faires demokratisches Publikationsmedium wahrnehmen und gleichberechtigt nutzen kann.",
+      "created_at": "2014-05-19T19:34:38.708Z",
+      "updated_at": "2014-05-28T21:10:52.900Z",
+      "published_on": "2014-05-19T19:34:38.709Z"
+    },
+    "cover": {
+      "id": "cover",
+      "type": "cover",
+      "authors": []
+    },
+    "content": {
+      "type": "view",
+      "id": "content",
+      "nodes": [
+        "cover",
+        "heading_eac9e8091a8071015d2746ca8122a5f1",
+        "c0ad5e9503705cee81336d95f107771c",
+        "f07dfcafaefbf56a2be9d3d4c008c30c",
+        "f8cd3c7f8b7c693349cb3db5eaae4c4d",
+        "heading_c7ae769b8a93867d5643130c67ba3bf0",
+        "heading_24246bc7aadbd7936fb0a197f659548b",
+        "8779c75fb5c125b051894e45e01b4fe7",
+        "heading_2e4b0fef4ab69584ad4e28d1546c5bf2",
+        "c9f6e2ff016759ad323ea30eea770b1e",
+        "code_block_1e3617a080b21c9c3533493deca8636d",
+        "ccc819cdd6c6eab07b830a9fea8315fd",
+        "heading_9edf885370e8980b502f279d8bfe44e5",
+        "90c2d66bbef6ebddeeb8de941011b908",
+        "a4045971dc81a4b296ff3e90aeb39969",
+        "8c4f5a8116112e794cc416945318b5c9",
+        "heading_7cae1545df75c72c70a78c0b1bd3eb8e",
+        "db4c15d9229ae25b20fef7659f43f3c9",
+        "4971a3e6bf1664cc25a64df85cd3baa2",
+        "1db653661fe42847fd044c1a80fb8d44",
+        "9bfd5a39708976c3ca195c9663ab8f49"
+      ]
+    },
+    "figures": {
+      "type": "view",
+      "id": "figures",
+      "nodes": []
+    },
+    "citations": {
+      "type": "view",
+      "id": "citations",
+      "nodes": [
+        "web_resource_867ce1381e41c631a194be8b703b6038",
+        "web_resource_a48355f26193975ab752ed9cddc1ea9f",
+        "web_resource_bf1e406195d28d9593bead803c1effbd",
+        "web_resource_9e3cab71730b9a54a49238b4c3c5e387",
+        "web_resource_147286de9a74da54b3982eac870eaa0f",
+        "web_resource_1b4984b9706a24e0624c0eb2e187405b",
+        "web_resource_2962044fd35ea0d18a1bd414654ae2e0",
+        "web_resource_4474a6a2784e870ef928fde980f2f74d",
+        "web_resource_9e1bb924771be87f939c30796db7311b"
+      ]
+    },
+    "remarks": {
+      "type": "view",
+      "id": "remarks",
+      "nodes": []
+    },
+    "errors": {
+      "type": "view",
+      "id": "errors",
+      "nodes": []
+    },
+    "info": {
+      "type": "view",
+      "id": "info",
+      "nodes": [
+        "publication_info",
+        "contributor_a3631bf355e77f7ae34b1402ee34e15f",
+        "contributor_4695a8119806ded103470248d6aca414"
+      ]
+    },
+    "publication_info": {
+      "id": "publication_info",
+      "type": "publication_info"
+    },
+    "heading_eac9e8091a8071015d2746ca8122a5f1": {
+      "type": "heading",
+      "id": "heading_eac9e8091a8071015d2746ca8122a5f1",
+      "source_id": "",
+      "content": "Einführung",
+      "level": 1
+    },
+    "c0ad5e9503705cee81336d95f107771c": {
+      "type": "text",
+      "id": "c0ad5e9503705cee81336d95f107771c",
+      "source_id": "",
+      "content": "Multimedia Storytelling gewinnt zunehmend an Bedeutung. Die Erstellung solcher Publikationen ist in der Regel äußerst aufwendig, und erfordert zudem Programmierkenntnisse. Derzeit können sich nur größere Online-Verlage und Zeitungen solche Entwicklungen leisten. Prominente Beispiele sind Snowfall der New York Times, oder die interaktive Remittances-Story: «Milliarden aus der Fremde»."
+    },
+    "web_resource_867ce1381e41c631a194be8b703b6038": {
+      "type": "web_resource",
+      "id": "web_resource_867ce1381e41c631a194be8b703b6038",
+      "description": "Vortragsfoliensatz der Codefront.io 2014.",
+      "url": "http://michael.substance.io/presentations/codefront-io-2014-do-it-yourself-open-digital-publishing-with-substance.pdf"
+    },
+    "citation_reference_4a69bdd3f193222d47b791d9bff6a99f": {
+      "type": "citation_reference",
+      "id": "citation_reference_4a69bdd3f193222d47b791d9bff6a99f",
+      "path": [
+        "f8cd3c7f8b7c693349cb3db5eaae4c4d",
+        "content"
+      ],
+      "range": [
+        230,
+        242
+      ],
+      "target": "web_resource_867ce1381e41c631a194be8b703b6038"
+    },
+    "heading_c7ae769b8a93867d5643130c67ba3bf0": {
+      "type": "heading",
+      "id": "heading_c7ae769b8a93867d5643130c67ba3bf0",
+      "source_id": "",
+      "content": "Arbeitspaket",
+      "level": 1
+    },
+    "heading_2e4b0fef4ab69584ad4e28d1546c5bf2": {
+      "type": "heading",
+      "id": "heading_2e4b0fef4ab69584ad4e28d1546c5bf2",
+      "source_id": "",
+      "content": "Grundlagen",
+      "level": 2
+    },
+    "c9f6e2ff016759ad323ea30eea770b1e": {
+      "type": "text",
+      "id": "c9f6e2ff016759ad323ea30eea770b1e",
+      "source_id": "",
+      "content": "Das Ziel ist hier eine einfache Veröffentlichung unter Verwendung von Text und Bildern zu erzeugen. Falls Sie kein eigenes Material zur Verfügung haben, bitten wir Ihnen vorgefertigte Inhalte in unserem Arbeitspaket (Open Commons)."
+    },
+    "heading_9edf885370e8980b502f279d8bfe44e5": {
+      "type": "heading",
+      "id": "heading_9edf885370e8980b502f279d8bfe44e5",
+      "source_id": "",
+      "content": "Video/Audio",
+      "level": 2
+    },
+    "heading_7cae1545df75c72c70a78c0b1bd3eb8e": {
+      "type": "heading",
+      "id": "heading_7cae1545df75c72c70a78c0b1bd3eb8e",
+      "source_id": "",
+      "content": "Publishing/Hosting",
+      "level": 2
+    },
+    "code_block_1e3617a080b21c9c3533493deca8636d": {
+      "type": "code_block",
+      "id": "code_block_1e3617a080b21c9c3533493deca8636d",
+      "source_id": "",
+      "content": "content.txt           Beispielpublikation (Aufbau)\nimage_1.jpg           Bild 1\n...\nvideo_1.mp4           Video 1\n...\naudio_1.mp3           Audio 1\n...\ncover.jpg             Cover Bild\n...\navatar_mannes.jpg     Autorenbild 1\ndatavis/datavis.html  Beispiel Webpage (Visualisierung)"
+    },
+    "90c2d66bbef6ebddeeb8de941011b908": {
+      "type": "text",
+      "id": "90c2d66bbef6ebddeeb8de941011b908",
+      "source_id": "",
+      "content": "Um möglichst viele Browser zu unterstützen, ist es nötig Video und Audio in verschiedenen Formaten gleichzeitig bereitzustellen. Um Videos fürs Web zu konvertieren stehen freie Werkzeuge zur Verfügung (z.B. Miro Video Converter). Genauere Informationen zu diesem Thema sind auf Dive Into HTML 5 verfügbar. Ziel dieses Blocks ist Video und Audiomaterial in die Publikation zu integrieren."
+    },
+    "web_resource_a48355f26193975ab752ed9cddc1ea9f": {
+      "type": "web_resource",
+      "id": "web_resource_a48355f26193975ab752ed9cddc1ea9f",
+      "description": "Video on the Web",
+      "url": "http://diveintohtml5.info/video.html"
+    },
+    "citation_reference_6bc88e42e2f22c5a18de382ec4f8300b": {
+      "type": "citation_reference",
+      "id": "citation_reference_6bc88e42e2f22c5a18de382ec4f8300b",
+      "path": [
+        "90c2d66bbef6ebddeeb8de941011b908",
+        "content"
+      ],
+      "range": [
+        278,
+        294
+      ],
+      "target": "web_resource_a48355f26193975ab752ed9cddc1ea9f"
+    },
+    "web_resource_bf1e406195d28d9593bead803c1effbd": {
+      "type": "web_resource",
+      "id": "web_resource_bf1e406195d28d9593bead803c1effbd",
+      "description": "Miro Video Converter",
+      "url": "http://mirovideoconverter.com"
+    },
+    "citation_reference_cc1e87934b7288cb521028996139c530": {
+      "type": "citation_reference",
+      "id": "citation_reference_cc1e87934b7288cb521028996139c530",
+      "path": [
+        "90c2d66bbef6ebddeeb8de941011b908",
+        "content"
+      ],
+      "range": [
+        207,
+        227
+      ],
+      "target": "web_resource_bf1e406195d28d9593bead803c1effbd"
+    },
+    "db4c15d9229ae25b20fef7659f43f3c9": {
+      "type": "text",
+      "id": "db4c15d9229ae25b20fef7659f43f3c9",
+      "source_id": "",
+      "content": "Um eine Publikation online zu stellen sind nur wenige Schritte erforderlich. Zwar bieten manche Cloud-Services noch einfachere Lösungen, dies aber auf Kosten des Verlusts der Privatsphäre und Selbst-Kontrolle."
+    },
+    "4971a3e6bf1664cc25a64df85cd3baa2": {
+      "type": "text",
+      "id": "4971a3e6bf1664cc25a64df85cd3baa2",
+      "source_id": "",
+      "content": "Wir bedienen uns ausschließlich offener Web Standards und Protokolle während des Publikationsprozesses. Sie benötigen einen herkömmlichen Webspace, sowie Tools (z.B. CyberDuck) zum Datentransfer (FTP, SFTP). Falls Sie selbst keinen eigenen Webspace haben, empfehlen wir die Nutzung von Jumpstarter.io, welches sehr einfach zu verwenden ist und bei geringem Datenaufkommen kostenlos ist. Für Details zur Verwendung verweisen wir auf das User Manual."
+    },
+    "web_resource_9e3cab71730b9a54a49238b4c3c5e387": {
+      "type": "web_resource",
+      "id": "web_resource_9e3cab71730b9a54a49238b4c3c5e387",
+      "description": "Jumpstarter.io Webbosting.",
+      "url": "http://jumpstarter.io"
+    },
+    "citation_reference_296dfba642f074fb62b671ae3cf586e6": {
+      "type": "citation_reference",
+      "id": "citation_reference_296dfba642f074fb62b671ae3cf586e6",
+      "path": [
+        "4971a3e6bf1664cc25a64df85cd3baa2",
+        "content"
+      ],
+      "range": [
+        286,
+        300
+      ],
+      "target": "web_resource_9e3cab71730b9a54a49238b4c3c5e387"
+    },
+    "web_resource_147286de9a74da54b3982eac870eaa0f": {
+      "type": "web_resource",
+      "id": "web_resource_147286de9a74da54b3982eac870eaa0f",
+      "description": "Substance Composer User Manual",
+      "url": "http://substance.io/composer/user-manual"
+    },
+    "citation_reference_55b0508d0c6fbcf7ffef5f9c0a60ec54": {
+      "type": "citation_reference",
+      "id": "citation_reference_55b0508d0c6fbcf7ffef5f9c0a60ec54",
+      "path": [
+        "4971a3e6bf1664cc25a64df85cd3baa2",
+        "content"
+      ],
+      "range": [
+        436,
+        447
+      ],
+      "target": "web_resource_147286de9a74da54b3982eac870eaa0f"
+    },
+    "ccc819cdd6c6eab07b830a9fea8315fd": {
+      "type": "text",
+      "id": "ccc819cdd6c6eab07b830a9fea8315fd",
+      "source_id": "",
+      "content": "Öffnen Sie den Substance Composer und füllen ihr Dokument mit Inhalten: Titel, Zusammenfassung, Autoren (inkl. Avatar und Biographie), Text und Bilder. Verwenden Sie Text Annotationen wie hervorheben oder stark hervorheben sowie Links zu Web-Resourcen. Sie können auch Notizen zu einzelnen Textpassagen machen. Wählen Sie als Lizenz Creative Commons im Info-Dialog aus."
+    },
+    "emphasis_df7b752f1395deeecabca048f199b259": {
+      "type": "emphasis",
+      "id": "emphasis_df7b752f1395deeecabca048f199b259",
+      "path": [
+        "ccc819cdd6c6eab07b830a9fea8315fd",
+        "content"
+      ],
+      "range": [
+        188,
+        199
+      ]
+    },
+    "strong_c465867a7393d747f0176391037ea566": {
+      "type": "strong",
+      "id": "strong_c465867a7393d747f0176391037ea566",
+      "path": [
+        "ccc819cdd6c6eab07b830a9fea8315fd",
+        "content"
+      ],
+      "range": [
+        205,
+        222
+      ]
+    },
+    "a4045971dc81a4b296ff3e90aeb39969": {
+      "type": "text",
+      "id": "a4045971dc81a4b296ff3e90aeb39969",
+      "source_id": "",
+      "content": "Fügen Sie ein Video in Ihren Artikel ein. Achten Sie dabei darauf, dass Sie zumindest zwei Formate (MP4, WebM) sowie ein passendes Video Cover-Bild auszuwählen."
+    },
+    "8c4f5a8116112e794cc416945318b5c9": {
+      "type": "text",
+      "id": "8c4f5a8116112e794cc416945318b5c9",
+      "source_id": "",
+      "content": "Fügen Sie ebenso Audio-Material ein. Auch hier müssen mehrere Formate ausgewählt werden (MP3, OGG). Beachten Sie, dass Videos eventuell aufgrund von Lizenzen innerhalb des Composer nicht abgespielt werden können, in der fertigen Publikation hingegen schon."
+    },
+    "1db653661fe42847fd044c1a80fb8d44": {
+      "type": "text",
+      "id": "1db653661fe42847fd044c1a80fb8d44",
+      "source_id": "",
+      "content": "Wechseln Sie in die Publish-Ansicht. Ihnen stehen einige Konfigurationsmöglichkeiten zur Auswahl (Inhaltsverzeichnis, Referenzliste, etc.). Exportieren Sie ihren Artikel als Webseite (Export Button)."
+    },
+    "9bfd5a39708976c3ca195c9663ab8f49": {
+      "type": "text",
+      "id": "9bfd5a39708976c3ca195c9663ab8f49",
+      "source_id": "",
+      "content": "Stellen Sie eine Verbindung zu Ihrem Webspace her (z.b. mit Hilfe von Cyberduck und SFTP). Kopieren Sie die soeben exportierte Publikation auf Ihren Webspace. Sie können nun Ihre Publikation im Web abrufen."
+    },
+    "contributor_a3631bf355e77f7ae34b1402ee34e15f": {
+      "type": "contributor",
+      "id": "contributor_a3631bf355e77f7ae34b1402ee34e15f",
+      "source_id": "",
+      "name": "Oliver Buchtala",
+      "role": "author",
+      "description": "",
+      "image": "",
+      "email": "",
+      "contribution": ""
+    },
+    "contributor_4695a8119806ded103470248d6aca414": {
+      "type": "contributor",
+      "id": "contributor_4695a8119806ded103470248d6aca414",
+      "source_id": "",
+      "name": "Michael Aufreiter",
+      "role": "author",
+      "description": "",
+      "image": "",
+      "email": "",
+      "contribution": ""
+    },
+    "license": {
+      "type": "license",
+      "id": "license",
+      "name": "Creative Commons Attribution License",
+      "code": "cc-by",
+      "version": "3.0",
+      "description": "This article is distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use and redistribution provided that the original author and source are credited.",
+      "url": "http://creativecommons.org/licenses/by/3.0/us/"
+    },
+    "f07dfcafaefbf56a2be9d3d4c008c30c": {
+      "type": "text",
+      "id": "f07dfcafaefbf56a2be9d3d4c008c30c",
+      "source_id": "",
+      "content": "Substance ist ein modernes Self-Publishing System. Mit Hilfe des Substance Composer lassen sich moderne interaktive Web-Stories auch ohne technisches Know-How generieren. Dadurch können z.B. Journalisten diese moderne Art des Erzählens selbst nutzen."
+    },
+    "f8cd3c7f8b7c693349cb3db5eaae4c4d": {
+      "type": "text",
+      "id": "f8cd3c7f8b7c693349cb3db5eaae4c4d",
+      "source_id": "",
+      "content": "Substance setzt sich zum Ziel den hohen Ansprüchen der User hinsichtlich Usability gerecht zu werden. Im Unterschied zu aktuellen Publishing Systemen behalten die User allerdings stets die volle Kontrolle über ihre Inhalte. Siehe Präsentation."
+    },
+    "web_resource_1b4984b9706a24e0624c0eb2e187405b": {
+      "type": "web_resource",
+      "id": "web_resource_1b4984b9706a24e0624c0eb2e187405b",
+      "description": "Milliarden aus der Fremde",
+      "url": "http://labs.tageswoche.ch/geschichten/remittances.html"
+    },
+    "citation_reference_91c37b996b9eed489fb743d11232f188": {
+      "type": "citation_reference",
+      "id": "citation_reference_91c37b996b9eed489fb743d11232f188",
+      "path": [
+        "c0ad5e9503705cee81336d95f107771c",
+        "content"
+      ],
+      "range": [
+        359,
+        384
+      ],
+      "target": "web_resource_1b4984b9706a24e0624c0eb2e187405b"
+    },
+    "web_resource_2962044fd35ea0d18a1bd414654ae2e0": {
+      "type": "web_resource",
+      "id": "web_resource_2962044fd35ea0d18a1bd414654ae2e0",
+      "description": "Snow Fall - The Avalanche at Tunnel Creek",
+      "url": "http://www.nytimes.com/projects/2012/snow-fall/#/?part=tunnel-creek"
+    },
+    "citation_reference_615f95add148bae91ca6a4a7f642913b": {
+      "type": "citation_reference",
+      "id": "citation_reference_615f95add148bae91ca6a4a7f642913b",
+      "path": [
+        "c0ad5e9503705cee81336d95f107771c",
+        "content"
+      ],
+      "range": [
+        289,
+        297
+      ],
+      "target": "web_resource_2962044fd35ea0d18a1bd414654ae2e0"
+    },
+    "web_resource_4474a6a2784e870ef928fde980f2f74d": {
+      "type": "web_resource",
+      "id": "web_resource_4474a6a2784e870ef928fde980f2f74d",
+      "description": "Substance Composer Download",
+      "url": "http://substance.io"
+    },
+    "heading_24246bc7aadbd7936fb0a197f659548b": {
+      "type": "heading",
+      "id": "heading_24246bc7aadbd7936fb0a197f659548b",
+      "source_id": "",
+      "content": "Vorbereitungen",
+      "level": 2
+    },
+    "8779c75fb5c125b051894e45e01b4fe7": {
+      "type": "text",
+      "id": "8779c75fb5c125b051894e45e01b4fe7",
+      "source_id": "",
+      "content": "Bitte laden sie aktuellste Version des Substance Composer sowie das Workshop Arbeitspaket von unserer Website."
+    },
+    "web_resource_9e1bb924771be87f939c30796db7311b": {
+      "type": "web_resource",
+      "id": "web_resource_9e1bb924771be87f939c30796db7311b",
+      "description": "Workshop Arbeitspaket",
+      "url": "http://substance.io/workshops/workshop-oc14.zip"
+    },
+    "citation_reference_9d5fdb42808f07ae6674bc9309e29d0b": {
+      "type": "citation_reference",
+      "id": "citation_reference_9d5fdb42808f07ae6674bc9309e29d0b",
+      "path": [
+        "8779c75fb5c125b051894e45e01b4fe7",
+        "content"
+      ],
+      "range": [
+        39,
+        57
+      ],
+      "target": "web_resource_4474a6a2784e870ef928fde980f2f74d"
+    },
+    "citation_reference_3ae6dbb7ac83f31125bd9734a28abf09": {
+      "type": "citation_reference",
+      "id": "citation_reference_3ae6dbb7ac83f31125bd9734a28abf09",
+      "path": [
+        "8779c75fb5c125b051894e45e01b4fe7",
+        "content"
+      ],
+      "range": [
+        68,
+        89
+      ],
+      "target": "web_resource_9e1bb924771be87f939c30796db7311b"
+    }
+  }
+}

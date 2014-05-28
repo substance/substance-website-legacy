@@ -1,0 +1,364 @@
+{
+  "id": "e99f783d17a37e38cded790d1c7ff987",
+  "schema": [
+    "substance-article",
+    "0.5.0"
+  ],
+  "nodes": {
+    "document": {
+      "id": "document",
+      "type": "document",
+      "views": [
+        "content",
+        "figures",
+        "citations"
+      ],
+      "license": "licence",
+      "guid": "e99f783d17a37e38cded790d1c7ff987",
+      "creator": "",
+      "title": "Hosting mit Jumpstarter.io",
+      "authors": [
+        "contributor_8b3f3020ecf4ced04565b230d0e2ad0b"
+      ],
+      "abstract": "Hier wird kurz beschrieben, wie man einen eigenen Web-Space auf Jumpstarter.io einrichtet.",
+      "created_at": "2014-05-20T10:56:40.600Z",
+      "updated_at": "2014-05-20T11:19:10.620Z",
+      "published_on": "2014-05-20T10:56:40.600Z"
+    },
+    "cover": {
+      "id": "cover",
+      "type": "cover",
+      "authors": []
+    },
+    "content": {
+      "type": "view",
+      "id": "content",
+      "nodes": [
+        "cover",
+        "heading_2fe566b29bdd38d404f6967cea434c51",
+        "7b47517b291d320747c1e9a68425a80e",
+        "figure_947585acfeae549cd82ad9b765294a45",
+        "heading_d97671ec8ed4b16c65043034956ac8c8",
+        "4b1ad3e44c294b052a7fdc98a86a2468",
+        "figure_297917d2eb83700992e65e75322cda20",
+        "text_aa8845b2293705ab9f1347d105ea9eda",
+        "figure_75c553005667f170515e219407d6f713",
+        "text_4fb99e4c6fcdd530a19edc12b05eec69",
+        "figure_929fbbfe301b84c808b4fc9879ddbba0",
+        "text_23c8d28da8f375b77f22ad31e1e80db7",
+        "16702e05631934ce0083b2d03d55d7ca",
+        "figure_231d74ea72ce19f0805fd412db34bf65",
+        "heading_53aba3bb827d892025ab4878dfff7365",
+        "3836f4b5d2cd61c4656a99704d3c37d6",
+        "figure_99ed5801daf56202a44e32c082e51b33",
+        "text_79d9e990b4eddcf74f5155f971682435",
+        "figure_82909d6fd551a2cf2815160e8a2bd66d",
+        "text_eb418e03f5ddcbd0a04432479827acd4"
+      ]
+    },
+    "figures": {
+      "type": "view",
+      "id": "figures",
+      "nodes": []
+    },
+    "citations": {
+      "type": "view",
+      "id": "citations",
+      "nodes": [
+        "web_resource_afd927aaf1f38714aefb1b25dd868c26"
+      ]
+    },
+    "remarks": {
+      "type": "view",
+      "id": "remarks",
+      "nodes": []
+    },
+    "errors": {
+      "type": "view",
+      "id": "errors",
+      "nodes": []
+    },
+    "info": {
+      "type": "view",
+      "id": "info",
+      "nodes": [
+        "publication_info",
+        "contributor_8b3f3020ecf4ced04565b230d0e2ad0b"
+      ]
+    },
+    "publication_info": {
+      "id": "publication_info",
+      "type": "publication_info"
+    },
+    "license": {
+      "id": "license",
+      "type": "license",
+      "name": "None",
+      "code": "none",
+      "description": "No license",
+      "version": "1.0",
+      "url": ""
+    },
+    "contributor_8b3f3020ecf4ced04565b230d0e2ad0b": {
+      "type": "contributor",
+      "id": "contributor_8b3f3020ecf4ced04565b230d0e2ad0b",
+      "source_id": "",
+      "name": "Oliver Buchtala",
+      "role": "author",
+      "description": "",
+      "image": "",
+      "email": "",
+      "contribution": ""
+    },
+    "heading_2fe566b29bdd38d404f6967cea434c51": {
+      "type": "heading",
+      "id": "heading_2fe566b29bdd38d404f6967cea434c51",
+      "source_id": "",
+      "content": "Anmeldung",
+      "level": 1
+    },
+    "text_969483d06c9e6dd2f6b44005d45cec70": {
+      "type": "text",
+      "id": "text_969483d06c9e6dd2f6b44005d45cec70",
+      "source_id": "",
+      "content": ""
+    },
+    "figure_947585acfeae549cd82ad9b765294a45.png": {
+      "type": "file",
+      "id": "figure_947585acfeae549cd82ad9b765294a45.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "text_394bdcd09baf56a961e2a14f8f89c68c": {
+      "type": "text",
+      "id": "text_394bdcd09baf56a961e2a14f8f89c68c",
+      "source_id": "",
+      "content": "Seite für die Anmeldung bei Jumpstarter.io"
+    },
+    "figure_947585acfeae549cd82ad9b765294a45": {
+      "type": "figure",
+      "id": "figure_947585acfeae549cd82ad9b765294a45",
+      "image": "figure_947585acfeae549cd82ad9b765294a45.png",
+      "caption": "text_394bdcd09baf56a961e2a14f8f89c68c"
+    },
+    "7b47517b291d320747c1e9a68425a80e": {
+      "type": "text",
+      "id": "7b47517b291d320747c1e9a68425a80e",
+      "source_id": "",
+      "content": "Auf dieser Seite können Sie sich kostenlos bei Jumpstarter.io anmelden."
+    },
+    "web_resource_afd927aaf1f38714aefb1b25dd868c26": {
+      "type": "web_resource",
+      "id": "web_resource_afd927aaf1f38714aefb1b25dd868c26",
+      "description": "Anmeldung bei Jumpstarter.io",
+      "url": "https://flow.jumpstarter.io/login/signup/"
+    },
+    "citation_reference_91cdd2cb7ba5add6d0f7554a3329bd0c": {
+      "type": "citation_reference",
+      "id": "citation_reference_91cdd2cb7ba5add6d0f7554a3329bd0c",
+      "path": [
+        "7b47517b291d320747c1e9a68425a80e",
+        "content"
+      ],
+      "range": [
+        62,
+        70
+      ],
+      "target": "web_resource_afd927aaf1f38714aefb1b25dd868c26"
+    },
+    "heading_d97671ec8ed4b16c65043034956ac8c8": {
+      "type": "heading",
+      "id": "heading_d97671ec8ed4b16c65043034956ac8c8",
+      "source_id": "",
+      "content": "Neues Projekt (Web-Seite)",
+      "level": 1
+    },
+    "4b1ad3e44c294b052a7fdc98a86a2468": {
+      "type": "text",
+      "id": "4b1ad3e44c294b052a7fdc98a86a2468",
+      "source_id": "",
+      "content": "Legen Sie ein neues Projekt an. Ein Projekt entspricht einer Server-Instanz mit eigener URL, die z.B. für eine Web-Seite zuständig ist."
+    },
+    "figure_297917d2eb83700992e65e75322cda20.png": {
+      "type": "file",
+      "id": "figure_297917d2eb83700992e65e75322cda20.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "text_038e2ad74a4f31e3606a61a356b6d452": {
+      "type": "text",
+      "id": "text_038e2ad74a4f31e3606a61a356b6d452",
+      "source_id": "",
+      "content": "Dialog zur Erstellung eines neuen Servers (Projekt)"
+    },
+    "figure_297917d2eb83700992e65e75322cda20": {
+      "type": "figure",
+      "id": "figure_297917d2eb83700992e65e75322cda20",
+      "image": "figure_297917d2eb83700992e65e75322cda20.png",
+      "caption": "text_038e2ad74a4f31e3606a61a356b6d452"
+    },
+    "text_aa8845b2293705ab9f1347d105ea9eda": {
+      "type": "text",
+      "id": "text_aa8845b2293705ab9f1347d105ea9eda",
+      "source_id": "",
+      "content": "Wählen Sie anschließend den Projekt-Typ PHP 5.5 & MySQL aus."
+    },
+    "figure_75c553005667f170515e219407d6f713.png": {
+      "type": "file",
+      "id": "figure_75c553005667f170515e219407d6f713.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "text_a6ad7bea69a5e08d28813f6e1e3db0db": {
+      "type": "text",
+      "id": "text_a6ad7bea69a5e08d28813f6e1e3db0db",
+      "source_id": "",
+      "content": "Auswahl des Projekt-Typs."
+    },
+    "figure_75c553005667f170515e219407d6f713": {
+      "type": "figure",
+      "id": "figure_75c553005667f170515e219407d6f713",
+      "image": "figure_75c553005667f170515e219407d6f713.png",
+      "caption": "text_a6ad7bea69a5e08d28813f6e1e3db0db"
+    },
+    "text_4fb99e4c6fcdd530a19edc12b05eec69": {
+      "type": "text",
+      "id": "text_4fb99e4c6fcdd530a19edc12b05eec69",
+      "source_id": "",
+      "content": "Geben Sie einen Namen ein (z.B. Publikationen)."
+    },
+    "strong_e5d17a3ecc99cf79f0794637034fb186": {
+      "type": "strong",
+      "id": "strong_e5d17a3ecc99cf79f0794637034fb186",
+      "path": [
+        "text_aa8845b2293705ab9f1347d105ea9eda",
+        "content"
+      ],
+      "range": [
+        40,
+        55
+      ]
+    },
+    "figure_929fbbfe301b84c808b4fc9879ddbba0.png": {
+      "type": "file",
+      "id": "figure_929fbbfe301b84c808b4fc9879ddbba0.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "text_2f2f7664182b781341a99f07742605c3": {
+      "type": "text",
+      "id": "text_2f2f7664182b781341a99f07742605c3",
+      "source_id": "",
+      "content": "Dialog zur Konfiguration des Projekt-Namens."
+    },
+    "figure_929fbbfe301b84c808b4fc9879ddbba0": {
+      "type": "figure",
+      "id": "figure_929fbbfe301b84c808b4fc9879ddbba0",
+      "image": "figure_929fbbfe301b84c808b4fc9879ddbba0.png",
+      "caption": "text_2f2f7664182b781341a99f07742605c3"
+    },
+    "text_23c8d28da8f375b77f22ad31e1e80db7": {
+      "type": "text",
+      "id": "text_23c8d28da8f375b77f22ad31e1e80db7",
+      "source_id": "",
+      "content": "Anschließend wird der Server angelegt."
+    },
+    "16702e05631934ce0083b2d03d55d7ca": {
+      "type": "text",
+      "id": "16702e05631934ce0083b2d03d55d7ca",
+      "source_id": "",
+      "content": ""
+    },
+    "figure_231d74ea72ce19f0805fd412db34bf65.png": {
+      "type": "file",
+      "id": "figure_231d74ea72ce19f0805fd412db34bf65.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "text_33adc1699dcacd81a39e95263430e085": {
+      "type": "text",
+      "id": "text_33adc1699dcacd81a39e95263430e085",
+      "source_id": "",
+      "content": "Ihr Server ist online."
+    },
+    "figure_231d74ea72ce19f0805fd412db34bf65": {
+      "type": "figure",
+      "id": "figure_231d74ea72ce19f0805fd412db34bf65",
+      "image": "figure_231d74ea72ce19f0805fd412db34bf65.png",
+      "caption": "text_33adc1699dcacd81a39e95263430e085"
+    },
+    "heading_53aba3bb827d892025ab4878dfff7365": {
+      "type": "heading",
+      "id": "heading_53aba3bb827d892025ab4878dfff7365",
+      "source_id": "",
+      "content": "Datentransfer",
+      "level": 1
+    },
+    "3836f4b5d2cd61c4656a99704d3c37d6": {
+      "type": "text",
+      "id": "3836f4b5d2cd61c4656a99704d3c37d6",
+      "source_id": "",
+      "content": "Für den Transfer von Daten stehen verschiedene Programme zur Verfügung (z.B. WinSCP oder CyberDuck). Die nötigen Informationen zur Herstellung einer Verbindung können Sie dem Files Dialog entnehmen."
+    },
+    "emphasis_dab615bd5c1fd1a5abb60ae53c3de791": {
+      "type": "emphasis",
+      "id": "emphasis_dab615bd5c1fd1a5abb60ae53c3de791",
+      "path": [
+        "3836f4b5d2cd61c4656a99704d3c37d6",
+        "content"
+      ],
+      "range": [
+        175,
+        180
+      ]
+    },
+    "figure_99ed5801daf56202a44e32c082e51b33.png": {
+      "type": "file",
+      "id": "figure_99ed5801daf56202a44e32c082e51b33.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "text_8e31e66f82cc0c827f1cc431e083c03e": {
+      "type": "text",
+      "id": "text_8e31e66f82cc0c827f1cc431e083c03e",
+      "source_id": "",
+      "content": "Informationen für die Herstellung einer SFTP/SSH Verbindung."
+    },
+    "figure_99ed5801daf56202a44e32c082e51b33": {
+      "type": "figure",
+      "id": "figure_99ed5801daf56202a44e32c082e51b33",
+      "image": "figure_99ed5801daf56202a44e32c082e51b33.png",
+      "caption": "text_8e31e66f82cc0c827f1cc431e083c03e"
+    },
+    "text_79d9e990b4eddcf74f5155f971682435": {
+      "type": "text",
+      "id": "text_79d9e990b4eddcf74f5155f971682435",
+      "source_id": "",
+      "content": "Die markierten Daten müssen in ein Daten-Transfer Programm eingegeben werden."
+    },
+    "figure_82909d6fd551a2cf2815160e8a2bd66d.png": {
+      "type": "file",
+      "id": "figure_82909d6fd551a2cf2815160e8a2bd66d.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "text_38acaa7754fe1f81e984e57adb08c588": {
+      "type": "text",
+      "id": "text_38acaa7754fe1f81e984e57adb08c588",
+      "source_id": "",
+      "content": "Konfiguration einer Verbindung in CyberDuck"
+    },
+    "figure_82909d6fd551a2cf2815160e8a2bd66d": {
+      "type": "figure",
+      "id": "figure_82909d6fd551a2cf2815160e8a2bd66d",
+      "image": "figure_82909d6fd551a2cf2815160e8a2bd66d.png",
+      "caption": "text_38acaa7754fe1f81e984e57adb08c588"
+    },
+    "text_eb418e03f5ddcbd0a04432479827acd4": {
+      "type": "text",
+      "id": "text_eb418e03f5ddcbd0a04432479827acd4",
+      "source_id": "",
+      "content": ""
+    }
+  }
+}
